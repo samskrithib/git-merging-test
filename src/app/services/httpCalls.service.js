@@ -7,8 +7,8 @@ angular
 .factory('httpCallsService', function httpCallsService($http, $q, $log) {
 
   // var path = '/dassim/';
-  // var path = 'http://localhost:8080/dassim/';
-  var path = 'http://192.168.1.33:8080/dassim/';
+  var path = 'http://localhost:8084/dassim/';
+  // var path = 'http://192.168.1.33:8080/dassim/';
 
   return {
 
