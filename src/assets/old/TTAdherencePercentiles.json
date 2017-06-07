@@ -1,0 +1,6461 @@
+{
+  "timetableAdherenceGraphLocationList": [
+    {
+      "tiploc": "NWCSTLE",
+      "locationName": "Newcastle",
+      "distance": 0
+    },
+    {
+      "tiploc": "HLBDGJN",
+      "locationName": "High Level Bridge Junction",
+      "distance": 0.82
+    },
+    {
+      "tiploc": "GRNSFDJ",
+      "locationName": "Greensfield Junction",
+      "distance": 1.14
+    },
+    {
+      "tiploc": "KEBGEJN",
+      "locationName": "King Edward Bridge East Junction",
+      "distance": 1.42
+    },
+    {
+      "tiploc": "KEBGNJN",
+      "locationName": "King Edward Bridge North Junction",
+      "distance": 0.78
+    },
+    {
+      "tiploc": "KEBGSJN",
+      "locationName": "King Edward Bridge South Junction",
+      "distance": 1.02
+    },
+    {
+      "tiploc": "NRWDJN",
+      "locationName": "Norwood Junction",
+      "distance": 2.05
+    },
+    {
+      "tiploc": "DNSN",
+      "locationName": "Dunston-on-Tyne",
+      "distance": 4.4
+    },
+    {
+      "tiploc": "GTSHDMC",
+      "locationName": "Metrocentre",
+      "distance": 6.36
+    },
+    {
+      "tiploc": "BLAYDON",
+      "locationName": "Blaydon",
+      "distance": 9.46
+    },
+    {
+      "tiploc": "WYLAM",
+      "locationName": "Wylam",
+      "distance": 16.61
+    },
+    {
+      "tiploc": "PRUDHOE",
+      "locationName": "Prudhoe",
+      "distance": 20.04
+    },
+    {
+      "tiploc": "STCKSFL",
+      "locationName": "Stocksfield",
+      "distance": 24.18
+    },
+    {
+      "tiploc": "RIDNGML",
+      "locationName": "Riding Mill",
+      "distance": 27.86
+    },
+    {
+      "tiploc": "CRBG",
+      "locationName": "Corbridge",
+      "distance": 31.57
+    },
+    {
+      "tiploc": "HEXHAM",
+      "locationName": "Hexham",
+      "distance": 36.48
+    },
+    {
+      "tiploc": "HYDB",
+      "locationName": "Haydon Bridge",
+      "distance": 48.73
+    },
+    {
+      "tiploc": "BRDNML",
+      "locationName": "Bardon Mill",
+      "distance": 55.11
+    },
+    {
+      "tiploc": "HLTWHST",
+      "locationName": "Haltwhistle",
+      "distance": 62.91
+    },
+    {
+      "tiploc": "LOWRWSB",
+      "locationName": "Low Row Signal Box",
+      "distance": 74.42
+    },
+    {
+      "tiploc": "BRMPTNC",
+      "locationName": "Brampton",
+      "distance": 79.2
+    },
+    {
+      "tiploc": "BRMPTNF",
+      "locationName": "Brampton Fell Signal Box",
+      "distance": 80.63
+    },
+    {
+      "tiploc": "WETHCOR",
+      "locationName": "Wetheral Corby Gates Signal Box",
+      "distance": 89.38
+    },
+    {
+      "tiploc": "WETHERL",
+      "locationName": "Wetheral",
+      "distance": 93.08
+    },
+    {
+      "tiploc": "PETLBGJ",
+      "locationName": "Petteril Bridge Junction",
+      "distance": 95.48
+    },
+    {
+      "tiploc": "CARLLRJ",
+      "locationName": "Carlisle London Road Junction",
+      "distance": 95.92
+    },
+    {
+      "tiploc": "CARLILE",
+      "locationName": "Carlisle",
+      "distance": 99.87
+    }
+  ],
+  "timetableAdherenceGraphSeriesList": [
+    {
+      "timetableIdentifier": "NWCSTLE, CARLILE, 21:18, 21793000, 1111100",
+      "timetableArray": [
+        {
+          "timetableType": "SCHEDULED",
+          "rollingStockID": null,
+          "timeAndDistanceList": [
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 21:18 2N55": 0
+              },
+              "timeInSeconds": 76680
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 21:18 2N55": 0.78
+              },
+              "timeInSeconds": 76770
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 21:18 2N55": 1.02
+              },
+              "timeInSeconds": 76800
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 21:18 2N55": 2.05
+              },
+              "timeInSeconds": 76920
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 21:18 2N55": 6.36
+              },
+              "timeInSeconds": 77100
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 21:18 2N55": 6.36
+              },
+              "timeInSeconds": 77160
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 21:18 2N55": 9.46
+              },
+              "timeInSeconds": 77340
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 21:18 2N55": 16.61
+              },
+              "timeInSeconds": 77610
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 21:18 2N55": 16.61
+              },
+              "timeInSeconds": 77640
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 21:18 2N55": 20.04
+              },
+              "timeInSeconds": 77850
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 21:18 2N55": 20.04
+              },
+              "timeInSeconds": 77910
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 21:18 2N55": 24.18
+              },
+              "timeInSeconds": 78150
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 21:18 2N55": 24.18
+              },
+              "timeInSeconds": 78180
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 21:18 2N55": 27.86
+              },
+              "timeInSeconds": 78390
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 21:18 2N55": 27.86
+              },
+              "timeInSeconds": 78450
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 21:18 2N55": 31.57
+              },
+              "timeInSeconds": 78660
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 21:18 2N55": 31.57
+              },
+              "timeInSeconds": 78690
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 21:18 2N55": 36.48
+              },
+              "timeInSeconds": 78960
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 21:18 2N55": 36.48
+              },
+              "timeInSeconds": 79020
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 21:18 2N55": 48.73
+              },
+              "timeInSeconds": 79530
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 21:18 2N55": 48.73
+              },
+              "timeInSeconds": 79590
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 21:18 2N55": 55.11
+              },
+              "timeInSeconds": 79920
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 21:18 2N55": 55.11
+              },
+              "timeInSeconds": 79950
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 21:18 2N55": 62.91
+              },
+              "timeInSeconds": 80340
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 21:18 2N55": 62.91
+              },
+              "timeInSeconds": 80400
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 21:18 2N55": 74.42
+              },
+              "timeInSeconds": 81030
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 21:18 2N55": 79.2
+              },
+              "timeInSeconds": 81270
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 21:18 2N55": 79.2
+              },
+              "timeInSeconds": 81300
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 21:18 2N55": 80.63
+              },
+              "timeInSeconds": 81390
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 21:18 2N55": 89.38
+              },
+              "timeInSeconds": 81750
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 21:18 2N55": 93.08
+              },
+              "timeInSeconds": 81780
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 21:18 2N55": 93.08
+              },
+              "timeInSeconds": 81840
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 21:18 2N55": 95.48
+              },
+              "timeInSeconds": 82230
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 21:18 2N55": 95.92
+              },
+              "timeInSeconds": 82290
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 21:18 2N55": 99.87
+              },
+              "timeInSeconds": 82380
+            }
+          ]
+        },
+        {
+          "timetableType": "AVERAGED",
+          "rollingStockID": null,
+          "timeAndDistanceList": [
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 21:18 2N55": 0
+              },
+              "timeInSeconds": 76753
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 21:18 2N55": 0.78
+              },
+              "timeInSeconds": 76764
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 21:18 2N55": 1.02
+              },
+              "timeInSeconds": 76804
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 21:18 2N55": 2.05
+              },
+              "timeInSeconds": 76944
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 21:18 2N55": 6.36
+              },
+              "timeInSeconds": 77153
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 21:18 2N55": 6.36
+              },
+              "timeInSeconds": 77189
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 21:18 2N55": 16.61
+              },
+              "timeInSeconds": 77640
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 21:18 2N55": 16.61
+              },
+              "timeInSeconds": 77700
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 21:18 2N55": 20.04
+              },
+              "timeInSeconds": 77904
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 21:18 2N55": 20.04
+              },
+              "timeInSeconds": 77964
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 21:18 2N55": 24.18
+              },
+              "timeInSeconds": 78168
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 21:18 2N55": 24.18
+              },
+              "timeInSeconds": 78228
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 21:18 2N55": 27.86
+              },
+              "timeInSeconds": 78420
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 21:18 2N55": 27.86
+              },
+              "timeInSeconds": 78468
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 21:18 2N55": 31.57
+              },
+              "timeInSeconds": 78708
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 21:18 2N55": 31.57
+              },
+              "timeInSeconds": 78708
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 21:18 2N55": 36.48
+              },
+              "timeInSeconds": 78984
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 21:18 2N55": 36.48
+              },
+              "timeInSeconds": 79044
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 21:18 2N55": 48.73
+              },
+              "timeInSeconds": 79608
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 21:18 2N55": 48.73
+              },
+              "timeInSeconds": 79608
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 21:18 2N55": 55.11
+              },
+              "timeInSeconds": 79968
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 21:18 2N55": 55.11
+              },
+              "timeInSeconds": 79980
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 21:18 2N55": 62.91
+              },
+              "timeInSeconds": 80424
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 21:18 2N55": 62.91
+              },
+              "timeInSeconds": 80484
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 21:18 2N55": 79.2
+              },
+              "timeInSeconds": 81336
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 21:18 2N55": 79.2
+              },
+              "timeInSeconds": 81348
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 21:18 2N55": 93.08
+              },
+              "timeInSeconds": 81900
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 21:18 2N55": 93.08
+              },
+              "timeInSeconds": 81888
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 21:18 2N55": 95.48
+              },
+              "timeInSeconds": 82266
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 21:18 2N55": 99.87
+              },
+              "timeInSeconds": 82452
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "timetableIdentifier": "NWCSTLE, CARLILE, 18:24, 21793000, 1111100",
+      "timetableArray": [
+        {
+          "timetableType": "SCHEDULED",
+          "rollingStockID": null,
+          "timeAndDistanceList": [
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:24 2N47": 0
+              },
+              "timeInSeconds": 66240
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:24 2N47": 0.78
+              },
+              "timeInSeconds": 66330
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:24 2N47": 1.02
+              },
+              "timeInSeconds": 66360
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:24 2N47": 2.05
+              },
+              "timeInSeconds": 66480
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:24 2N47": 4.4
+              },
+              "timeInSeconds": 66540
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:24 2N47": 4.4
+              },
+              "timeInSeconds": 66570
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:24 2N47": 6.36
+              },
+              "timeInSeconds": 66720
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:24 2N47": 6.36
+              },
+              "timeInSeconds": 66780
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:24 2N47": 9.46
+              },
+              "timeInSeconds": 66990
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:24 2N47": 9.46
+              },
+              "timeInSeconds": 67050
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:24 2N47": 16.61
+              },
+              "timeInSeconds": 67380
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:24 2N47": 16.61
+              },
+              "timeInSeconds": 67410
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:24 2N47": 20.04
+              },
+              "timeInSeconds": 67620
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:24 2N47": 20.04
+              },
+              "timeInSeconds": 67680
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:24 2N47": 24.18
+              },
+              "timeInSeconds": 67920
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:24 2N47": 24.18
+              },
+              "timeInSeconds": 67950
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:24 2N47": 27.86
+              },
+              "timeInSeconds": 68160
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:24 2N47": 27.86
+              },
+              "timeInSeconds": 68220
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:24 2N47": 31.57
+              },
+              "timeInSeconds": 68430
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:24 2N47": 31.57
+              },
+              "timeInSeconds": 68460
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:24 2N47": 36.48
+              },
+              "timeInSeconds": 68730
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:24 2N47": 36.48
+              },
+              "timeInSeconds": 68790
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:24 2N47": 48.73
+              },
+              "timeInSeconds": 69300
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:24 2N47": 62.91
+              },
+              "timeInSeconds": 69870
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:24 2N47": 62.91
+              },
+              "timeInSeconds": 69930
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:24 2N47": 74.42
+              },
+              "timeInSeconds": 70560
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:24 2N47": 80.63
+              },
+              "timeInSeconds": 70830
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:24 2N47": 89.38
+              },
+              "timeInSeconds": 71190
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:24 2N47": 95.48
+              },
+              "timeInSeconds": 71550
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:24 2N47": 95.92
+              },
+              "timeInSeconds": 71610
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:24 2N47": 99.87
+              },
+              "timeInSeconds": 71700
+            }
+          ]
+        },
+        {
+          "timetableType": "AVERAGED",
+          "rollingStockID": null,
+          "timeAndDistanceList": [
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:24 2N47": 0
+              },
+              "timeInSeconds": 66324
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:24 2N47": 0.78
+              },
+              "timeInSeconds": 66324
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:24 2N47": 1.02
+              },
+              "timeInSeconds": 66371
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:24 2N47": 2.05
+              },
+              "timeInSeconds": 66504
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:24 2N47": 6.36
+              },
+              "timeInSeconds": 66798
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:24 2N47": 6.36
+              },
+              "timeInSeconds": 66844
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:24 2N47": 16.61
+              },
+              "timeInSeconds": 67404
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:24 2N47": 16.61
+              },
+              "timeInSeconds": 67488
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:24 2N47": 20.04
+              },
+              "timeInSeconds": 67668
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:24 2N47": 20.04
+              },
+              "timeInSeconds": 67728
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:24 2N47": 24.18
+              },
+              "timeInSeconds": 68004
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:24 2N47": 24.18
+              },
+              "timeInSeconds": 68028
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:24 2N47": 27.86
+              },
+              "timeInSeconds": 68244
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:24 2N47": 27.86
+              },
+              "timeInSeconds": 68304
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:24 2N47": 31.57
+              },
+              "timeInSeconds": 68520
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:24 2N47": 31.57
+              },
+              "timeInSeconds": 68544
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:24 2N47": 36.48
+              },
+              "timeInSeconds": 68820
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:24 2N47": 36.48
+              },
+              "timeInSeconds": 68880
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:24 2N47": 48.73
+              },
+              "timeInSeconds": 69360
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:24 2N47": 62.91
+              },
+              "timeInSeconds": 69984
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:24 2N47": 62.91
+              },
+              "timeInSeconds": 70044
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:24 2N47": 95.48
+              },
+              "timeInSeconds": 71557
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:24 2N47": 99.87
+              },
+              "timeInSeconds": 71767
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "timetableIdentifier": "NWCSTLE, CARLILE, 19:25, 21793000, 1111100",
+      "timetableArray": [
+        {
+          "timetableType": "SCHEDULED",
+          "rollingStockID": null,
+          "timeAndDistanceList": [
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 19:25 2N51": 0
+              },
+              "timeInSeconds": 69900
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 19:25 2N51": 0.82
+              },
+              "timeInSeconds": 69990
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 19:25 2N51": 1.14
+              },
+              "timeInSeconds": 70020
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 19:25 2N51": 1.42
+              },
+              "timeInSeconds": 70050
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 19:25 2N51": 1.02
+              },
+              "timeInSeconds": 70080
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 19:25 2N51": 2.05
+              },
+              "timeInSeconds": 70230
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 19:25 2N51": 6.36
+              },
+              "timeInSeconds": 70410
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 19:25 2N51": 6.36
+              },
+              "timeInSeconds": 70470
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 19:25 2N51": 9.46
+              },
+              "timeInSeconds": 70650
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 19:25 2N51": 16.61
+              },
+              "timeInSeconds": 70920
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 19:25 2N51": 16.61
+              },
+              "timeInSeconds": 70950
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 19:25 2N51": 20.04
+              },
+              "timeInSeconds": 71160
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 19:25 2N51": 20.04
+              },
+              "timeInSeconds": 71220
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 19:25 2N51": 24.18
+              },
+              "timeInSeconds": 71460
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 19:25 2N51": 24.18
+              },
+              "timeInSeconds": 71490
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 19:25 2N51": 27.86
+              },
+              "timeInSeconds": 71700
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 19:25 2N51": 27.86
+              },
+              "timeInSeconds": 71760
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 19:25 2N51": 31.57
+              },
+              "timeInSeconds": 71970
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 19:25 2N51": 31.57
+              },
+              "timeInSeconds": 72000
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 19:25 2N51": 36.48
+              },
+              "timeInSeconds": 72270
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 19:25 2N51": 36.48
+              },
+              "timeInSeconds": 72330
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 19:25 2N51": 48.73
+              },
+              "timeInSeconds": 72840
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 19:25 2N51": 48.73
+              },
+              "timeInSeconds": 72900
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 19:25 2N51": 55.11
+              },
+              "timeInSeconds": 73230
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 19:25 2N51": 55.11
+              },
+              "timeInSeconds": 73260
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 19:25 2N51": 62.91
+              },
+              "timeInSeconds": 73650
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 19:25 2N51": 62.91
+              },
+              "timeInSeconds": 73710
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 19:25 2N51": 74.42
+              },
+              "timeInSeconds": 74370
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 19:25 2N51": 79.2
+              },
+              "timeInSeconds": 74610
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 19:25 2N51": 79.2
+              },
+              "timeInSeconds": 74640
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 19:25 2N51": 80.63
+              },
+              "timeInSeconds": 74730
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 19:25 2N51": 89.38
+              },
+              "timeInSeconds": 75090
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 19:25 2N51": 93.08
+              },
+              "timeInSeconds": 75120
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 19:25 2N51": 93.08
+              },
+              "timeInSeconds": 75180
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 19:25 2N51": 95.48
+              },
+              "timeInSeconds": 75540
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 19:25 2N51": 95.92
+              },
+              "timeInSeconds": 75600
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 19:25 2N51": 99.87
+              },
+              "timeInSeconds": 75720
+            }
+          ]
+        },
+        {
+          "timetableType": "AVERAGED",
+          "rollingStockID": null,
+          "timeAndDistanceList": [
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 19:25 2N51": 0
+              },
+              "timeInSeconds": 69944
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 19:25 2N51": 1.14
+              },
+              "timeInSeconds": 70062
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 19:25 2N51": 1.02
+              },
+              "timeInSeconds": 70104
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 19:25 2N51": 2.05
+              },
+              "timeInSeconds": 70224
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 19:25 2N51": 6.36
+              },
+              "timeInSeconds": 70453
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 19:25 2N51": 6.36
+              },
+              "timeInSeconds": 70508
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 19:25 2N51": 16.61
+              },
+              "timeInSeconds": 70968
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 19:25 2N51": 16.61
+              },
+              "timeInSeconds": 71016
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 19:25 2N51": 20.04
+              },
+              "timeInSeconds": 71220
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 19:25 2N51": 20.04
+              },
+              "timeInSeconds": 72216
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 19:25 2N51": 24.18
+              },
+              "timeInSeconds": 72924
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 19:25 2N51": 24.18
+              },
+              "timeInSeconds": 72948
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 19:25 2N51": 27.86
+              },
+              "timeInSeconds": 73164
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 19:25 2N51": 27.86
+              },
+              "timeInSeconds": 73188
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 19:25 2N51": 31.57
+              },
+              "timeInSeconds": 73404
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 19:25 2N51": 31.57
+              },
+              "timeInSeconds": 73428
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 19:25 2N51": 36.48
+              },
+              "timeInSeconds": 73188
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 19:25 2N51": 36.48
+              },
+              "timeInSeconds": 73272
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 19:25 2N51": 48.73
+              },
+              "timeInSeconds": 74268
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 19:25 2N51": 48.73
+              },
+              "timeInSeconds": 74292
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 19:25 2N51": 55.11
+              },
+              "timeInSeconds": 75012
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 19:25 2N51": 55.11
+              },
+              "timeInSeconds": 75096
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 19:25 2N51": 62.91
+              },
+              "timeInSeconds": 73740
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 19:25 2N51": 62.91
+              },
+              "timeInSeconds": 73776
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 19:25 2N51": 79.2
+              },
+              "timeInSeconds": 75936
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 19:25 2N51": 79.2
+              },
+              "timeInSeconds": 75996
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 19:25 2N51": 93.08
+              },
+              "timeInSeconds": 76440
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 19:25 2N51": 93.08
+              },
+              "timeInSeconds": 76500
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 19:25 2N51": 95.48
+              },
+              "timeInSeconds": 76351
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 19:25 2N51": 99.87
+              },
+              "timeInSeconds": 76523
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "timetableIdentifier": "NWCSTLE, CARLILE, 08:24, 21793000, 0000010",
+      "timetableArray": [
+        {
+          "timetableType": "SCHEDULED",
+          "rollingStockID": null,
+          "timeAndDistanceList": [
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 0
+              },
+              "timeInSeconds": 30240
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 0.78
+              },
+              "timeInSeconds": 30330
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 1.02
+              },
+              "timeInSeconds": 30360
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 2.05
+              },
+              "timeInSeconds": 30480
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 6.36
+              },
+              "timeInSeconds": 30660
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 6.36
+              },
+              "timeInSeconds": 30720
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 9.46
+              },
+              "timeInSeconds": 30900
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 16.61
+              },
+              "timeInSeconds": 31170
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 16.61
+              },
+              "timeInSeconds": 31200
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 20.04
+              },
+              "timeInSeconds": 31410
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 20.04
+              },
+              "timeInSeconds": 31470
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 24.18
+              },
+              "timeInSeconds": 31710
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 24.18
+              },
+              "timeInSeconds": 31740
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 36.48
+              },
+              "timeInSeconds": 32310
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 36.48
+              },
+              "timeInSeconds": 32370
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 48.73
+              },
+              "timeInSeconds": 32880
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 48.73
+              },
+              "timeInSeconds": 32910
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 55.11
+              },
+              "timeInSeconds": 33240
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 55.11
+              },
+              "timeInSeconds": 33300
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 62.91
+              },
+              "timeInSeconds": 33690
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 62.91
+              },
+              "timeInSeconds": 33720
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 74.42
+              },
+              "timeInSeconds": 34350
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 79.2
+              },
+              "timeInSeconds": 34590
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 79.2
+              },
+              "timeInSeconds": 34650
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 80.63
+              },
+              "timeInSeconds": 34740
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 89.38
+              },
+              "timeInSeconds": 35100
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 93.08
+              },
+              "timeInSeconds": 35130
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 93.08
+              },
+              "timeInSeconds": 35160
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 95.48
+              },
+              "timeInSeconds": 35550
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 95.92
+              },
+              "timeInSeconds": 35610
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 99.87
+              },
+              "timeInSeconds": 35760
+            }
+          ]
+        },
+        {
+          "timetableType": "AVERAGED",
+          "rollingStockID": null,
+          "timeAndDistanceList": [
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 0
+              },
+              "timeInSeconds": 30257
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 0.78
+              },
+              "timeInSeconds": 30300
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 1.02
+              },
+              "timeInSeconds": 30333
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 2.05
+              },
+              "timeInSeconds": 30480
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 6.36
+              },
+              "timeInSeconds": 30679
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 6.36
+              },
+              "timeInSeconds": 30726
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 16.61
+              },
+              "timeInSeconds": 31176
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 16.61
+              },
+              "timeInSeconds": 31200
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 20.04
+              },
+              "timeInSeconds": 31488
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 20.04
+              },
+              "timeInSeconds": 31548
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 24.18
+              },
+              "timeInSeconds": 31740
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 24.18
+              },
+              "timeInSeconds": 31776
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 36.48
+              },
+              "timeInSeconds": 32268
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 36.48
+              },
+              "timeInSeconds": 32388
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 48.73
+              },
+              "timeInSeconds": 32892
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 48.73
+              },
+              "timeInSeconds": 32952
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 55.11
+              },
+              "timeInSeconds": 33276
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 55.11
+              },
+              "timeInSeconds": 33336
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 62.91
+              },
+              "timeInSeconds": 33660
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 62.91
+              },
+              "timeInSeconds": 33720
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 79.2
+              },
+              "timeInSeconds": 34656
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 79.2
+              },
+              "timeInSeconds": 34716
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 93.08
+              },
+              "timeInSeconds": 35232
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 93.08
+              },
+              "timeInSeconds": 35256
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 95.48
+              },
+              "timeInSeconds": 35548
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 99.87
+              },
+              "timeInSeconds": 35722
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "timetableIdentifier": "NWCSTLE, CARLILE, 10:22, 21793000, 0000010",
+      "timetableArray": [
+        {
+          "timetableType": "SCHEDULED",
+          "rollingStockID": null,
+          "timeAndDistanceList": [
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:22 2N17": 0
+              },
+              "timeInSeconds": 37320
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:22 2N17": 0.78
+              },
+              "timeInSeconds": 37620
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:22 2N17": 1.02
+              },
+              "timeInSeconds": 37650
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:22 2N17": 2.05
+              },
+              "timeInSeconds": 37770
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:22 2N17": 6.36
+              },
+              "timeInSeconds": 37950
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:22 2N17": 6.36
+              },
+              "timeInSeconds": 38010
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:22 2N17": 9.46
+              },
+              "timeInSeconds": 38190
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:22 2N17": 16.61
+              },
+              "timeInSeconds": 38430
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:22 2N17": 20.04
+              },
+              "timeInSeconds": 38610
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:22 2N17": 20.04
+              },
+              "timeInSeconds": 38640
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:22 2N17": 36.48
+              },
+              "timeInSeconds": 39300
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:22 2N17": 36.48
+              },
+              "timeInSeconds": 39360
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:22 2N17": 48.73
+              },
+              "timeInSeconds": 39870
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:22 2N17": 48.73
+              },
+              "timeInSeconds": 39900
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:22 2N17": 55.11
+              },
+              "timeInSeconds": 40230
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:22 2N17": 55.11
+              },
+              "timeInSeconds": 40290
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:22 2N17": 62.91
+              },
+              "timeInSeconds": 40680
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:22 2N17": 62.91
+              },
+              "timeInSeconds": 40710
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:22 2N17": 74.42
+              },
+              "timeInSeconds": 41340
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:22 2N17": 79.2
+              },
+              "timeInSeconds": 41580
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:22 2N17": 79.2
+              },
+              "timeInSeconds": 41640
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:22 2N17": 80.63
+              },
+              "timeInSeconds": 41730
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:22 2N17": 89.38
+              },
+              "timeInSeconds": 42120
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:22 2N17": 93.08
+              },
+              "timeInSeconds": 42150
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:22 2N17": 93.08
+              },
+              "timeInSeconds": 42180
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:22 2N17": 95.48
+              },
+              "timeInSeconds": 42570
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:22 2N17": 95.92
+              },
+              "timeInSeconds": 43110
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:22 2N17": 99.87
+              },
+              "timeInSeconds": 43200
+            }
+          ]
+        },
+        {
+          "timetableType": "AVERAGED",
+          "rollingStockID": null,
+          "timeAndDistanceList": [
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:22 2N17": 0
+              },
+              "timeInSeconds": 37449
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:22 2N17": 0.78
+              },
+              "timeInSeconds": 37536
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:22 2N17": 1.02
+              },
+              "timeInSeconds": 37551
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:22 2N17": 2.05
+              },
+              "timeInSeconds": 37668
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:22 2N17": 6.36
+              },
+              "timeInSeconds": 37888
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:22 2N17": 6.36
+              },
+              "timeInSeconds": 37971
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:22 2N17": 16.61
+              },
+              "timeInSeconds": 38388
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:22 2N17": 20.04
+              },
+              "timeInSeconds": 38628
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:22 2N17": 20.04
+              },
+              "timeInSeconds": 38688
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:22 2N17": 36.48
+              },
+              "timeInSeconds": 39300
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:22 2N17": 36.48
+              },
+              "timeInSeconds": 39360
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:22 2N17": 48.73
+              },
+              "timeInSeconds": 39888
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:22 2N17": 48.73
+              },
+              "timeInSeconds": 39948
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:22 2N17": 55.11
+              },
+              "timeInSeconds": 40248
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:22 2N17": 55.11
+              },
+              "timeInSeconds": 40308
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:22 2N17": 62.91
+              },
+              "timeInSeconds": 40680
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:22 2N17": 62.91
+              },
+              "timeInSeconds": 40728
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:22 2N17": 79.2
+              },
+              "timeInSeconds": 41616
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:22 2N17": 79.2
+              },
+              "timeInSeconds": 41676
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:22 2N17": 93.08
+              },
+              "timeInSeconds": 42156
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:22 2N17": 93.08
+              },
+              "timeInSeconds": 42216
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:22 2N17": 95.48
+              },
+              "timeInSeconds": 42479
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:22 2N17": 99.87
+              },
+              "timeInSeconds": 42648
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "timetableIdentifier": "NWCSTLE, CARLILE, 11:22, 21793000, 0000010",
+      "timetableArray": [
+        {
+          "timetableType": "SCHEDULED",
+          "rollingStockID": null,
+          "timeAndDistanceList": [
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 11:22 2N21": 0
+              },
+              "timeInSeconds": 40920
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 11:22 2N21": 0.82
+              },
+              "timeInSeconds": 41010
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 11:22 2N21": 1.14
+              },
+              "timeInSeconds": 41100
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 11:22 2N21": 1.42
+              },
+              "timeInSeconds": 41130
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 11:22 2N21": 1.02
+              },
+              "timeInSeconds": 41160
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 11:22 2N21": 2.05
+              },
+              "timeInSeconds": 41280
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 11:22 2N21": 6.36
+              },
+              "timeInSeconds": 41460
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 11:22 2N21": 6.36
+              },
+              "timeInSeconds": 41520
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 11:22 2N21": 9.46
+              },
+              "timeInSeconds": 41700
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 11:22 2N21": 16.61
+              },
+              "timeInSeconds": 41940
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 11:22 2N21": 20.04
+              },
+              "timeInSeconds": 42120
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 11:22 2N21": 20.04
+              },
+              "timeInSeconds": 42150
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 11:22 2N21": 36.48
+              },
+              "timeInSeconds": 42870
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 11:22 2N21": 36.48
+              },
+              "timeInSeconds": 42930
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 11:22 2N21": 48.73
+              },
+              "timeInSeconds": 43440
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 11:22 2N21": 62.91
+              },
+              "timeInSeconds": 44010
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 11:22 2N21": 62.91
+              },
+              "timeInSeconds": 44070
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 11:22 2N21": 74.42
+              },
+              "timeInSeconds": 44700
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 11:22 2N21": 80.63
+              },
+              "timeInSeconds": 44970
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 11:22 2N21": 89.38
+              },
+              "timeInSeconds": 45360
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 11:22 2N21": 95.48
+              },
+              "timeInSeconds": 45720
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 11:22 2N21": 95.92
+              },
+              "timeInSeconds": 45780
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 11:22 2N21": 99.87
+              },
+              "timeInSeconds": 45900
+            }
+          ]
+        },
+        {
+          "timetableType": "AVERAGED",
+          "rollingStockID": null,
+          "timeAndDistanceList": [
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 11:22 2N21": 0
+              },
+              "timeInSeconds": 40915
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 11:22 2N21": 1.14
+              },
+              "timeInSeconds": 41059
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 11:22 2N21": 1.02
+              },
+              "timeInSeconds": 41100
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 11:22 2N21": 2.05
+              },
+              "timeInSeconds": 41220
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 11:22 2N21": 6.36
+              },
+              "timeInSeconds": 41453
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 11:22 2N21": 6.36
+              },
+              "timeInSeconds": 41521
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 11:22 2N21": 16.61
+              },
+              "timeInSeconds": 41940
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 11:22 2N21": 20.04
+              },
+              "timeInSeconds": 42180
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 11:22 2N21": 20.04
+              },
+              "timeInSeconds": 42180
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 11:22 2N21": 36.48
+              },
+              "timeInSeconds": 42840
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 11:22 2N21": 36.48
+              },
+              "timeInSeconds": 42900
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 11:22 2N21": 48.73
+              },
+              "timeInSeconds": 43380
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 11:22 2N21": 62.91
+              },
+              "timeInSeconds": 43980
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 11:22 2N21": 62.91
+              },
+              "timeInSeconds": 44040
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 11:22 2N21": 95.48
+              },
+              "timeInSeconds": 45547
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 11:22 2N21": 99.87
+              },
+              "timeInSeconds": 45721
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "timetableIdentifier": "NWCSTLE, CARLILE, 14:24, 21793000, 0000010",
+      "timetableArray": [
+        {
+          "timetableType": "SCHEDULED",
+          "rollingStockID": null,
+          "timeAndDistanceList": [
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 0
+              },
+              "timeInSeconds": 51840
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 0.78
+              },
+              "timeInSeconds": 51930
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 1.02
+              },
+              "timeInSeconds": 51960
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 2.05
+              },
+              "timeInSeconds": 52080
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 6.36
+              },
+              "timeInSeconds": 52260
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 6.36
+              },
+              "timeInSeconds": 52320
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 9.46
+              },
+              "timeInSeconds": 52500
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 16.61
+              },
+              "timeInSeconds": 52740
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 20.04
+              },
+              "timeInSeconds": 52920
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 20.04
+              },
+              "timeInSeconds": 52950
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 36.48
+              },
+              "timeInSeconds": 53670
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 36.48
+              },
+              "timeInSeconds": 53730
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 48.73
+              },
+              "timeInSeconds": 54240
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 48.73
+              },
+              "timeInSeconds": 54270
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 55.11
+              },
+              "timeInSeconds": 54600
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 55.11
+              },
+              "timeInSeconds": 54660
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 62.91
+              },
+              "timeInSeconds": 55050
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 62.91
+              },
+              "timeInSeconds": 55080
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 74.42
+              },
+              "timeInSeconds": 55710
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 79.2
+              },
+              "timeInSeconds": 55950
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 79.2
+              },
+              "timeInSeconds": 56010
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 80.63
+              },
+              "timeInSeconds": 56100
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 89.38
+              },
+              "timeInSeconds": 56460
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 93.08
+              },
+              "timeInSeconds": 56490
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 93.08
+              },
+              "timeInSeconds": 56520
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 95.48
+              },
+              "timeInSeconds": 56910
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 95.92
+              },
+              "timeInSeconds": 57150
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 99.87
+              },
+              "timeInSeconds": 57240
+            }
+          ]
+        },
+        {
+          "timetableType": "AVERAGED",
+          "rollingStockID": null,
+          "timeAndDistanceList": [
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 0
+              },
+              "timeInSeconds": 51849
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 0.78
+              },
+              "timeInSeconds": 51900
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 1.02
+              },
+              "timeInSeconds": 51933
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 2.05
+              },
+              "timeInSeconds": 52080
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 6.36
+              },
+              "timeInSeconds": 52280
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 6.36
+              },
+              "timeInSeconds": 52363
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 16.61
+              },
+              "timeInSeconds": 52788
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 20.04
+              },
+              "timeInSeconds": 52920
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 20.04
+              },
+              "timeInSeconds": 52980
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 36.48
+              },
+              "timeInSeconds": 53688
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 36.48
+              },
+              "timeInSeconds": 53748
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 48.73
+              },
+              "timeInSeconds": 54228
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 48.73
+              },
+              "timeInSeconds": 54336
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 55.11
+              },
+              "timeInSeconds": 54636
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 55.11
+              },
+              "timeInSeconds": 54660
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 62.91
+              },
+              "timeInSeconds": 55068
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 62.91
+              },
+              "timeInSeconds": 55128
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 79.2
+              },
+              "timeInSeconds": 55980
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 79.2
+              },
+              "timeInSeconds": 55980
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 93.08
+              },
+              "timeInSeconds": 56520
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 93.08
+              },
+              "timeInSeconds": 56568
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 95.48
+              },
+              "timeInSeconds": 56844
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 99.87
+              },
+              "timeInSeconds": 57014
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "timetableIdentifier": "NWCSTLE, CARLILE, 18:25, 21793000, 0000010",
+      "timetableArray": [
+        {
+          "timetableType": "SCHEDULED",
+          "rollingStockID": null,
+          "timeAndDistanceList": [
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:25 2N47": 0
+              },
+              "timeInSeconds": 66300
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:25 2N47": 0.78
+              },
+              "timeInSeconds": 66390
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:25 2N47": 1.02
+              },
+              "timeInSeconds": 66450
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:25 2N47": 2.05
+              },
+              "timeInSeconds": 66570
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:25 2N47": 4.4
+              },
+              "timeInSeconds": 66630
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:25 2N47": 4.4
+              },
+              "timeInSeconds": 66660
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:25 2N47": 6.36
+              },
+              "timeInSeconds": 66810
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:25 2N47": 6.36
+              },
+              "timeInSeconds": 66870
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:25 2N47": 9.46
+              },
+              "timeInSeconds": 67080
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:25 2N47": 9.46
+              },
+              "timeInSeconds": 67110
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:25 2N47": 16.61
+              },
+              "timeInSeconds": 67440
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:25 2N47": 16.61
+              },
+              "timeInSeconds": 67500
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:25 2N47": 20.04
+              },
+              "timeInSeconds": 67710
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:25 2N47": 20.04
+              },
+              "timeInSeconds": 67740
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:25 2N47": 24.18
+              },
+              "timeInSeconds": 67980
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:25 2N47": 24.18
+              },
+              "timeInSeconds": 68040
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:25 2N47": 27.86
+              },
+              "timeInSeconds": 68250
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:25 2N47": 27.86
+              },
+              "timeInSeconds": 68280
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:25 2N47": 31.57
+              },
+              "timeInSeconds": 68490
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:25 2N47": 31.57
+              },
+              "timeInSeconds": 68550
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:25 2N47": 36.48
+              },
+              "timeInSeconds": 68820
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:25 2N47": 36.48
+              },
+              "timeInSeconds": 68880
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:25 2N47": 48.73
+              },
+              "timeInSeconds": 69390
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:25 2N47": 62.91
+              },
+              "timeInSeconds": 69960
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:25 2N47": 62.91
+              },
+              "timeInSeconds": 69990
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:25 2N47": 74.42
+              },
+              "timeInSeconds": 70620
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:25 2N47": 80.63
+              },
+              "timeInSeconds": 70890
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:25 2N47": 89.38
+              },
+              "timeInSeconds": 71250
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:25 2N47": 95.48
+              },
+              "timeInSeconds": 71610
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:25 2N47": 95.92
+              },
+              "timeInSeconds": 71670
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 18:25 2N47": 99.87
+              },
+              "timeInSeconds": 71760
+            }
+          ]
+        },
+        {
+          "timetableType": "AVERAGED",
+          "rollingStockID": null,
+          "timeAndDistanceList": [
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:25 2N47": 0
+              },
+              "timeInSeconds": 66379
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:25 2N47": 0.78
+              },
+              "timeInSeconds": 66420
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:25 2N47": 1.02
+              },
+              "timeInSeconds": 66423
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:25 2N47": 2.05
+              },
+              "timeInSeconds": 66540
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:25 2N47": 6.36
+              },
+              "timeInSeconds": 66834
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:25 2N47": 6.36
+              },
+              "timeInSeconds": 66895
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:25 2N47": 16.61
+              },
+              "timeInSeconds": 67500
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:25 2N47": 16.61
+              },
+              "timeInSeconds": 67560
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:25 2N47": 20.04
+              },
+              "timeInSeconds": 67740
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:25 2N47": 20.04
+              },
+              "timeInSeconds": 67800
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:25 2N47": 24.18
+              },
+              "timeInSeconds": 68040
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:25 2N47": 24.18
+              },
+              "timeInSeconds": 68100
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:25 2N47": 27.86
+              },
+              "timeInSeconds": 68340
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:25 2N47": 27.86
+              },
+              "timeInSeconds": 68400
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:25 2N47": 31.57
+              },
+              "timeInSeconds": 68580
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:25 2N47": 31.57
+              },
+              "timeInSeconds": 68700
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:25 2N47": 36.48
+              },
+              "timeInSeconds": 68940
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:25 2N47": 36.48
+              },
+              "timeInSeconds": 69000
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:25 2N47": 48.73
+              },
+              "timeInSeconds": 69480
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:25 2N47": 62.91
+              },
+              "timeInSeconds": 70080
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:25 2N47": 62.91
+              },
+              "timeInSeconds": 70140
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:25 2N47": 95.48
+              },
+              "timeInSeconds": 71686
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 18:25 2N47": 99.87
+              },
+              "timeInSeconds": 71871
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "timetableIdentifier": "NWCSTLE, CARLILE, 15:10, 21793000, 0000001",
+      "timetableArray": [
+        {
+          "timetableType": "SCHEDULED",
+          "rollingStockID": null,
+          "timeAndDistanceList": [
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 15:10 2N13": 0
+              },
+              "timeInSeconds": 54600
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 15:10 2N13": 0.78
+              },
+              "timeInSeconds": 54690
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 15:10 2N13": 1.02
+              },
+              "timeInSeconds": 54720
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 15:10 2N13": 2.05
+              },
+              "timeInSeconds": 54840
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 15:10 2N13": 6.36
+              },
+              "timeInSeconds": 55020
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 15:10 2N13": 6.36
+              },
+              "timeInSeconds": 55080
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 15:10 2N13": 9.46
+              },
+              "timeInSeconds": 55260
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 15:10 2N13": 16.61
+              },
+              "timeInSeconds": 55530
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 15:10 2N13": 16.61
+              },
+              "timeInSeconds": 55560
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 15:10 2N13": 20.04
+              },
+              "timeInSeconds": 55770
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 15:10 2N13": 20.04
+              },
+              "timeInSeconds": 55830
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 15:10 2N13": 24.18
+              },
+              "timeInSeconds": 56070
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 15:10 2N13": 24.18
+              },
+              "timeInSeconds": 56100
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 15:10 2N13": 27.86
+              },
+              "timeInSeconds": 56310
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 15:10 2N13": 27.86
+              },
+              "timeInSeconds": 56370
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 15:10 2N13": 31.57
+              },
+              "timeInSeconds": 56580
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 15:10 2N13": 31.57
+              },
+              "timeInSeconds": 56610
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 15:10 2N13": 36.48
+              },
+              "timeInSeconds": 56880
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 15:10 2N13": 36.48
+              },
+              "timeInSeconds": 56940
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 15:10 2N13": 48.73
+              },
+              "timeInSeconds": 57450
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 15:10 2N13": 48.73
+              },
+              "timeInSeconds": 57480
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 15:10 2N13": 55.11
+              },
+              "timeInSeconds": 57810
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 15:10 2N13": 55.11
+              },
+              "timeInSeconds": 57870
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 15:10 2N13": 62.91
+              },
+              "timeInSeconds": 58260
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 15:10 2N13": 62.91
+              },
+              "timeInSeconds": 58290
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 15:10 2N13": 74.42
+              },
+              "timeInSeconds": 58920
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 15:10 2N13": 79.2
+              },
+              "timeInSeconds": 59160
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 15:10 2N13": 79.2
+              },
+              "timeInSeconds": 59220
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 15:10 2N13": 80.63
+              },
+              "timeInSeconds": 59310
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 15:10 2N13": 89.38
+              },
+              "timeInSeconds": 59670
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 15:10 2N13": 93.08
+              },
+              "timeInSeconds": 59700
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 15:10 2N13": 93.08
+              },
+              "timeInSeconds": 59730
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 15:10 2N13": 95.48
+              },
+              "timeInSeconds": 60120
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 15:10 2N13": 95.92
+              },
+              "timeInSeconds": 60180
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 15:10 2N13": 99.87
+              },
+              "timeInSeconds": 60300
+            }
+          ]
+        },
+        {
+          "timetableType": "AVERAGED",
+          "rollingStockID": null,
+          "timeAndDistanceList": [
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 15:10 2N13": 0
+              },
+              "timeInSeconds": 54731
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 15:10 2N13": 0.78
+              },
+              "timeInSeconds": 54720
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 15:10 2N13": 1.02
+              },
+              "timeInSeconds": 54775
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 15:10 2N13": 2.05
+              },
+              "timeInSeconds": 54900
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 15:10 2N13": 6.36
+              },
+              "timeInSeconds": 55132
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 15:10 2N13": 6.36
+              },
+              "timeInSeconds": 55190
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 15:10 2N13": 16.61
+              },
+              "timeInSeconds": 55620
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 15:10 2N13": 16.61
+              },
+              "timeInSeconds": 55680
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 15:10 2N13": 24.18
+              },
+              "timeInSeconds": 56160
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 15:10 2N13": 24.18
+              },
+              "timeInSeconds": 56220
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 15:10 2N13": 27.86
+              },
+              "timeInSeconds": 56460
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 15:10 2N13": 31.57
+              },
+              "timeInSeconds": 56700
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 15:10 2N13": 31.57
+              },
+              "timeInSeconds": 56700
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 15:10 2N13": 36.48
+              },
+              "timeInSeconds": 56940
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 15:10 2N13": 36.48
+              },
+              "timeInSeconds": 57000
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 15:10 2N13": 48.73
+              },
+              "timeInSeconds": 57540
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 15:10 2N13": 48.73
+              },
+              "timeInSeconds": 57600
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 15:10 2N13": 55.11
+              },
+              "timeInSeconds": 57960
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 15:10 2N13": 55.11
+              },
+              "timeInSeconds": 57960
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 15:10 2N13": 62.91
+              },
+              "timeInSeconds": 58380
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 15:10 2N13": 62.91
+              },
+              "timeInSeconds": 58440
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 15:10 2N13": 79.2
+              },
+              "timeInSeconds": 59340
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 15:10 2N13": 79.2
+              },
+              "timeInSeconds": 59340
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 15:10 2N13": 93.08
+              },
+              "timeInSeconds": 59880
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 15:10 2N13": 95.48
+              },
+              "timeInSeconds": 60229
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 15:10 2N13": 99.87
+              },
+              "timeInSeconds": 60398
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "timetableIdentifier": "NWCSTLE, CARLILE, 16:10, 21793000, 0000001",
+      "timetableArray": [
+        {
+          "timetableType": "SCHEDULED",
+          "rollingStockID": null,
+          "timeAndDistanceList": [
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 16:10 2N15": 0
+              },
+              "timeInSeconds": 58200
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 16:10 2N15": 0.78
+              },
+              "timeInSeconds": 58290
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 16:10 2N15": 1.02
+              },
+              "timeInSeconds": 58320
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 16:10 2N15": 2.05
+              },
+              "timeInSeconds": 58440
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 16:10 2N15": 6.36
+              },
+              "timeInSeconds": 58620
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 16:10 2N15": 6.36
+              },
+              "timeInSeconds": 58680
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 16:10 2N15": 9.46
+              },
+              "timeInSeconds": 58890
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 16:10 2N15": 9.46
+              },
+              "timeInSeconds": 58920
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 16:10 2N15": 16.61
+              },
+              "timeInSeconds": 59250
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 16:10 2N15": 16.61
+              },
+              "timeInSeconds": 59310
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 16:10 2N15": 20.04
+              },
+              "timeInSeconds": 59520
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 16:10 2N15": 20.04
+              },
+              "timeInSeconds": 59550
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 16:10 2N15": 24.18
+              },
+              "timeInSeconds": 59790
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 16:10 2N15": 24.18
+              },
+              "timeInSeconds": 59850
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 16:10 2N15": 27.86
+              },
+              "timeInSeconds": 60060
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 16:10 2N15": 27.86
+              },
+              "timeInSeconds": 60090
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 16:10 2N15": 31.57
+              },
+              "timeInSeconds": 60300
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 16:10 2N15": 31.57
+              },
+              "timeInSeconds": 60360
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 16:10 2N15": 36.48
+              },
+              "timeInSeconds": 60630
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 16:10 2N15": 36.48
+              },
+              "timeInSeconds": 60690
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 16:10 2N15": 48.73
+              },
+              "timeInSeconds": 61200
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 16:10 2N15": 62.91
+              },
+              "timeInSeconds": 61770
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 16:10 2N15": 62.91
+              },
+              "timeInSeconds": 61830
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 16:10 2N15": 74.42
+              },
+              "timeInSeconds": 62460
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 16:10 2N15": 80.63
+              },
+              "timeInSeconds": 62730
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 16:10 2N15": 89.38
+              },
+              "timeInSeconds": 63090
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 16:10 2N15": 95.48
+              },
+              "timeInSeconds": 63450
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 16:10 2N15": 95.92
+              },
+              "timeInSeconds": 63510
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 16:10 2N15": 99.87
+              },
+              "timeInSeconds": 63600
+            }
+          ]
+        },
+        {
+          "timetableType": "AVERAGED",
+          "rollingStockID": null,
+          "timeAndDistanceList": [
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 16:10 2N15": 0
+              },
+              "timeInSeconds": 58261
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 16:10 2N15": 0.78
+              },
+              "timeInSeconds": 58260
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 16:10 2N15": 1.02
+              },
+              "timeInSeconds": 58309
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 16:10 2N15": 2.05
+              },
+              "timeInSeconds": 58440
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 16:10 2N15": 6.36
+              },
+              "timeInSeconds": 58649
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 16:10 2N15": 6.36
+              },
+              "timeInSeconds": 58691
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 16:10 2N15": 16.61
+              },
+              "timeInSeconds": 59220
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 16:10 2N15": 16.61
+              },
+              "timeInSeconds": 59280
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 16:10 2N15": 24.18
+              },
+              "timeInSeconds": 59760
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 16:10 2N15": 24.18
+              },
+              "timeInSeconds": 59820
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 16:10 2N15": 27.86
+              },
+              "timeInSeconds": 60060
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 16:10 2N15": 27.86
+              },
+              "timeInSeconds": 60120
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 16:10 2N15": 31.57
+              },
+              "timeInSeconds": 60300
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 16:10 2N15": 31.57
+              },
+              "timeInSeconds": 60360
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 16:10 2N15": 36.48
+              },
+              "timeInSeconds": 60600
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 16:10 2N15": 36.48
+              },
+              "timeInSeconds": 60660
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 16:10 2N15": 48.73
+              },
+              "timeInSeconds": 61140
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 16:10 2N15": 62.91
+              },
+              "timeInSeconds": 61680
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 16:10 2N15": 62.91
+              },
+              "timeInSeconds": 61740
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 16:10 2N15": 95.48
+              },
+              "timeInSeconds": 63296
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 16:10 2N15": 99.87
+              },
+              "timeInSeconds": 63471
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "timetableIdentifier": "NWCSTLE, CARLILE, 20:15, 21793000, 0000001",
+      "timetableArray": [
+        {
+          "timetableType": "SCHEDULED",
+          "rollingStockID": null,
+          "timeAndDistanceList": [
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 20:15 2N21": 0
+              },
+              "timeInSeconds": 72900
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 20:15 2N21": 0.78
+              },
+              "timeInSeconds": 72990
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 20:15 2N21": 1.02
+              },
+              "timeInSeconds": 73020
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 20:15 2N21": 2.05
+              },
+              "timeInSeconds": 73140
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 20:15 2N21": 4.4
+              },
+              "timeInSeconds": 73200
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 20:15 2N21": 4.4
+              },
+              "timeInSeconds": 73230
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 20:15 2N21": 6.36
+              },
+              "timeInSeconds": 73380
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 20:15 2N21": 6.36
+              },
+              "timeInSeconds": 73440
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 20:15 2N21": 9.46
+              },
+              "timeInSeconds": 73650
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 20:15 2N21": 9.46
+              },
+              "timeInSeconds": 73680
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 20:15 2N21": 16.61
+              },
+              "timeInSeconds": 74010
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 20:15 2N21": 16.61
+              },
+              "timeInSeconds": 74070
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 20:15 2N21": 20.04
+              },
+              "timeInSeconds": 74280
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 20:15 2N21": 20.04
+              },
+              "timeInSeconds": 74310
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 20:15 2N21": 24.18
+              },
+              "timeInSeconds": 74550
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 20:15 2N21": 24.18
+              },
+              "timeInSeconds": 74610
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 20:15 2N21": 27.86
+              },
+              "timeInSeconds": 74820
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 20:15 2N21": 27.86
+              },
+              "timeInSeconds": 74850
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 20:15 2N21": 31.57
+              },
+              "timeInSeconds": 75060
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 20:15 2N21": 31.57
+              },
+              "timeInSeconds": 75120
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 20:15 2N21": 36.48
+              },
+              "timeInSeconds": 75390
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 20:15 2N21": 36.48
+              },
+              "timeInSeconds": 75450
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 20:15 2N21": 48.73
+              },
+              "timeInSeconds": 75960
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 20:15 2N21": 48.73
+              },
+              "timeInSeconds": 75990
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 20:15 2N21": 55.11
+              },
+              "timeInSeconds": 76320
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 20:15 2N21": 55.11
+              },
+              "timeInSeconds": 76380
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 20:15 2N21": 62.91
+              },
+              "timeInSeconds": 76770
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 20:15 2N21": 62.91
+              },
+              "timeInSeconds": 76800
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 20:15 2N21": 74.42
+              },
+              "timeInSeconds": 77430
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 20:15 2N21": 79.2
+              },
+              "timeInSeconds": 77670
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 20:15 2N21": 79.2
+              },
+              "timeInSeconds": 77730
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 20:15 2N21": 80.63
+              },
+              "timeInSeconds": 77820
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 20:15 2N21": 89.38
+              },
+              "timeInSeconds": 78180
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 20:15 2N21": 93.08
+              },
+              "timeInSeconds": 78210
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 20:15 2N21": 93.08
+              },
+              "timeInSeconds": 78240
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 20:15 2N21": 95.48
+              },
+              "timeInSeconds": 78630
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 20:15 2N21": 95.92
+              },
+              "timeInSeconds": 78690
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 20:15 2N21": 99.87
+              },
+              "timeInSeconds": 78780
+            }
+          ]
+        },
+        {
+          "timetableType": "AVERAGED",
+          "rollingStockID": null,
+          "timeAndDistanceList": [
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 20:15 2N21": 0
+              },
+              "timeInSeconds": 72916
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 20:15 2N21": 0.78
+              },
+              "timeInSeconds": 72960
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 20:15 2N21": 1.02
+              },
+              "timeInSeconds": 73007
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 20:15 2N21": 2.05
+              },
+              "timeInSeconds": 73140
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 20:15 2N21": 6.36
+              },
+              "timeInSeconds": 73416
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 20:15 2N21": 6.36
+              },
+              "timeInSeconds": 73456
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 20:15 2N21": 16.61
+              },
+              "timeInSeconds": 74040
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 20:15 2N21": 20.04
+              },
+              "timeInSeconds": 74280
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 20:15 2N21": 20.04
+              },
+              "timeInSeconds": 74280
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 20:15 2N21": 24.18
+              },
+              "timeInSeconds": 74580
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 20:15 2N21": 27.86
+              },
+              "timeInSeconds": 74760
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 20:15 2N21": 27.86
+              },
+              "timeInSeconds": 74820
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 20:15 2N21": 31.57
+              },
+              "timeInSeconds": 75000
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 20:15 2N21": 31.57
+              },
+              "timeInSeconds": 75120
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 20:15 2N21": 36.48
+              },
+              "timeInSeconds": 75360
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 20:15 2N21": 36.48
+              },
+              "timeInSeconds": 75420
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 20:15 2N21": 48.73
+              },
+              "timeInSeconds": 75900
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 20:15 2N21": 48.73
+              },
+              "timeInSeconds": 75960
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 20:15 2N21": 55.11
+              },
+              "timeInSeconds": 76260
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 20:15 2N21": 55.11
+              },
+              "timeInSeconds": 76380
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 20:15 2N21": 62.91
+              },
+              "timeInSeconds": 76740
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 20:15 2N21": 62.91
+              },
+              "timeInSeconds": 76800
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 20:15 2N21": 79.2
+              },
+              "timeInSeconds": 77700
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 20:15 2N21": 79.2
+              },
+              "timeInSeconds": 77760
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 20:15 2N21": 93.08
+              },
+              "timeInSeconds": 78300
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 20:15 2N21": 93.08
+              },
+              "timeInSeconds": 78360
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 20:15 2N21": 95.48
+              },
+              "timeInSeconds": 78612
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 20:15 2N21": 99.87
+              },
+              "timeInSeconds": 78783
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "timetableIdentifier": "NWCSTLE, CARLILE, 14:24, 21793000, 1111100",
+      "timetableArray": [
+        {
+          "timetableType": "SCHEDULED",
+          "rollingStockID": null,
+          "timeAndDistanceList": [
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 0
+              },
+              "timeInSeconds": 51840
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 0.78
+              },
+              "timeInSeconds": 51930
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 1.02
+              },
+              "timeInSeconds": 51960
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 2.05
+              },
+              "timeInSeconds": 52080
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 6.36
+              },
+              "timeInSeconds": 52260
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 6.36
+              },
+              "timeInSeconds": 52320
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 9.46
+              },
+              "timeInSeconds": 52500
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 16.61
+              },
+              "timeInSeconds": 52740
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 20.04
+              },
+              "timeInSeconds": 52920
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 20.04
+              },
+              "timeInSeconds": 52950
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 36.48
+              },
+              "timeInSeconds": 53670
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 36.48
+              },
+              "timeInSeconds": 53730
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 48.73
+              },
+              "timeInSeconds": 54240
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 48.73
+              },
+              "timeInSeconds": 54270
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 55.11
+              },
+              "timeInSeconds": 54600
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 55.11
+              },
+              "timeInSeconds": 54660
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 62.91
+              },
+              "timeInSeconds": 55050
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 62.91
+              },
+              "timeInSeconds": 55080
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 74.42
+              },
+              "timeInSeconds": 55710
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 79.2
+              },
+              "timeInSeconds": 55950
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 79.2
+              },
+              "timeInSeconds": 56010
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 80.63
+              },
+              "timeInSeconds": 56100
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 89.38
+              },
+              "timeInSeconds": 56490
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 93.08
+              },
+              "timeInSeconds": 56520
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 93.08
+              },
+              "timeInSeconds": 56550
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 95.48
+              },
+              "timeInSeconds": 56940
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 95.92
+              },
+              "timeInSeconds": 57000
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 14:24 2N33": 99.87
+              },
+              "timeInSeconds": 57120
+            }
+          ]
+        },
+        {
+          "timetableType": "AVERAGED",
+          "rollingStockID": null,
+          "timeAndDistanceList": [
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 0
+              },
+              "timeInSeconds": 51863
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 0.78
+              },
+              "timeInSeconds": 51924
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 1.02
+              },
+              "timeInSeconds": 51968
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 2.05
+              },
+              "timeInSeconds": 52104
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 6.36
+              },
+              "timeInSeconds": 52311
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 6.36
+              },
+              "timeInSeconds": 52373
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 16.61
+              },
+              "timeInSeconds": 52800
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 20.04
+              },
+              "timeInSeconds": 52944
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 20.04
+              },
+              "timeInSeconds": 53004
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 36.48
+              },
+              "timeInSeconds": 53664
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 36.48
+              },
+              "timeInSeconds": 53724
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 48.73
+              },
+              "timeInSeconds": 54264
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 48.73
+              },
+              "timeInSeconds": 54324
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 55.11
+              },
+              "timeInSeconds": 54624
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 55.11
+              },
+              "timeInSeconds": 54684
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 62.91
+              },
+              "timeInSeconds": 55104
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 62.91
+              },
+              "timeInSeconds": 55164
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 79.2
+              },
+              "timeInSeconds": 55920
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 79.2
+              },
+              "timeInSeconds": 56064
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 93.08
+              },
+              "timeInSeconds": 56496
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 93.08
+              },
+              "timeInSeconds": 56604
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 95.48
+              },
+              "timeInSeconds": 56883
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 14:24 2N33": 99.87
+              },
+              "timeInSeconds": 57111
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "timetableIdentifier": "NWCSTLE, CARLILE, 10:24, 21793000, 1111100",
+      "timetableArray": [
+        {
+          "timetableType": "SCHEDULED",
+          "rollingStockID": null,
+          "timeAndDistanceList": [
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:24 2N17": 0
+              },
+              "timeInSeconds": 37440
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:24 2N17": 0.82
+              },
+              "timeInSeconds": 37530
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:24 2N17": 1.14
+              },
+              "timeInSeconds": 37560
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:24 2N17": 1.42
+              },
+              "timeInSeconds": 37590
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:24 2N17": 1.02
+              },
+              "timeInSeconds": 37620
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:24 2N17": 2.05
+              },
+              "timeInSeconds": 37740
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:24 2N17": 6.36
+              },
+              "timeInSeconds": 37920
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:24 2N17": 6.36
+              },
+              "timeInSeconds": 37980
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:24 2N17": 9.46
+              },
+              "timeInSeconds": 38160
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:24 2N17": 16.61
+              },
+              "timeInSeconds": 38400
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:24 2N17": 20.04
+              },
+              "timeInSeconds": 38580
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:24 2N17": 20.04
+              },
+              "timeInSeconds": 38610
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:24 2N17": 36.48
+              },
+              "timeInSeconds": 39270
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:24 2N17": 36.48
+              },
+              "timeInSeconds": 39330
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:24 2N17": 48.73
+              },
+              "timeInSeconds": 39840
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:24 2N17": 48.73
+              },
+              "timeInSeconds": 39870
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:24 2N17": 55.11
+              },
+              "timeInSeconds": 40200
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:24 2N17": 55.11
+              },
+              "timeInSeconds": 40260
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:24 2N17": 62.91
+              },
+              "timeInSeconds": 40650
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:24 2N17": 62.91
+              },
+              "timeInSeconds": 40680
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:24 2N17": 74.42
+              },
+              "timeInSeconds": 41310
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:24 2N17": 79.2
+              },
+              "timeInSeconds": 41550
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:24 2N17": 79.2
+              },
+              "timeInSeconds": 41610
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:24 2N17": 80.63
+              },
+              "timeInSeconds": 41700
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:24 2N17": 89.38
+              },
+              "timeInSeconds": 42090
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:24 2N17": 93.08
+              },
+              "timeInSeconds": 42120
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:24 2N17": 93.08
+              },
+              "timeInSeconds": 42150
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:24 2N17": 95.48
+              },
+              "timeInSeconds": 42540
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:24 2N17": 95.92
+              },
+              "timeInSeconds": 42600
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 10:24 2N17": 99.87
+              },
+              "timeInSeconds": 42720
+            }
+          ]
+        },
+        {
+          "timetableType": "AVERAGED",
+          "rollingStockID": null,
+          "timeAndDistanceList": [
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:24 2N17": 0
+              },
+              "timeInSeconds": 37416
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:24 2N17": 1.14
+              },
+              "timeInSeconds": 37554
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:24 2N17": 1.02
+              },
+              "timeInSeconds": 37560
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:24 2N17": 2.05
+              },
+              "timeInSeconds": 37740
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:24 2N17": 6.36
+              },
+              "timeInSeconds": 37955
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:24 2N17": 6.36
+              },
+              "timeInSeconds": 38003
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:24 2N17": 16.61
+              },
+              "timeInSeconds": 38400
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:24 2N17": 20.04
+              },
+              "timeInSeconds": 38580
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:24 2N17": 20.04
+              },
+              "timeInSeconds": 38640
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:24 2N17": 36.48
+              },
+              "timeInSeconds": 39300
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:24 2N17": 36.48
+              },
+              "timeInSeconds": 39408
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:24 2N17": 48.73
+              },
+              "timeInSeconds": 39960
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:24 2N17": 48.73
+              },
+              "timeInSeconds": 39996
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:24 2N17": 55.11
+              },
+              "timeInSeconds": 40296
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:24 2N17": 55.11
+              },
+              "timeInSeconds": 40260
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:24 2N17": 62.91
+              },
+              "timeInSeconds": 40776
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:24 2N17": 62.91
+              },
+              "timeInSeconds": 40836
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:24 2N17": 79.2
+              },
+              "timeInSeconds": 41580
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:24 2N17": 79.2
+              },
+              "timeInSeconds": 41724
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:24 2N17": 93.08
+              },
+              "timeInSeconds": 42216
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:24 2N17": 93.08
+              },
+              "timeInSeconds": 42264
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:24 2N17": 95.48
+              },
+              "timeInSeconds": 42547
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 10:24 2N17": 99.87
+              },
+              "timeInSeconds": 42718
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "timetableIdentifier": "NWCSTLE, CARLILE, 11:22, 21793000, 1111100",
+      "timetableArray": [
+        {
+          "timetableType": "SCHEDULED",
+          "rollingStockID": null,
+          "timeAndDistanceList": [
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 11:22 2N21": 0
+              },
+              "timeInSeconds": 40920
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 11:22 2N21": 0.78
+              },
+              "timeInSeconds": 41010
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 11:22 2N21": 1.02
+              },
+              "timeInSeconds": 41040
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 11:22 2N21": 2.05
+              },
+              "timeInSeconds": 41280
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 11:22 2N21": 6.36
+              },
+              "timeInSeconds": 41460
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 11:22 2N21": 6.36
+              },
+              "timeInSeconds": 41520
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 11:22 2N21": 9.46
+              },
+              "timeInSeconds": 41700
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 11:22 2N21": 16.61
+              },
+              "timeInSeconds": 41940
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 11:22 2N21": 20.04
+              },
+              "timeInSeconds": 42120
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 11:22 2N21": 20.04
+              },
+              "timeInSeconds": 42150
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 11:22 2N21": 36.48
+              },
+              "timeInSeconds": 42870
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 11:22 2N21": 36.48
+              },
+              "timeInSeconds": 42930
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 11:22 2N21": 48.73
+              },
+              "timeInSeconds": 43440
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 11:22 2N21": 62.91
+              },
+              "timeInSeconds": 44010
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 11:22 2N21": 62.91
+              },
+              "timeInSeconds": 44070
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 11:22 2N21": 74.42
+              },
+              "timeInSeconds": 44700
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 11:22 2N21": 80.63
+              },
+              "timeInSeconds": 44970
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 11:22 2N21": 89.38
+              },
+              "timeInSeconds": 45360
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 11:22 2N21": 95.48
+              },
+              "timeInSeconds": 45720
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 11:22 2N21": 95.92
+              },
+              "timeInSeconds": 45780
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 11:22 2N21": 99.87
+              },
+              "timeInSeconds": 45900
+            }
+          ]
+        },
+        {
+          "timetableType": "AVERAGED",
+          "rollingStockID": null,
+          "timeAndDistanceList": [
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 11:22 2N21": 0
+              },
+              "timeInSeconds": 40984
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 11:22 2N21": 0.78
+              },
+              "timeInSeconds": 41040
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 11:22 2N21": 1.02
+              },
+              "timeInSeconds": 41076
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 11:22 2N21": 2.05
+              },
+              "timeInSeconds": 41220
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 11:22 2N21": 6.36
+              },
+              "timeInSeconds": 41430
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 11:22 2N21": 6.36
+              },
+              "timeInSeconds": 41525
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 11:22 2N21": 16.61
+              },
+              "timeInSeconds": 41940
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 11:22 2N21": 20.04
+              },
+              "timeInSeconds": 42120
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 11:22 2N21": 20.04
+              },
+              "timeInSeconds": 42180
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 11:22 2N21": 36.48
+              },
+              "timeInSeconds": 42828
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 11:22 2N21": 36.48
+              },
+              "timeInSeconds": 42900
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 11:22 2N21": 48.73
+              },
+              "timeInSeconds": 43380
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 11:22 2N21": 62.91
+              },
+              "timeInSeconds": 43968
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 11:22 2N21": 62.91
+              },
+              "timeInSeconds": 44040
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 11:22 2N21": 95.48
+              },
+              "timeInSeconds": 45570
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 11:22 2N21": 99.87
+              },
+              "timeInSeconds": 45738
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "timetableIdentifier": "NWCSTLE, CARLILE, 12:22, 21793000, 1111100",
+      "timetableArray": [
+        {
+          "timetableType": "SCHEDULED",
+          "rollingStockID": null,
+          "timeAndDistanceList": [
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 12:22 2N29": 0
+              },
+              "timeInSeconds": 44520
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 12:22 2N29": 0.78
+              },
+              "timeInSeconds": 44610
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 12:22 2N29": 1.02
+              },
+              "timeInSeconds": 44760
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 12:22 2N29": 2.05
+              },
+              "timeInSeconds": 44880
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 12:22 2N29": 6.36
+              },
+              "timeInSeconds": 45060
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 12:22 2N29": 6.36
+              },
+              "timeInSeconds": 45120
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 12:22 2N29": 9.46
+              },
+              "timeInSeconds": 45300
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 12:22 2N29": 16.61
+              },
+              "timeInSeconds": 45540
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 12:22 2N29": 20.04
+              },
+              "timeInSeconds": 45720
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 12:22 2N29": 20.04
+              },
+              "timeInSeconds": 45750
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 12:22 2N29": 36.48
+              },
+              "timeInSeconds": 46470
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 12:22 2N29": 36.48
+              },
+              "timeInSeconds": 46530
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 12:22 2N29": 48.73
+              },
+              "timeInSeconds": 47040
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 12:22 2N29": 48.73
+              },
+              "timeInSeconds": 47070
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 12:22 2N29": 55.11
+              },
+              "timeInSeconds": 47400
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 12:22 2N29": 55.11
+              },
+              "timeInSeconds": 47460
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 12:22 2N29": 62.91
+              },
+              "timeInSeconds": 47850
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 12:22 2N29": 62.91
+              },
+              "timeInSeconds": 47880
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 12:22 2N29": 74.42
+              },
+              "timeInSeconds": 48510
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 12:22 2N29": 79.2
+              },
+              "timeInSeconds": 48750
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 12:22 2N29": 79.2
+              },
+              "timeInSeconds": 48810
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 12:22 2N29": 80.63
+              },
+              "timeInSeconds": 48900
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 12:22 2N29": 89.38
+              },
+              "timeInSeconds": 49290
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 12:22 2N29": 93.08
+              },
+              "timeInSeconds": 49320
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 12:22 2N29": 93.08
+              },
+              "timeInSeconds": 49350
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 12:22 2N29": 95.48
+              },
+              "timeInSeconds": 49740
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 12:22 2N29": 95.92
+              },
+              "timeInSeconds": 49800
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 12:22 2N29": 99.87
+              },
+              "timeInSeconds": 49920
+            }
+          ]
+        },
+        {
+          "timetableType": "AVERAGED",
+          "rollingStockID": null,
+          "timeAndDistanceList": [
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 12:22 2N29": 0
+              },
+              "timeInSeconds": 44565
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 12:22 2N29": 0.78
+              },
+              "timeInSeconds": 44664
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 12:22 2N29": 1.02
+              },
+              "timeInSeconds": 44687
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 12:22 2N29": 2.05
+              },
+              "timeInSeconds": 44844
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 12:22 2N29": 6.36
+              },
+              "timeInSeconds": 45048
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 12:22 2N29": 6.36
+              },
+              "timeInSeconds": 45161
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 12:22 2N29": 16.61
+              },
+              "timeInSeconds": 45540
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 12:22 2N29": 20.04
+              },
+              "timeInSeconds": 45720
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 12:22 2N29": 20.04
+              },
+              "timeInSeconds": 45720
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 12:22 2N29": 36.48
+              },
+              "timeInSeconds": 46440
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 12:22 2N29": 36.48
+              },
+              "timeInSeconds": 46500
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 12:22 2N29": 48.73
+              },
+              "timeInSeconds": 47040
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 12:22 2N29": 48.73
+              },
+              "timeInSeconds": 47076
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 12:22 2N29": 55.11
+              },
+              "timeInSeconds": 47400
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 12:22 2N29": 55.11
+              },
+              "timeInSeconds": 47460
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 12:22 2N29": 62.91
+              },
+              "timeInSeconds": 47820
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 12:22 2N29": 62.91
+              },
+              "timeInSeconds": 47880
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 12:22 2N29": 79.2
+              },
+              "timeInSeconds": 48984
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 12:22 2N29": 79.2
+              },
+              "timeInSeconds": 49080
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 12:22 2N29": 93.08
+              },
+              "timeInSeconds": 49560
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 12:22 2N29": 93.08
+              },
+              "timeInSeconds": 49620
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 12:22 2N29": 95.48
+              },
+              "timeInSeconds": 49883
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 12:22 2N29": 99.87
+              },
+              "timeInSeconds": 50053
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "timetableIdentifier": "NWCSTLE, CARLILE, 08:24, 21793000, 1111100",
+      "timetableArray": [
+        {
+          "timetableType": "SCHEDULED",
+          "rollingStockID": null,
+          "timeAndDistanceList": [
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 0
+              },
+              "timeInSeconds": 30240
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 0.78
+              },
+              "timeInSeconds": 30330
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 1.02
+              },
+              "timeInSeconds": 30360
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 2.05
+              },
+              "timeInSeconds": 30480
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 6.36
+              },
+              "timeInSeconds": 30660
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 6.36
+              },
+              "timeInSeconds": 30720
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 9.46
+              },
+              "timeInSeconds": 30900
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 16.61
+              },
+              "timeInSeconds": 31170
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 16.61
+              },
+              "timeInSeconds": 31200
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 20.04
+              },
+              "timeInSeconds": 31410
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 20.04
+              },
+              "timeInSeconds": 31470
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 24.18
+              },
+              "timeInSeconds": 31710
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 24.18
+              },
+              "timeInSeconds": 31740
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 36.48
+              },
+              "timeInSeconds": 32250
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 36.48
+              },
+              "timeInSeconds": 32310
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 48.73
+              },
+              "timeInSeconds": 32820
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 48.73
+              },
+              "timeInSeconds": 32850
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 55.11
+              },
+              "timeInSeconds": 33180
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 55.11
+              },
+              "timeInSeconds": 33240
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 62.91
+              },
+              "timeInSeconds": 33630
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 62.91
+              },
+              "timeInSeconds": 33660
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 74.42
+              },
+              "timeInSeconds": 34290
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 79.2
+              },
+              "timeInSeconds": 34530
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 79.2
+              },
+              "timeInSeconds": 34590
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 80.63
+              },
+              "timeInSeconds": 34680
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 89.38
+              },
+              "timeInSeconds": 35100
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 93.08
+              },
+              "timeInSeconds": 35130
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 93.08
+              },
+              "timeInSeconds": 35160
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 95.48
+              },
+              "timeInSeconds": 35550
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 95.92
+              },
+              "timeInSeconds": 35610
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "SCHEDULED 08:24 2N09": 99.87
+              },
+              "timeInSeconds": 35760
+            }
+          ]
+        },
+        {
+          "timetableType": "AVERAGED",
+          "rollingStockID": null,
+          "timeAndDistanceList": [
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 0
+              },
+              "timeInSeconds": 30401
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 0.78
+              },
+              "timeInSeconds": 30444
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 1.02
+              },
+              "timeInSeconds": 30473
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 2.05
+              },
+              "timeInSeconds": 30624
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 6.36
+              },
+              "timeInSeconds": 30812
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 6.36
+              },
+              "timeInSeconds": 30851
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 16.61
+              },
+              "timeInSeconds": 31200
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 16.61
+              },
+              "timeInSeconds": 31308
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 20.04
+              },
+              "timeInSeconds": 31536
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 20.04
+              },
+              "timeInSeconds": 31596
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 24.18
+              },
+              "timeInSeconds": 31788
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 24.18
+              },
+              "timeInSeconds": 31848
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 36.48
+              },
+              "timeInSeconds": 32388
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 36.48
+              },
+              "timeInSeconds": 32448
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 48.73
+              },
+              "timeInSeconds": 32928
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 48.73
+              },
+              "timeInSeconds": 32988
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 55.11
+              },
+              "timeInSeconds": 33288
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 55.11
+              },
+              "timeInSeconds": 33348
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 62.91
+              },
+              "timeInSeconds": 33720
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 62.91
+              },
+              "timeInSeconds": 33780
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 79.2
+              },
+              "timeInSeconds": 34620
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 79.2
+              },
+              "timeInSeconds": 34680
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 93.08
+              },
+              "timeInSeconds": 35208
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 93.08
+              },
+              "timeInSeconds": 35220
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 95.48
+              },
+              "timeInSeconds": 35518
+            },
+            {
+              "unixTime": -1,
+              "identifierAndDistance": {
+                "AVERAGED 08:24 2N09": 99.87
+              },
+              "timeInSeconds": 35681
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

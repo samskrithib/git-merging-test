@@ -1,0 +1,36 @@
+<div>
+
+  <div id="chart{{tab.id}}" ng-bind="chart{{tab.id}}"></div>
+  <div class="form-group row">
+    <!--<p class="checkbox-inline"><strong> View results for specific Station to Station Stop(s) </strong></p>-->
+    <!--<input type="checkbox" ng-model='vm.key' ng-change='vm.key || vm.checkboxModel(vm.key)'>-->
+    <div class="col-md-8">
+      <div style="padding-right: 15px; margin: 16px 0; ">
+        View results for Station to Station Stop(s):
+        <toggle ng-model="vm.key" size="btn-sm" ng-change="vm.checkboxModel(vm.key)"></toggle>
+      </div>
+
+    </div>
+    <div class="col-md-4 form-group">
+      <div style="padding-right: 15px; margin: 16px 0; float: right">
+        Energy Target:
+        <toggle ng-model="vm.energyTargetSwitch" size="btn-sm" ng-change="vm.energyTargetSwitchOnchange(vm.energyTargetSwitch)"></toggle>
+      </div>
+
+    </div>
+    <div class="col-lg-8 form-group">
+      <div class="input-group" ng-show="vm.key">
+        <div class="input-group-addon">Choose Station to Station Stop(s):</div>
+        <!-- <span class="label label-danger" ng-show="form.to.$touched && form.to.$invalid">Required</span>-->
+        <select multiple class="form-control" id="multiselect" name="multiselect" ng-model="vm.links.selected" ng-change="vm.energySummaryLinksOnselect()"
+          ng-options="link for link in vm.graphLinks"></select>
+      </div>
+    </div>
+
+
+
+    <!-- <div class="col-md-2" ng-show="key">
+        <button type="submit" class="btn btn-primary" ng-click="vm.submitLinks()">Submit</button>
+    </div> -->
+    <br/>
+  </div>

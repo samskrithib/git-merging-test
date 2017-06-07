@@ -1,0 +1,365 @@
+{
+    "energySummaries": [
+        {
+            "headcode": "2N17",
+            "originTiploc": "NWCSTLE",
+            "destinationTiploc": "CARLILE",
+            "rollingStockID": "156",
+            "scheduledDepartureTimeAtOrigin": 1490865840000,
+            "serviceCode": "21793000",
+            "unitNumber": "156451",
+            "energySummaryAdvice": null,
+            "total":{
+                "actualEnergyConsumption": 20.0,
+                        "energySummaryAdvice": {
+                            "energySummaryAdvice": "Poor Driving",
+                            "graphIndicator": "POORDRIVING",
+                            "multipleLinksSelectedAdvice": null
+                        },
+                        "onTimeOptimalEnergyConsumption": 20.0,
+                        "optimalEnergyConsumption": 20.0,
+                        "targetEnergyConsumption": 20.1
+            },
+            "energySummaryLinks": [
+                {
+                    "energySummary": {
+                        "actualEnergyConsumption": 2.0,
+                        "energySummaryAdvice": {
+                            "energySummaryAdvice": "Good Driving",
+                            "graphIndicator": "POORDRIVING",
+                            "multipleLinksSelectedAdvice": null
+                        },
+                        "onTimeOptimalEnergyConsumption": 2.0,
+                        "optimalEnergyConsumption": 2.0,
+                        "targetEnergyConsumption": 2.1
+                    },
+                    "link": "Newcastle - Metrocentre"
+                },
+                {
+                    "energySummary": {
+                        "actualEnergyConsumption": 9.7,
+                        "energySummaryAdvice": {
+                            "energySummaryAdvice": "Good Driving",
+                            "graphIndicator": "GOODDRIVING",
+                            "multipleLinksSelectedAdvice": null
+                        },
+                        "onTimeOptimalEnergyConsumption": 9.7,
+                        "optimalEnergyConsumption": 9.7,
+                        "targetEnergyConsumption": 9.6
+                    },
+                    "link": "Metrocentre - Prudhoe"
+                },
+                {
+                    "energySummary": {
+                        "actualEnergyConsumption": 11.0,
+                        "energySummaryAdvice": {
+                            "energySummaryAdvice": "Good Driving",
+                            "graphIndicator": "GOODDRIVING",
+                            "multipleLinksSelectedAdvice": null
+                        },
+                        "onTimeOptimalEnergyConsumption": 11.0,
+                        "optimalEnergyConsumption": 11.0,
+                        "targetEnergyConsumption": 11.4
+                    },
+                    "link": "Prudhoe - Hexham"
+                },
+                {
+                    "energySummary": {
+                        "actualEnergyConsumption": 8.5,
+                        "energySummaryAdvice": {
+                            "energySummaryAdvice": "Good Driving",
+                            "graphIndicator": "GOODDRIVING",
+                            "multipleLinksSelectedAdvice": null
+                        },
+                        "onTimeOptimalEnergyConsumption": 8.5,
+                        "optimalEnergyConsumption": 8.5,
+                        "targetEnergyConsumption": 9.1
+                    },
+                    "link": "Hexham - Haydon Bridge"
+                },
+                {
+                    "energySummary": {
+                        "actualEnergyConsumption": 5.2,
+                        "energySummaryAdvice": {
+                            "energySummaryAdvice": "Good Driving",
+                            "graphIndicator": "GOODDRIVING",
+                            "multipleLinksSelectedAdvice": null
+                        },
+                        "onTimeOptimalEnergyConsumption": 4.6,
+                        "optimalEnergyConsumption": 5.2,
+                        "targetEnergyConsumption": 4.8
+                    },
+                    "link": "Haydon Bridge - Bardon Mill"
+                },
+                {
+                    "energySummary": {
+                        "actualEnergyConsumption": 6.2,
+                        "energySummaryAdvice": {
+                            "energySummaryAdvice": "Good Driving",
+                            "graphIndicator": "GOODDRIVING",
+                            "multipleLinksSelectedAdvice": null
+                        },
+                        "onTimeOptimalEnergyConsumption": 6.2,
+                        "optimalEnergyConsumption": 6.2,
+                        "targetEnergyConsumption": 6.9
+                    },
+                    "link": "Bardon Mill - Haltwhistle"
+                },
+                {
+                    "energySummary": {
+                        "actualEnergyConsumption": 11.4,
+                        "energySummaryAdvice": {
+                            "energySummaryAdvice": "Good Driving",
+                            "graphIndicator": "GOODDRIVING",
+                            "multipleLinksSelectedAdvice": null
+                        },
+                        "onTimeOptimalEnergyConsumption": 11.4,
+                        "optimalEnergyConsumption": 11.4,
+                        "targetEnergyConsumption": 12.1
+                    },
+                    "link": "Haltwhistle - Brampton"
+                },
+                {
+                    "energySummary": {
+                        "actualEnergyConsumption": 3.1,
+                        "energySummaryAdvice": {
+                            "energySummaryAdvice": "Good Driving",
+                            "graphIndicator": "GOODDRIVING",
+                            "multipleLinksSelectedAdvice": null
+                        },
+                        "onTimeOptimalEnergyConsumption": 2.6,
+                        "optimalEnergyConsumption": 3.1,
+                        "targetEnergyConsumption": 2.7
+                    },
+                    "link": "Brampton - Wetheral"
+                },
+                {
+                    "energySummary": {
+                        "actualEnergyConsumption": 3.1,
+                        "energySummaryAdvice": {
+                            "energySummaryAdvice": "Could you drive better?",
+                            "graphIndicator": "POORDRIVING",
+                            "multipleLinksSelectedAdvice": null
+                        },
+                        "onTimeOptimalEnergyConsumption": 0.8,
+                        "optimalEnergyConsumption": 1.0,
+                        "targetEnergyConsumption": 1.3
+                    },
+                    "link": "Wetheral - Carlisle"
+                }
+            ]
+        },
+        {
+            "headcode": "2N17_9",
+            "originTiploc": "NWCSTLE",
+            "destinationTiploc": "CARLILE",
+            "rollingStockID": "156",
+            "scheduledDepartureTimeAtOrigin": 1490865840000,
+            "serviceCode": "21793000",
+            "unitNumber": "156451",
+            "energySummaryAdvice": null,
+            "total":{
+                "actualEnergyConsumption": 250.0,
+                        "energySummaryAdvice": {
+                            "energySummaryAdvice": "Poor Driving",
+                            "graphIndicator": "POORDRIVING",
+                            "multipleLinksSelectedAdvice": null
+                        },
+                        "onTimeOptimalEnergyConsumption": 260.0,
+                        "optimalEnergyConsumption": 280.0,
+                        "targetEnergyConsumption": 207.1
+            },
+            "energySummaryLinks": [
+                {
+                    "energySummary": {
+                        "actualEnergyConsumption": 4.0,
+                        "energySummaryAdvice": {
+                            "energySummaryAdvice": "Good Driving",
+                            "graphIndicator": "GOODDRIVING",
+                            "multipleLinksSelectedAdvice": null
+                        },
+                        "onTimeOptimalEnergyConsumption": 2.0,
+                        "optimalEnergyConsumption": 3.0,
+                        "targetEnergyConsumption": 2.1
+                    },
+                    "link": "Newcastle - Metrocentre"
+                },
+                {
+                    "energySummary": {
+                        "actualEnergyConsumption": 10.7,
+                        "energySummaryAdvice": {
+                            "energySummaryAdvice": "Good Driving",
+                            "graphIndicator": "GOODDRIVING",
+                            "multipleLinksSelectedAdvice": null
+                        },
+                        "onTimeOptimalEnergyConsumption": 8.7,
+                        "optimalEnergyConsumption": 7.7,
+                        "targetEnergyConsumption": 9.6
+                    },
+                    "link": "Metrocentre - Prudhoe"
+                },
+                {
+                    "energySummary": {
+                        "actualEnergyConsumption": 1.0,
+                        "energySummaryAdvice": {
+                            "energySummaryAdvice": "Good Driving",
+                            "graphIndicator": "GOODDRIVING",
+                            "multipleLinksSelectedAdvice": null
+                        },
+                        "onTimeOptimalEnergyConsumption": 10.0,
+                        "optimalEnergyConsumption": 7.0,
+                        "targetEnergyConsumption": 11.4
+                    },
+                    "link": "Prudhoe - Hexham"
+                },
+                {
+                    "energySummary": {
+                        "actualEnergyConsumption": 3.5,
+                        "energySummaryAdvice": {
+                            "energySummaryAdvice": "Good Driving",
+                            "graphIndicator": "GOODDRIVING",
+                            "multipleLinksSelectedAdvice": null
+                        },
+                        "onTimeOptimalEnergyConsumption": 5.5,
+                        "optimalEnergyConsumption": 8.5,
+                        "targetEnergyConsumption": 9.1
+                    },
+                    "link": "Hexham - Haydon Bridge"
+                },
+                {
+                    "energySummary": {
+                        "actualEnergyConsumption": 7.2,
+                        "energySummaryAdvice": {
+                            "energySummaryAdvice": "Good Driving",
+                            "graphIndicator": "GOODDRIVING",
+                            "multipleLinksSelectedAdvice": null
+                        },
+                        "onTimeOptimalEnergyConsumption": 6.6,
+                        "optimalEnergyConsumption": 5.4,
+                        "targetEnergyConsumption": 4.8
+                    },
+                    "link": "Haydon Bridge - Bardon Mill"
+                },
+                {
+                    "energySummary": {
+                        "actualEnergyConsumption": 6.8,
+                        "energySummaryAdvice": {
+                            "energySummaryAdvice": "Good Driving",
+                            "graphIndicator": "GOODDRIVING",
+                            "multipleLinksSelectedAdvice": null
+                        },
+                        "onTimeOptimalEnergyConsumption": 7.2,
+                        "optimalEnergyConsumption": 2.2,
+                        "targetEnergyConsumption": 6.9
+                    },
+                    "link": "Bardon Mill - Haltwhistle"
+                },
+                {
+                    "energySummary": {
+                        "actualEnergyConsumption": 15.4,
+                        "energySummaryAdvice": {
+                            "energySummaryAdvice": "Good Driving",
+                            "graphIndicator": "GOODDRIVING",
+                            "multipleLinksSelectedAdvice": null
+                        },
+                        "onTimeOptimalEnergyConsumption": 17.4,
+                        "optimalEnergyConsumption": 1.4,
+                        "targetEnergyConsumption": 12.1
+                    },
+                    "link": "Haltwhistle - Brampton"
+                },
+                {
+                    "energySummary": {
+                        "actualEnergyConsumption": 7.1,
+                        "energySummaryAdvice": {
+                            "energySummaryAdvice": "Good Driving",
+                            "graphIndicator": "GOODDRIVING",
+                            "multipleLinksSelectedAdvice": null
+                        },
+                        "onTimeOptimalEnergyConsumption": 2.4,
+                        "optimalEnergyConsumption": 8.1,
+                        "targetEnergyConsumption": 2.7
+                    },
+                    "link": "Brampton - Wetheral"
+                },
+                {
+                    "energySummary": {
+                        "actualEnergyConsumption": 8.1,
+                        "energySummaryAdvice": {
+                            "energySummaryAdvice": "Could you drive better?",
+                            "graphIndicator": "POORDRIVING",
+                            "multipleLinksSelectedAdvice": null
+                        },
+                        "onTimeOptimalEnergyConsumption": 7.8,
+                        "optimalEnergyConsumption": 1.9,
+                        "targetEnergyConsumption": 1.3
+                    },
+                    "link": "Wetheral - Carlisle"
+                }
+            ]
+        }
+    ],
+    "latenessSummaries": [
+        {
+        	"headcode": "2N17",
+            "originTiploc": "NWCSTLE",
+            "destinationTiploc": "CARLILE",
+            "rollingStockID": "156",
+            "scheduledDepartureTimeAtOrigin": 1490865840000,
+            "serviceCode": "21793000",
+            "unitNumber": "156451",
+            "acheivableArrivalLatenessInSeconds": 310,
+            "actualArrivalEarlinessInSeconds": -480,
+            "actualArrivalLatenessInSeconds": 50,
+            "latenessSummaries": [
+                {
+                    "latenessSummary": {
+                        "acheivableArrivalLatenessInSeconds": 30,
+                        "actualArrivalEarlinessInSeconds": -20,
+                        "actualArrivalLatenessInSeconds": 10
+                    },
+                    "link": "A-B"
+                },
+                {
+                    "latenessSummary": {
+                        "acheivableArrivalLatenessInSeconds": 10,
+                        "actualArrivalEarlinessInSeconds": -40,
+                        "actualArrivalLatenessInSeconds": 30
+                    },
+                    "link": "B-C"
+                }
+            ]
+        },
+        {
+        	"headcode": "2N17",
+            "originTiploc": "NWCSTLE",
+            "destinationTiploc": "CARLILE",
+            "rollingStockID": "156",
+            "scheduledDepartureTimeAtOrigin": 1490865840000,
+            "serviceCode": "21793000",
+            "unitNumber": "156451",
+            "acheivableArrivalLatenessInSeconds": 130,
+            "actualArrivalEarlinessInSeconds": -490,
+            "actualArrivalLatenessInSeconds": 80,
+            "latenessSummaries": [
+                {
+                    "latenessSummary": {
+                        "acheivableArrivalLatenessInSeconds": 80,
+                        "actualArrivalEarlinessInSeconds": 0,
+                        "actualArrivalLatenessInSeconds": 50
+                    },
+                    "link": "A-B"
+                },
+                {
+                    "latenessSummary": {
+                        "acheivableArrivalLatenessInSeconds": 60,
+                        "actualArrivalEarlinessInSeconds": 0,
+                        "actualArrivalLatenessInSeconds": 70
+                    },
+                    "link": "B-C"
+                }
+            ]
+        }
+    ]
+   
+}

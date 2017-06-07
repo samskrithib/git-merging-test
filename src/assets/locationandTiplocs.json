@@ -1,0 +1,122 @@
+[
+	{
+		"locationName": "Dunston-on-Tyne",
+		"tiploc": "DNSN"
+	},
+	{
+		"locationName": "Newcastle",
+		"tiploc": "NWCSTLE"
+	},
+	{
+		"locationName": "Blaydon",
+		"tiploc": "BLAYDON"
+	},
+	{
+		"locationName": "Wylam",
+		"tiploc": "WYLAM"
+	},
+	{
+		"locationName": "Prudhoe",
+		"tiploc": "PRUDHOE"
+	},
+	{
+		"locationName": "Metrocentre",
+		"tiploc": "GTSHDMC"
+	},
+	{
+		"locationName": "Hexham",
+		"tiploc": "HEXHAM"
+	},
+	{
+		"locationName": "Haydon Bridge",
+		"tiploc": "HYDB"
+	},
+	{
+		"locationName": "Bardon Mill",
+		"tiploc": "BRDNML"
+	},
+	{
+		"locationName": "Haltwhistle",
+		"tiploc": "HLTWHST"
+	},
+	{
+		"locationName": "Brampton",
+		"tiploc": "BRMPTNC"
+	},
+	{
+		"locationName": "Wetheral",
+		"tiploc": "WETHERL"
+	},
+	{
+		"locationName": "Carlisle",
+		"tiploc": "CARLILE"
+	},
+	{
+		"locationName": "Heaton Depot",
+		"tiploc": "NWCSTLEDEPOT"
+	},
+	{
+		"locationName": "Blackpool North Depot",
+		"tiploc": "BLCKNCS"
+	},
+	{
+		"locationName": "Appleby Depot",
+		"tiploc": "APBYNE"
+	},
+	{
+		"locationName": "King Edward Bridge North Junction",
+		"tiploc": "KEBGNJN"
+	},
+	{
+		"locationName": "King Edward Bridge South Junction",
+		"tiploc": "KEBGSJN"
+	},
+	{
+		"locationName": "King Edward Bridge East Junction",
+		"tiploc": "KEBGEJN"
+	},
+	{
+		"locationName": "High Level Bridge Junction",
+		"tiploc": "HLBDGJN"
+	},
+	{
+		"locationName": "Greensfield Junction",
+		"tiploc": "GRNSFDJ"
+	},
+	{
+		"locationName": "Low Row Signal Box",
+		"tiploc": "LOWRWSB"
+	},
+	{
+		"locationName": "Brampton Fell Signal Box",
+		"tiploc": "BRMPTNF"
+	},
+	{
+		"locationName": "Riding Mill",
+		"tiploc": "RIDNGML"
+	},
+	{
+		"locationName": "Petteril Bridge Junction",
+		"tiploc": "PETLBGJ"
+	},
+	{
+		"locationName": "Stocksfield",
+		"tiploc": "STCKSFL"
+	},
+	{
+		"locationName": "Corbridge",
+		"tiploc": "CRBG"
+	},
+	{
+		"locationName": "Carlisle London Road Junction",
+		"tiploc": "CARLLRJ"
+	},
+	{
+		"locationName": "Norwood Junction",
+		"tiploc": "NRWDJN"
+	},
+	{
+		"locationName": "Wetheral Corby Gates Signal Box",
+		"tiploc": "WETHCOR"
+	}
+]

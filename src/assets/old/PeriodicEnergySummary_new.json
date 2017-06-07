@@ -1,0 +1,10 @@
+{
+  "actualEnergyConsumption": 378,
+  "optimalEnergyConsumption": 334.3,
+  "onTimeOptimalEnergyConsumption": 318.3,
+  "targetEnergyConsumption": 337.1,
+  "numberOfTrains": 8,
+  "energySummaryAdvice": {
+    "graphIndicator": "POORDRIVING"
+  }
+}

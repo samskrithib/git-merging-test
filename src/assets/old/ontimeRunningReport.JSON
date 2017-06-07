@@ -1,0 +1,18 @@
+{
+  "actualLatenessPercentages": {
+    "More than 15s early": 0.42,
+	"Between 15s early and 60s late": 0,
+	"More than 60s late": 0.17,
+	"More than 180s late": 0.17,
+    "More than 300s late": 0.25,
+    "More than 600s late": 0.00,
+  },
+  "optimalLatenessPercentages": {
+	"More than 15s early": 0.42,
+	"Between 15s early and 60s late": 0.17,
+    "More than 60s late": 0.08,
+	"More than 180s late": 0.08,
+	"More than 300s late": 0.25,
+    "More than 600s late": 0.00
+  }
+}

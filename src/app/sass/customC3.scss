@@ -1,0 +1,116 @@
+@import 'variables';
+@import 'mixins';
+
+
+.c3-legend-tooltip-container {
+  position: absolute;
+  pointer-events: none;
+  background: white;
+  border: 1px solid $brand-info;
+  border-radius: 3px;
+  display: none;
+  padding: 10px;
+}
+
+.c3-legend-tooltip {
+  color: black;
+}
+#chart2 {
+  .c3-circles-actualDriving, .c3-circles-flatoutDriving, .c3-circles-speedLimit, .c3-circles-Elevation{
+  display: none;
+  }
+}
+@-webkit-keyframes anim-pulse{
+  0%   { 
+    opacity: 0 ;
+  -webkit-transform : scale(.5);
+    }
+  10% {
+    opacity: 1 ;
+  }
+
+  90% {
+    opacity: 0 ;
+  }
+
+  100% {
+    -webkit-transform : scale(1.25)
+  }
+}
+
+
+#chart0 .c3-ygrid-line line {
+  stroke: $brand-danger;
+}
+#chart0, #chart2{
+  .c3-axis-x, .c3-axis-y, .c3-chart-text, .c3-ygrid-line text{
+    font-size: 1.3em;
+    font-weight: bold;
+    fill: $gray;
+  }
+}
+#chart1, #latenessSummaryChart{
+  .c3-axis-y, .c3-chart-text, .c3-ygrid-line text{
+    font-size: 1em;
+    font-weight: bold;
+    fill: $gray;
+  }
+  .c3-axis-x{
+    fill: $gray;
+    font-size: 1.2em;
+  }
+  .c3-title {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+  
+}
+.c3-region.regionX{
+    fill: green;
+  }
+
+  
+.c3 .c3-axis-x path, .c3 .c3-axis-x line {
+  stroke: #8c8c8c;
+}
+.c3 .c3-axis-y path, .c3 .c3-axis-y line {
+  /*stroke: transparent;*/
+  stroke: #8c8c8c;
+}
+.c3 .c3-axis-y2 path, .c3 .c3-axis-y2 line {
+  /*stroke: transparent;*/
+  stroke: $c3-brown;
+}
+#chart2{
+  .c3-line-ActualDriving, .c3-line-FlatoutDriving, .c3-line-EcoDriving {
+    stroke-width: 2px;
+}
+  .c3-axis-y2 text{
+    font-size: 1.3em;
+    font-weight: bold;
+    fill: $c3-brown;
+  }
+}
+
+.c3-title {
+  font-size: 2em;
+  font-weight: bold;
+}
+.c3-circles-actualDriving .c3-circle-100{
+  fill: red;
+  stroke: black;
+}
+
+
+@media only screen and (max-device-width: 480px) {
+  .c3-axis-x, .c3-axis-y, .c3-axis-y2, .c3-chart-text, .c3-ygrid-line text{
+    font-size: 1em;
+    font-weight: normal;
+    fill: black;
+  }
+
+  .c3-title {
+    font-size: 1.2em;
+    /*font-weight: bold;*/
+  }
+}

@@ -1,0 +1,32 @@
+<div>
+
+  <!-- <div id="chart0"></div> -->
+  <div class="form-group">
+    <div class="form-group row">
+      <div style="padding-right: 15px; margin: 16px 0; float: right">
+        <div class="btn-group" id="status" data-toggle="buttons">
+          <label class="btn btn-default btn-on-1 btn-sm active" ng-model="vm.radioModel" uib-btn-radio="'Kph'" value='Kph'>Kph</label>
+          <label class="btn btn-default btn-off-1 btn-sm " ng-model="vm.radioModel" uib-btn-radio="'Mph'" value='Mph'>Mph</label>
+        </div>
+        <!--<div id="speedLabel">Speed in: </div>-->
+
+      </div>
+      <div class="col-lg-2">
+        <div style="padding-right: 15px; margin: 16px 0; ">
+        Gridlines: <toggle ng-model="vm.gridOnOff" size="btn-sm" ng-change="vm.gridbtnOnChange(vm.gridOnOff)"></toggle>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-8 form-group">
+      <label class="sr-only" for="links"></label>
+      <div class="input-group">
+        <div class="input-group-addon">Choose Interstation Station to Station Stop:</div>
+        <select class="form-control" aria-expanded="true" name="links" ng-model="vm.speedDistanceLinks.selected" ng-change="vm.speedDistanceLinkOnselect(vm.speedDistanceLinks.selected)"
+          ng-options="link for link in vm.routeLinks">
+      </select>
+      </div>
+    </div>
+    <br/>
+  </div>
+</div>

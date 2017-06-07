@@ -1,0 +1,35 @@
+#trainGraph{
+  padding-right: 50px;
+
+  .c3-ygrid-line{
+      stroke-dasharray: 3,4;
+  }
+  .c3-ygrid-line text{
+    //   font-size: 1.3em;
+    // font-weight: bold;
+    fill: black;   
+    /*fill:white;
+    text-shadow:
+   -1px -1px 0 black,  
+    1px -1px 0 black,
+    -1px 1px 0 black,
+     1px 1px 0 black;*/
+  
+}
+
+}
+
+#inputGroupMultiselect{
+    .input-group{
+        float: left;
+        padding-right: 15px;
+    }
+}
+#TTAdherencePercentile{
+    .c3-ygrid-line{
+      stroke-dasharray: 3,4;
+  }
+  .c3-ygrid-line text{
+    fill: black;   
+}
+}

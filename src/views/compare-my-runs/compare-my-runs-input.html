@@ -1,0 +1,133 @@
+<div class="wrapper">
+  <acme-navbar></acme-navbar>
+
+
+  <div id="page-wrapper">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3 class="page-header">Compare Runs</h3>
+        </div>
+      </div>
+      <!-- /.col-lg-12 -->
+      <div style="padding-bottom: 50px">
+        <table style="width: 100%">
+          <tbody>
+            <tr>
+              <td style="width: 45%">
+                <form class="form-horizontal" role="form" name="compareRunsForm" id="compareRunsForm" ng-submit="vm.addRun(compareRunsForm)"
+                  novalidate>
+                  <div class="form-group">
+                    <!--<div>-->
+                    <label for="date" class="col-md-3 control-label mandatory">Date</label>
+                    <div class="col-md-6">
+                      <p class="input-group">
+                        <input type="text" name="date" class="form-control" id="date" uib-datepicker-popup="dd/MM/yyyy" ng-model="vm.compareRunsFormdata.date"
+                          ng-click="vm.open()" is-open="vm.datePickerPopup.opened" datepicker-options="vm.dateOptions" required
+                        />
+                        <span class="input-group-btn">
+                            <button type="button" class="btn btn-default" ng-click="vm.open()">
+                            <i class="fa fa-calendar" aria-hidden="true"></i>
+                            </button>
+                          </span>
+                      </p>
+                    </div>
+                    <!--</div>-->
+                  </div>
+                  <div class="form-group typeahead-demo">
+                    <!--<div>-->
+                    <label for="from" class="col-md-3 control-label mandatory">Origin</label>
+                    <div class="col-md-6">
+                      <input type="text" id="origin" name="origin" autocomplete="off" required placeholder={{vm.statusmessage}} ng-disabled='vm.state == "LOADING"'
+                        ng-model="vm.fromStation" ng-model-options="vm.modelOptions" uib-typeahead="station as station.locationName for station in vm.stations | typeaheadFilter:{locationName:$viewValue}| orderBy:vm.smartOrder"
+                        typeahead-popup-template-url="views/customPopupTemplate.html" class="form-control">
+                    </div>
+                    <!--</div>-->
+                      <!--<i class="fa fa-exchange fa-rotate-90" aria-hidden="true"></i>-->
+                  </div>
+                  
+                    
+                  
+                  <div class="form-group typeahead-demo">
+                    <!--<div>-->
+                    <label for="to" class="col-md-3 control-label mandatory">Destination</label>
+                    <div class="col-md-6" ng-class="{ 'has-error' : form.to.$invalid && !form.to.$pristine }">
+                      <input type="text" id="destination" name="destination" autocomplete="off" required placeholder={{vm.statusmessage}} ng-disabled='vm.state == "LOADING"'
+                        ng-model="vm.toStation" ng-model-options="vm.modelOptions" uib-typeahead="station as station.locationName for station in vm.stations | typeaheadFilter:{locationName:$viewValue}| orderBy:vm.smartOrder"
+                        typeahead-popup-template-url="views/customPopupTemplate.html" class="form-control">
+                    </div>
+                    <!--</div>-->
+                  </div>
+                  <div class="form-group typeahead-demo">
+                    <label for="time" class="col-md-3 control-label mandatory">Departure Time</label>
+                    <div class="col-md-6 ">
+                      <input type="text" id="time" name="time" class="form-control" autocomplete="off" required placeholder="{{vm.timePlaceholder}}"
+                        ng-disabled='vm.tstate != "SUCCESS"' ng-model="vm.compareRunsFormdata.departureTime" ng-model-options="vm.modelOptions"
+                        uib-typeahead="time for time in vm.times | filter:$viewValue" typeahead-popup-template-url="views/customPopupTemplate.html"
+                        typeahead-show-hint="true" typeahead-min-length="0">
+                      <span ng-show="vm.tstate == 'LOADING'"><i class="fa fa-refresh fa-spin fa-fw"></i>Loading</span>
+                    </div>
+                    <span class="col-md-5 help-block" ng-show="form.$submitted && form.time.$error.required ||form.time.$invalid && !form.time.$pristine">Select Departure Time</span>
+                    <div class="col-md-5 help-block" ng-show='vm.tstate == "NORESULTS"'>No timings available </div>
+
+                  </div>
+                  <div class="form-group">
+                    
+                    <div style="padding-left:110px">
+                      <input type="submit" value="Add Run" ng-click="showme=true" class="btn btn-primary" />
+                      <!--<div ng-show="">-->
+                      
+                      <input type="submit" ng-click="vm.submit(compareRunsForm)" class="btn btn-primary" />
+                      <!--</div>-->
+                      <button type="button" class="btn btn-primary" ng-click="vm.reset(compareRunsForm)">Reset</button>
+                      <br/>
+                    </div>
+                  </div>
+
+                </form>
+
+              </td>
+              
+            </tr>
+            <tr ng-show="showme" >
+              <td style="vertical-align: top">
+                <table class="table">
+                  <tr>
+                    <th>Date
+                    </th>
+                    <th>Origin
+                    </th>
+                    <th>Destination
+                    </th>
+                    <th>Departure time
+                    </th>
+                  </tr>
+                  <tr ng-repeat="run in vm.allRuns" =>
+                    <td style="word-wrap: break-word;max-width: 160px;">{{run.date | date : mediumDate}}
+                    </td>
+                    <td style="word-wrap: break-word;max-width: 160px;">{{run.origin.locationName}}
+                    </td>
+                    <td style="word-wrap: break-word;max-width: 160px;">{{run.destination.locationName}}
+                    </td>
+                    <td style="word-wrap: break-word;max-width: 160px;">{{run.departureTime}}
+                    </td>
+                    <td> <a ng-click="vm.remove(vm.allRuns, $index)"><button type="button" class="btn btn-default btn"><i class="glyphicon glyphicon-trash"></i></button></a></td>
+                    
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+
+
+      
+
+    </div>
+
+
+
+  </div>
+</div>

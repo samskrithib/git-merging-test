@@ -1,0 +1,39 @@
+{
+	"actualLatenessPercentages": {
+		"More than 15s early": 9.1,
+		"15s early to 15s late": 0,
+		" 15s to 60s late": 0,
+		"60s to 180s late": 81.8,
+		" 180s to 300s": 9.1,
+		"  300s to 600s": 0,
+		" More than 600s late": 0
+	},
+	"optimalLatenessPercentages": {
+		"More than 15s early": 0,
+		"15s early to 15s late": 9.1,
+		" 15s to 60s late": 0,
+		"60s to 180s late": 81.8,
+		" 180s to 300s": 9.1,
+		"  300s to 600s": 0,
+		" More than 600s late": 0
+	},
+    "actualLatenessPercentages1": {
+		"More than 15s early": 9.8,
+		"15s early to 15s late": 0.2,
+		" 15s to 60s late": 0,
+		"60s to 180s late": 71.8,
+		" 180s to 300s": 11.1,
+		"  300s to 600s": 5,
+		" More than 600s late": 3
+	},
+	"optimalLatenessPercentages1": {
+		"More than 15s early": 5,
+		"15s early to 15s late": 20.1,
+		" 15s to 60s late": 10,
+		"60s to 180s late": 50.8,
+		" 180s to 300s": 9.1,
+		"  300s to 600s": 5,
+		" More than 600s late": 10
+	}
+
+}

@@ -1,0 +1,142 @@
+{
+  "unitNumber": "156484",
+  "originTiploc": "NWCSTLE",
+  "destinationTiploc": "CARLILE",
+  "scheduledDepartureTimeAtOrigin": 1487341440000,
+  "rollingStockID": "156",
+  "serviceCode": "21793000",
+  "headcode": "2N33",
+  "energySummaryAdvice": {
+    "graphIndicator": "AVERAGEDRIVING",
+    "energySummaryAdvice": null,
+    "multipleLinksSelectedAdvice": "Multiple results selected, look at individual results for performance advice."
+  },
+  "energySummaryLink": [
+    {
+      "link": "Newcastle - Metrocentre",
+      "energySummary": {
+        "actualEnergyConsumption": 1.7,
+        "optimalEnergyConsumption": 1.7,
+        "onTimeOptimalEnergyConsumption": 1.7,
+        "targetEnergyConsumption": 1.7,
+        "energySummaryAdvice": {
+          "graphIndicator": "GOODDRIVING",
+          "energySummaryAdvice": "Good Driving",
+          "multipleLinksSelectedAdvice": null
+        }
+      }
+    },
+    {
+      "link": "Metrocentre - Prudhoe",
+      "energySummary": {
+        "actualEnergyConsumption": 9,
+        "optimalEnergyConsumption": 9,
+        "onTimeOptimalEnergyConsumption": 9,
+        "targetEnergyConsumption": 8.6,
+        "energySummaryAdvice": {
+          "graphIndicator": "GOODDRIVING",
+          "energySummaryAdvice": "Good Driving",
+          "multipleLinksSelectedAdvice": null
+        }
+      }
+    },
+    {
+      "link": "Prudhoe - Hexham",
+      "energySummary": {
+        "actualEnergyConsumption": 10.5,
+        "optimalEnergyConsumption": 10.5,
+        "onTimeOptimalEnergyConsumption": 8.9,
+        "targetEnergyConsumption": 9.4,
+        "energySummaryAdvice": {
+          "graphIndicator": "GOODDRIVING",
+          "energySummaryAdvice": "Good Driving",
+          "multipleLinksSelectedAdvice": null
+        }
+      }
+    },
+    {
+      "link": "Hexham - Haydon Bridge",
+      "energySummary": {
+        "actualEnergyConsumption": 8.5,
+        "optimalEnergyConsumption": 8.5,
+        "onTimeOptimalEnergyConsumption": 8.5,
+        "targetEnergyConsumption": 7.7,
+        "energySummaryAdvice": {
+          "graphIndicator": "GOODDRIVING",
+          "energySummaryAdvice": "Good Driving",
+          "multipleLinksSelectedAdvice": null
+        }
+      }
+    },
+    {
+      "link": "Haydon Bridge - Bardon Mill",
+      "energySummary": {
+        "actualEnergyConsumption": 5.1,
+        "optimalEnergyConsumption": 5.1,
+        "onTimeOptimalEnergyConsumption": 5.1,
+        "targetEnergyConsumption": 4.3,
+        "energySummaryAdvice": {
+          "graphIndicator": "GOODDRIVING",
+          "energySummaryAdvice": "Good Driving",
+          "multipleLinksSelectedAdvice": null
+        }
+      }
+    },
+    {
+      "link": "Bardon Mill - Haltwhistle",
+      "energySummary": {
+        "actualEnergyConsumption": 6.5,
+        "optimalEnergyConsumption": 6.5,
+        "onTimeOptimalEnergyConsumption": 6.5,
+        "targetEnergyConsumption": 4.9,
+        "energySummaryAdvice": {
+          "graphIndicator": "GOODDRIVING",
+          "energySummaryAdvice": "Good Driving",
+          "multipleLinksSelectedAdvice": null
+        }
+      }
+    },
+    {
+      "link": "Haltwhistle - Brampton",
+      "energySummary": {
+        "actualEnergyConsumption": 11.7,
+        "optimalEnergyConsumption": 11.7,
+        "onTimeOptimalEnergyConsumption": 11.7,
+        "targetEnergyConsumption": 11,
+        "energySummaryAdvice": {
+          "graphIndicator": "GOODDRIVING",
+          "energySummaryAdvice": "Good Driving",
+          "multipleLinksSelectedAdvice": null
+        }
+      }
+    },
+    {
+      "link": "Brampton - Wetheral",
+      "energySummary": {
+        "actualEnergyConsumption": 3.1,
+        "optimalEnergyConsumption": 3.1,
+        "onTimeOptimalEnergyConsumption": 2.6,
+        "targetEnergyConsumption": 2.7,
+        "energySummaryAdvice": {
+          "graphIndicator": "GOODDRIVING",
+          "energySummaryAdvice": "Good Driving",
+          "multipleLinksSelectedAdvice": null
+        }
+      }
+    },
+    {
+      "link": "Wetheral - Carlisle",
+      "energySummary": {
+        "actualEnergyConsumption": 3.3,
+        "optimalEnergyConsumption": 1.7,
+        "onTimeOptimalEnergyConsumption": 0.9,
+        "targetEnergyConsumption": 1.4,
+        "energySummaryAdvice": {
+          "graphIndicator": "POORDRIVING",
+          "energySummaryAdvice": "Could you drive better?",
+          "multipleLinksSelectedAdvice": null
+        }
+      }
+    }
+  ]
+}

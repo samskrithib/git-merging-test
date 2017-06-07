@@ -1,0 +1,52 @@
+<div>
+  <acme-navbar></acme-navbar>
+</div>
+<div class="wrapper">
+  <div id="page-wrapper">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12">
+          <h4  ng-if="vm.getTabs =='TTTrackTrains'" class="page-header">Timetable Adherence Track Trains</h4>
+          <h4  ng-if="vm.getTabs =='TTPercentile'" class="page-header">Timetable Adherence Percentiles</h4>
+        </div>
+        <div class="tabscss col-lg-12 col-xl-8">
+          <uib-tabset ng-if="vm.getTabs =='TTTrackTrains'" justified="true" active="active">
+            <uib-tab index="0" >
+               <div cg-busy="{promise:vm.promise, message:'Loading your chart', minDuration:1000}">
+              <div class="tab-container" id="index0">
+                <div class="subtitle" style="font-size: 0.8em" ng-bind-html="vm.subTitle"></div>
+                <!--<div class="panel panel-default">-->
+                  <!-- <div class="panel-heading">Subtitle</div> -->
+                    <div ng-show="!vm.TTAdherenceTrackTrainsError" id="trainGraph"></div>
+                  <div ng-show="vm.TTAdherenceTrackTrainsError"  ng-bind-html="vm.TTAdherenceTrackTrainsErrorMessage"></div>
+                  </div>
+                  <!-- <div class="panel-footer">Panel Footer</div> -->
+                <!--</div>-->
+              </div>
+            </uib-tab>
+          </uib-tabset>
+          <uib-tabset ng-if="vm.getTabs =='TTPercentile'" justified='true' active="active">
+            <uib-tab  index="1" >
+              <div class="tab-container" id="index1">
+                <div class="subtitle" style="font-size: 0.8em" ng-bind-html="vm.subTitle"></div>
+                <div cg-busy="{promise:vm.promise1, message:'Loading your chart', minDuration:1000}">
+                  <div ng-show="!vm.TTadherencePercentileError">
+                    <div id="TTAdherencePercentile"></div>
+                  </div>
+                  <div ng-show="vm.TTadherencePercentileError" ng-bind-html="vm.TTadherencePercentileErrorMessage"></div>
+                </div>
+              </div>
+              <div class="row"></div>
+            </uib-tab>
+          </uib-tabset>
+          <!-- /.col-lg-12 -->
+          <div>
+
+          </div>
+        </div>
+
+       
+      </div>
+    </div>
+  </div>
+</div>

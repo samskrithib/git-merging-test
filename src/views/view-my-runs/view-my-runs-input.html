@@ -1,0 +1,119 @@
+<div class="wrapper">
+  <acme-navbar></acme-navbar>
+
+
+  <div id="page-wrapper">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3 class="page-header">View Runs</h3>
+        </div>
+      </div>
+      <!-- /.col-lg-12 -->
+      <form class="form-horizontal" role="form" name="form" class="col-xl-8 col-8" id="form" ng-submit="vm.submit(form.$valid)"
+        novalidate>
+        <!--<div class="alert alert-info">All fields marked with an asterisk (*) are required</div>-->
+        <div class="form-group">
+          <div ng-class="{
+          'has-error': form.$submitted && form.date.$invalid, 
+          'has-success': form.$submitted && form.date.$valid}">
+            <label for="inputDate" class="col-md-2 control-label mandatory">Date</label>
+            <div class="col-md-3" ng-class="{'has-error' : form.date.$invalid && !form.date.$pristine }">
+              <p class="input-group">
+                <input type="text" name="date" class="form-control" id="inputDate" uib-datepicker-popup="dd/MM/yyyy" ng-model="vm.input.date"
+                  is-open="vm.dpOpenStatus.withRequired" min="2016-01-01" required placeholder="Date" />
+                <span class="input-group-btn">
+                <button type="button" 
+                        class="btn btn-default" 
+                        ng-click="vm.setDpOpenStatus('withRequired', $event)">
+                  <i class="fa fa-calendar" aria-hidden="true"></i>
+                </button>
+              </span>
+              </p>
+              <span class="help-block" ng-show="form.$submitted && form.date.$error.required">Required</span>
+            </div>
+          </div>
+        </div>
+        <div class="form-group typeahead-demo">
+          <div class="col-md-12">
+            <div class="form-group">
+              <div ng-class="{'has-error': form.$submitted && form.from.$invalid, 
+          'has-success': form.$submitted && form.from.$valid}">
+                <label for="from" class="col-md-2 control-label mandatory">Origin</label>
+                <div class="col-md-3" ng-class="{ 'has-error' : form.from.$invalid && !form.from.$pristine }">
+                  <input type="text" id="from" name="from" autocomplete="off" required placeholder={{vm.statusmessage}} ng-disabled='vm.state == "LOADING"'
+                    ng-model="vm.fromStation" ng-model-options="vm.modelOptions" uib-typeahead="station as station.locationName for station in vm.stations | typeaheadFilter:{locationName:$viewValue}| orderBy:vm.smartOrder"
+                    typeahead-popup-template-url="views/customPopupTemplate.html" class="form-control">
+                  <span class="help-block" ng-show="form.$submitted && form.from.$error.required || form.from.$invalid && !form.from.$pristine">Required</span>
+                </div>
+              </div>
+              <div ng-class="{'has-error': form.$submitted && form.to.$invalid, 
+          'has-success': form.$submitted && form.to.$valid}">
+                <label for="to" class="col-md-2 control-label mandatory">Destination</label>
+                <div class="col-md-3" ng-class="{ 'has-error' : form.to.$invalid && !form.to.$pristine }">
+                  <input type="text" id="to" name="to" autocomplete="off" required placeholder={{vm.statusmessage}} ng-disabled='vm.state == "LOADING"'
+                    ng-model="vm.toStation" ng-model-options="vm.modelOptions" uib-typeahead="station as station.locationName for station in vm.stations | typeaheadFilter:{locationName:$viewValue}| orderBy:vm.smartOrder"
+                    typeahead-popup-template-url="views/customPopupTemplate.html" class="form-control">
+                  <span class="help-block" ng-show="form.$submitted && form.to.$error.required || form.to.$invalid && !form.to.$pristine">Required</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="form-group typeahead-demo">
+          <!--<div class=" label alert-danger" role="alert">Select Departure Time</div>-->
+          <div ng-class="{'has-error': form.$submitted && form.time.$invalid, 
+          'has-success': form.$submitted && form.time.$valid}">
+            <label for="time" class="col-md-2 control-label mandatory">Scheduled Departure Time</label>
+            <div class="col-md-3 " ng-class="{'has-error' : form.time.$invalid && !form.time.$pristine }">
+              <input type="text" id="time" name="time" class="form-control" autocomplete="off" required placeholder="{{vm.timePlaceholder}}"
+                ng-disabled='vm.tstate != "SUCCESS"' ng-model="vm.customTimeSelected" ng-model-options="vm.modelOptions" uib-typeahead="time for time in vm.times | filter:$viewValue"
+                typeahead-popup-template-url="views/customPopupTemplate.html" typeahead-show-hint="true" typeahead-min-length="0">
+              <span
+                ng-show="vm.tstate == 'LOADING'"><i class="fa fa-refresh fa-spin fa-fw"></i>Loading</span>
+            </div>
+            <span class="col-md-5 help-block" ng-show="form.$submitted && form.time.$error.required ||form.time.$invalid && !form.time.$pristine">Select Departure Time</span>
+            <div class="col-md-5 help-block" ng-show='vm.tstate == "NORESULTS"'>No timings available </div>
+          </div>
+        </div>
+
+        <!--<div class="form-group">
+          <label class="col-md-2  control-label mandatory">Report type</label>
+          <div class="col-8  form-group" name="multipleCheckbox" id="multipleCheckbox">
+
+            <label class="checkbox-inline no_indent" ng-repeat="(key, val) in vm.itemsList">
+              <input type="checkbox"
+                     ng-required="!vm.someSelected(vm.formData.selectedItems)"
+                     ng-model="vm.formData.selectedItems[val.name]"
+                     ng-init="vm.formData.selectedItems[val.name] = true"
+                     ng-click="vm.toggleCheck(val.id, val.name)">
+               {{::val.name}}
+            </label>
+            <div class="col-md-6">
+              <span class="help-block" ng-show="!vm.someSelected(vm.formData.selectedItems)"> You must choose at least one item</span>
+            </div>
+          </div>
+        </div>-->
+
+        <div class="form-group">
+          <div class="col-md-12 col-md-offset-2">
+            <input type="submit" class="btn btn-primary" />
+            <button type="button" class="btn btn-primary" ng-click="vm.reset(form)">Reset</button>
+            <br/>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <diV class="col-md-12 col-md-offset-2">
+          <a ui-sref="comparemyrunsInput" type="button" class="btn btn-success">Compare Runs</a>
+        </div>
+        </div>
+
+      </form>
+    </div>
+
+
+
+  </div>
+</div>

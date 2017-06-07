@@ -1,0 +1,73 @@
+<head>
+  <title>DASsim | Reports</title>
+</head>
+<div>
+  <acme-navbar></acme-navbar>
+</div>
+
+<div id="page-wrapper">
+  <div>
+    <div class="col-lg-12">
+      <!--<h4 class="page-header">&lt;!&ndash;{{chartSubtitle}}  Showing results for {{links.selected}}&ndash;&gt;</h4>-->
+    </div>
+    <!-- Nav tabs -->
+    <div class="tabscss col-xl-8">
+    <uib-tabset>
+      <uib-tab ng-repeat="tab in vm.tabs" active="tab.active" disable="tab.disabled">
+        <uib-tab-heading>
+          {{::tab.title}}
+        </uib-tab-heading>
+        <!-- {{tab.content}} -->
+        <div class="tab-container row">
+        
+        <div class="subtitle row ">
+        <div class="col-md-6 col-xs-12">
+          
+          <div ng-if="tab.id == 2" >
+            <div class="driverAdvice">
+            <div style="color:  #DCDCDC ;">{{vm.runtimeDescription}}</div>
+            <div ng-if="vm.earlyDepartureAdvice">{{vm.earlyDepartureAdvice}}</div>
+            <div ng-if="vm.earlyArrivalAdvice">{{vm.earlyArrivalAdvice}}</div>
+            <div ng-if="vm.timeSavedAdvice">{{vm.timeSavedAdvice}}</div><span ng-if="vm.timeSavingAdvice">{{vm.timeSavingAdvice}}</span> 
+            <div ng-if="vm.energyAdvice">{{vm.energyAdvice}}</div>
+            <div ng-if="vm.goodDrivingAdvice">{{vm.goodDrivingAdvice}}</div>
+            </div>
+          </div> 
+        </div>
+        <div class="col-md-6 col-xs-12">
+          <div style="text-align: right; font-size: 0.8em">{{vm.chartSubtitle}}
+          <div ng-if="tab.id == 2" >
+            <div class="btn-group" id="switchbtn" style="float: right;">
+              <label class="btn btn-sm btn-default" ng-model="vm.radioModel" uib-btn-radio="'Kph'" value='Kph'>Kph</label>
+              <label class="btn btn-sm btn-default" ng-model="vm.radioModel" uib-btn-radio="'Mph'" value='Mph'>Mph</label>
+            </div>
+          <div id="speedLabel">Speed in:   </div>
+          </div>
+        </div>
+        </div>
+        
+        
+
+        </div>
+          <!--<div><h3>{{title}}</h3></div>-->
+        <div class="clearfix" compile-html="tab.content"></div>
+        <div ng-if="tab.id == 1" >
+            <!--{{vm.latenessSummaries}}-->
+          </div>
+          <!-- <div ng-show="vm.error" class="container"><h2>{{vm.errormessage}}</h2></div> -->
+        <div cg-busy="{promise:vm.promise, message:'Loading your chart', minDuration:1000}">
+          <div id="chart{{tab.id}}" ng-bind="chart{{tab.id}}"></div>
+          <div ng-show="!vm.error{{tab.id}}" ng-include = "vm.getInclude(tab.id)"></div>
+          <div ng-show="vm.error{{tab.id}}">
+            <div ng-if="tab.id == 0" ng-bind-html="vm.energySummaryErrorMessage"></div>
+            <div ng-if="tab.id == 1" ng-bind-html="vm.onTimeErrorMessage"></div>
+            <div ng-if="tab.id == 2" ng-bind-html="vm.speedDistanceErrorMessage"></div>
+          </div>
+        </div>
+        
+        </div>
+      </uib-tab>
+    </uib-tabset>
+    </div>
+  </div>
+</div>

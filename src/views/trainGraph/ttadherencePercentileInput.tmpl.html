@@ -1,0 +1,145 @@
+<form class="form-horizontal" role="form" name="form" id="form" ng-submit="vm.timetableAdherenceSubmit(form.$valid)" novalidate>
+                <!--<div class="alert alert-info">All fields marked with an asterisk (*) are required</div>-->
+                
+                <div class="panel panel-primary">
+                    <div class="panel-body">
+                        <div class="form-group typeahead-demo">
+                            <div ng-class="{'has-error': form.$submitted && form.from.$invalid, 'has-success': form.$submitted && form.from.$valid}">
+                                <label for="from" class="col-md-2 control-label mandatory">Origin</label>
+                                <div class="col-md-3" ng-class="{ 'has-error' : form.from.$invalid && !form.from.$pristine }">
+                                    <input type="text" id="from" name="from" autocomplete="off" required placeholder={{vm.statusmessage}} ng-disabled='vm.state == "LOADING"'
+                                        ng-model="vm.formData.fromStation" ng-model-options="vm.modelOptions" uib-typeahead="station as station.locationName for station in vm.stations | typeaheadFilter:{locationName:$viewValue}| orderBy:vm.smartOrder"
+                                        typeahead-popup-template-url="views/customPopupTemplate.html" class="form-control">
+                                    <span class="help-block" ng-show="form.$submitted && form.from.$error.required || form.from.$invalid && !form.from.$pristine">Required</span>
+                                </div>
+                            </div>
+                            <div ng-class="{'has-error': form.$submitted && form.to.$invalid,'has-success': form.$submitted && form.to.$valid}">
+                                <label for="to" class="col-md-2 control-label mandatory">Destination</label>
+                                <div class="col-md-3" ng-class="{ 'has-error' : form.to.$invalid && !form.to.$pristine }">
+                                    <input type="text" id="to" name="to" autocomplete="off" required placeholder={{vm.statusmessage}} ng-disabled='vm.state == "LOADING"'
+                                        ng-model="vm.formData.toStation" ng-model-options="vm.modelOptions" uib-typeahead="station as station.locationName for station in vm.stations | typeaheadFilter:{locationName:$viewValue}| orderBy:vm.smartOrder"
+                                        typeahead-popup-template-url="views/customPopupTemplate.html" class="form-control">
+                                    <span class="help-block" ng-show="form.$submitted && form.to.$error.required || form.to.$invalid && !form.to.$pristine">Required</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="form-group">
+                            <div ng-class="{'has-error': form.$submitted && form.fromDate.$invalid,'has-success': form.$submitted && form.fromDate.$valid}">
+                                <label for="fromDate" class="col-md-2 control-label mandatory">From Date</label>
+                                <div class="col-md-3" ng-class="{ 'has-error' : form.fromDate.$invalid && !form.fromDate.$pristine }">
+                                    <p class="input-group">
+                                        <input type="text" name="fromDate" class="form-control" uib-datepicker-popup ng-model="vm.formData.fromDate" is-open="vm.popup1.opened"
+                                            datepicker-options="vm.dateOptions" required close-text="Close" />
+                                        <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
+                                        <span class="input-group-btn">
+                                    <button type="button" class="btn btn-default" ng-click="vm.open1()"><i class="fa fa-calendar" aria-hidden="true"></i></button>
+                                </span>
+                                    </p>
+                                    <span class="help-block" ng-show="form.$submitted && form.fromDate.$error.required">Required</span>
+                                </div>
+                            </div>
+                            <div ng-class="{'has-error': form.$submitted && form.toDate.$invalid,'has-success': form.$submitted && form.toDate.$valid}">
+                                <label for="toDate" class="col-md-2 control-label mandatory">To Date</label>
+                                <div class="col-md-3" ng-class="{ 'has-error' : form.toDate.$invalid && !form.toDate.$pristine }">
+                                    <span class="help-block" ng-show="form.toDate.$invalid && !form.toDate.$pristine">Required</span>
+                                    <p class="input-group">
+                                        <input type="text" name="toDate" class="form-control" uib-datepicker-popup ng-model="vm.formData.toDate" is-open="vm.popup2.opened"
+                                            datepicker-options="vm.dateOptions" ng-required="true" close-text="Close" min="vm.form.fromdate"
+                                        />
+                                        <span class="input-group-btn">
+                                    <button type="button" class="btn btn-default" ng-click="vm.open2()"><i class="fa fa-calendar" aria-hidden="true"></i></button>
+                                </span>
+                                    </p>
+                                    <span class="help-block" ng-show="form.$submitted && form.toDate.$error.required">Required</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="daysRange" class="control-label mandatory col-md-2">Days Range</label>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="btn-grp" role="group" data-toggle="buttons">
+                                    <ul class="list-inline">
+                                        <li ng-repeat="days in vm.selectWeekdayOrWeekend">
+                                            <label class="btn btn-default">{{::days.name}}
+                                        <input type="radio" name="options"  
+                                            ng-model="vm.daysRangeOptionSelected" ng-value="days.name">
+                                    </label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-offset-2 col-lg-6 col-md-6" ng-show="vm.daysRangeOptionSelected === 'Weekdays'">
+                                <ui-select multiple close-on-select="false" ng-model="vm.formData.weekdays" theme="bootstrap" >
+                                    <ui-select-match placeholder="Select weekdays...">{{::$item}}</ui-select-match>
+                                    <ui-select-choices repeat="weekday in vm.weekdays| filter: $select.search">
+                                        {{::weekday}}
+                                    </ui-select-choices>
+                                </ui-select>
+
+                            </div>
+                            <div class="col-lg-offset-2 col-lg-6 col-md-6" ng-show="vm.daysRangeOptionSelected === 'Weekends'">
+                                <ui-select multiple close-on-select="false" ng-model="vm.formData.weekends" theme="bootstrap" >
+                                    <ui-select-match placeholder="Select weekends...">{{::$item}}</ui-select-match>
+                                    <ui-select-choices repeat="weekend in vm.weekends| filter: $select.search">
+                                        {{::weekend}}
+                                    </ui-select-choices>
+                                </ui-select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div ng-class="{'has-error': form.$submitted && form.startTime.$invalid,'has-success': form.$submitted && form.startTime.$valid}">
+                                <label for="startTime" class="col-md-2 control-label mandatory">Start Time</label>
+                                <div class="col-md-3" ng-class="{ 'has-error' : form.startTime.$invalid && !form.startTime.$pristine }">
+
+                                    <div uib-timepicker ng-model="vm.formData.startTime" hour-step="1" minute-step="30" show-meridian="false" required></div>
+
+                                    <span class="help-block" ng-show="form.$submitted && form.startTime.$error.required">Required</span>
+                                </div>
+                            </div>
+                            <div ng-class="{'has-error': form.$submitted && form.endTime.$invalid,'has-success': form.$submitted && form.endTime.$valid}">
+                                <label for="endTime" class="col-md-2 control-label mandatory">End Time</label>
+                                <div class="col-md-3" ng-class="{ 'has-error' : form.endTime.$invalid && !form.endTime.$pristine }">
+                                    <div uib-timepicker ng-model="vm.formData.endTime" hour-step="1" minute-step="30" show-meridian="false" required></div>
+                                    <span class="help-block" ng-show="form.$submitted && form.endTime.$error.required">Required</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                                <div ng-class="{'has-error': form.$submitted && form.selectPercentile.$invalid, 'has-success': form.$submitted && form.selectPercentile.$valid}">
+                                <label for="selectPercentile" class="control-label mandatory col-md-2">Select Percentile</label>
+                                <div class="col-md-3" ng-class="{ 'has-error' : form.selectPercentile.$invalid && !form.selectPercentile.$pristine }">
+                                    <ui-select ng-model="vm.formData.percentileSelected" theme="bootstrap">
+                                        <ui-select-match placeholder="Select percentile...">{{::$select.selected}}</ui-select-match>
+                                        <ui-select-choices repeat="percentile in vm.percentilesList | filter: $select.search">
+                                            <div ng-bind-html="percentile | highlight: $select.search"></div>
+                                        </ui-select-choices>
+                                    </ui-select>
+                                    <input type="hidden" ng-model="vm.formData.percentileSelected" name="selectPercentile" required />
+                                    <span class="help-block" ng-show="form.$submitted && form.selectPercentile.$error.required">Required</span>
+                                </div>
+                            </div>
+
+                            <label for="servicecode" class="control-label col-md-2">Service code <small>(optional)</small></label>
+                            <div class="col-md-3">
+
+                                <ui-select multiple ng-model="vm.formData.serviceCode" theme="bootstrap">
+                                    <ui-select-match placeholder="Select serviceCode...">{{::$item}}</ui-select-match>
+                                    <ui-select-choices repeat="serviceCode in vm.serviceCodeChoices| filter: $select.search">
+                                        {{::serviceCode}}
+                                    </ui-select-choices>
+                                </ui-select>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="text-center">
+                                <button type="submit" ng-disabled="(form.$submitted && form.$invalid)" class="btn btn-primary">Submit <i class="fa fa-long-arrow-right"></i></button>
+                                <br/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>

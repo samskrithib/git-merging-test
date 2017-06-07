@@ -1,0 +1,3484 @@
+{
+    "energySummaries": [
+        {
+            "headcode": "2N17",
+            "originTiploc": "NWCSTLE",
+            "destinationTiploc": "CARLILE",
+            "rollingStockID": "156",
+            "scheduledDepartureTimeAtOrigin": 1490865840000,
+            "serviceCode": "21793000",
+            "unitNumber": "156451",
+            "energySummaryAdvice": null,
+            "energySummaryLinks": [
+                {
+                    "energySummary": {
+                        "actualEnergyConsumption": 2.0,
+                        "energySummaryAdvice": {
+                            "energySummaryAdvice": "Good Driving",
+                            "graphIndicator": "POORDRIVING",
+                            "multipleLinksSelectedAdvice": null
+                        },
+                        "onTimeOptimalEnergyConsumption": 2.0,
+                        "optimalEnergyConsumption": 2.0,
+                        "targetEnergyConsumption": 2.1
+                    },
+                    "link": "Newcastle - Metrocentre"
+                },
+                {
+                    "energySummary": {
+                        "actualEnergyConsumption": 9.7,
+                        "energySummaryAdvice": {
+                            "energySummaryAdvice": "Good Driving",
+                            "graphIndicator": "GOODDRIVING",
+                            "multipleLinksSelectedAdvice": null
+                        },
+                        "onTimeOptimalEnergyConsumption": 9.7,
+                        "optimalEnergyConsumption": 9.7,
+                        "targetEnergyConsumption": 9.6
+                    },
+                    "link": "Metrocentre - Prudhoe"
+                },
+                {
+                    "energySummary": {
+                        "actualEnergyConsumption": 11.0,
+                        "energySummaryAdvice": {
+                            "energySummaryAdvice": "Good Driving",
+                            "graphIndicator": "GOODDRIVING",
+                            "multipleLinksSelectedAdvice": null
+                        },
+                        "onTimeOptimalEnergyConsumption": 11.0,
+                        "optimalEnergyConsumption": 11.0,
+                        "targetEnergyConsumption": 11.4
+                    },
+                    "link": "Prudhoe - Hexham"
+                },
+                {
+                    "energySummary": {
+                        "actualEnergyConsumption": 8.5,
+                        "energySummaryAdvice": {
+                            "energySummaryAdvice": "Good Driving",
+                            "graphIndicator": "GOODDRIVING",
+                            "multipleLinksSelectedAdvice": null
+                        },
+                        "onTimeOptimalEnergyConsumption": 8.5,
+                        "optimalEnergyConsumption": 8.5,
+                        "targetEnergyConsumption": 9.1
+                    },
+                    "link": "Hexham - Haydon Bridge"
+                },
+                {
+                    "energySummary": {
+                        "actualEnergyConsumption": 5.2,
+                        "energySummaryAdvice": {
+                            "energySummaryAdvice": "Good Driving",
+                            "graphIndicator": "GOODDRIVING",
+                            "multipleLinksSelectedAdvice": null
+                        },
+                        "onTimeOptimalEnergyConsumption": 4.6,
+                        "optimalEnergyConsumption": 5.2,
+                        "targetEnergyConsumption": 4.8
+                    },
+                    "link": "Haydon Bridge - Bardon Mill"
+                },
+                {
+                    "energySummary": {
+                        "actualEnergyConsumption": 6.2,
+                        "energySummaryAdvice": {
+                            "energySummaryAdvice": "Good Driving",
+                            "graphIndicator": "GOODDRIVING",
+                            "multipleLinksSelectedAdvice": null
+                        },
+                        "onTimeOptimalEnergyConsumption": 6.2,
+                        "optimalEnergyConsumption": 6.2,
+                        "targetEnergyConsumption": 6.9
+                    },
+                    "link": "Bardon Mill - Haltwhistle"
+                },
+                {
+                    "energySummary": {
+                        "actualEnergyConsumption": 11.4,
+                        "energySummaryAdvice": {
+                            "energySummaryAdvice": "Good Driving",
+                            "graphIndicator": "GOODDRIVING",
+                            "multipleLinksSelectedAdvice": null
+                        },
+                        "onTimeOptimalEnergyConsumption": 11.4,
+                        "optimalEnergyConsumption": 11.4,
+                        "targetEnergyConsumption": 12.1
+                    },
+                    "link": "Haltwhistle - Brampton"
+                },
+                {
+                    "energySummary": {
+                        "actualEnergyConsumption": 3.1,
+                        "energySummaryAdvice": {
+                            "energySummaryAdvice": "Good Driving",
+                            "graphIndicator": "GOODDRIVING",
+                            "multipleLinksSelectedAdvice": null
+                        },
+                        "onTimeOptimalEnergyConsumption": 2.6,
+                        "optimalEnergyConsumption": 3.1,
+                        "targetEnergyConsumption": 2.7
+                    },
+                    "link": "Brampton - Wetheral"
+                },
+                {
+                    "energySummary": {
+                        "actualEnergyConsumption": 3.1,
+                        "energySummaryAdvice": {
+                            "energySummaryAdvice": "Could you drive better?",
+                            "graphIndicator": "POORDRIVING",
+                            "multipleLinksSelectedAdvice": null
+                        },
+                        "onTimeOptimalEnergyConsumption": 0.8,
+                        "optimalEnergyConsumption": 1.0,
+                        "targetEnergyConsumption": 1.3
+                    },
+                    "link": "Wetheral - Carlisle"
+                }
+            ]
+        },
+        {
+            "headcode": "2N17",
+            "originTiploc": "NWCSTLE",
+            "destinationTiploc": "CARLILE",
+            "rollingStockID": "156",
+            "scheduledDepartureTimeAtOrigin": 1490865840000,
+            "serviceCode": "21793000",
+            "unitNumber": "156451",
+            "energySummaryAdvice": null,
+            "energySummaryLinks": [
+                {
+                    "energySummary": {
+                        "actualEnergyConsumption": 4.0,
+                        "energySummaryAdvice": {
+                            "energySummaryAdvice": "Good Driving",
+                            "graphIndicator": "GOODDRIVING",
+                            "multipleLinksSelectedAdvice": null
+                        },
+                        "onTimeOptimalEnergyConsumption": 2.0,
+                        "optimalEnergyConsumption": 3.0,
+                        "targetEnergyConsumption": 2.1
+                    },
+                    "link": "Newcastle - Metrocentre"
+                },
+                {
+                    "energySummary": {
+                        "actualEnergyConsumption": 10.7,
+                        "energySummaryAdvice": {
+                            "energySummaryAdvice": "Good Driving",
+                            "graphIndicator": "GOODDRIVING",
+                            "multipleLinksSelectedAdvice": null
+                        },
+                        "onTimeOptimalEnergyConsumption": 8.7,
+                        "optimalEnergyConsumption": 7.7,
+                        "targetEnergyConsumption": 9.6
+                    },
+                    "link": "Metrocentre - Prudhoe"
+                },
+                {
+                    "energySummary": {
+                        "actualEnergyConsumption": 1.0,
+                        "energySummaryAdvice": {
+                            "energySummaryAdvice": "Good Driving",
+                            "graphIndicator": "GOODDRIVING",
+                            "multipleLinksSelectedAdvice": null
+                        },
+                        "onTimeOptimalEnergyConsumption": 10.0,
+                        "optimalEnergyConsumption": 7.0,
+                        "targetEnergyConsumption": 11.4
+                    },
+                    "link": "Prudhoe - Hexham"
+                },
+                {
+                    "energySummary": {
+                        "actualEnergyConsumption": 3.5,
+                        "energySummaryAdvice": {
+                            "energySummaryAdvice": "Good Driving",
+                            "graphIndicator": "GOODDRIVING",
+                            "multipleLinksSelectedAdvice": null
+                        },
+                        "onTimeOptimalEnergyConsumption": 5.5,
+                        "optimalEnergyConsumption": 8.5,
+                        "targetEnergyConsumption": 9.1
+                    },
+                    "link": "Hexham - Haydon Bridge"
+                },
+                {
+                    "energySummary": {
+                        "actualEnergyConsumption": 7.2,
+                        "energySummaryAdvice": {
+                            "energySummaryAdvice": "Good Driving",
+                            "graphIndicator": "GOODDRIVING",
+                            "multipleLinksSelectedAdvice": null
+                        },
+                        "onTimeOptimalEnergyConsumption": 6.6,
+                        "optimalEnergyConsumption": 5.4,
+                        "targetEnergyConsumption": 4.8
+                    },
+                    "link": "Haydon Bridge - Bardon Mill"
+                },
+                {
+                    "energySummary": {
+                        "actualEnergyConsumption": 6.8,
+                        "energySummaryAdvice": {
+                            "energySummaryAdvice": "Good Driving",
+                            "graphIndicator": "GOODDRIVING",
+                            "multipleLinksSelectedAdvice": null
+                        },
+                        "onTimeOptimalEnergyConsumption": 7.2,
+                        "optimalEnergyConsumption": 2.2,
+                        "targetEnergyConsumption": 6.9
+                    },
+                    "link": "Bardon Mill - Haltwhistle"
+                },
+                {
+                    "energySummary": {
+                        "actualEnergyConsumption": 15.4,
+                        "energySummaryAdvice": {
+                            "energySummaryAdvice": "Good Driving",
+                            "graphIndicator": "GOODDRIVING",
+                            "multipleLinksSelectedAdvice": null
+                        },
+                        "onTimeOptimalEnergyConsumption": 17.4,
+                        "optimalEnergyConsumption": 1.4,
+                        "targetEnergyConsumption": 12.1
+                    },
+                    "link": "Haltwhistle - Brampton"
+                },
+                {
+                    "energySummary": {
+                        "actualEnergyConsumption": 7.1,
+                        "energySummaryAdvice": {
+                            "energySummaryAdvice": "Good Driving",
+                            "graphIndicator": "GOODDRIVING",
+                            "multipleLinksSelectedAdvice": null
+                        },
+                        "onTimeOptimalEnergyConsumption": 2.4,
+                        "optimalEnergyConsumption": 8.1,
+                        "targetEnergyConsumption": 2.7
+                    },
+                    "link": "Brampton - Wetheral"
+                },
+                {
+                    "energySummary": {
+                        "actualEnergyConsumption": 8.1,
+                        "energySummaryAdvice": {
+                            "energySummaryAdvice": "Could you drive better?",
+                            "graphIndicator": "POORDRIVING",
+                            "multipleLinksSelectedAdvice": null
+                        },
+                        "onTimeOptimalEnergyConsumption": 7.8,
+                        "optimalEnergyConsumption": 1.9,
+                        "targetEnergyConsumption": 1.3
+                    },
+                    "link": "Wetheral - Carlisle"
+                }
+            ]
+        }
+    ],
+    "latenessSummaries": [
+        {
+        	"headcode": "2N17",
+            "originTiploc": "NWCSTLE",
+            "destinationTiploc": "CARLILE",
+            "rollingStockID": "156",
+            "scheduledDepartureTimeAtOrigin": 1490865840000,
+            "serviceCode": "21793000",
+            "unitNumber": "156451",
+            "acheivableArrivalLatenessInSeconds": 310,
+            "actualArrivalEarlinessInSeconds": -480,
+            "actualArrivalLatenessInSeconds": 50,
+            "latenessSummaries": [
+                {
+                    "latenessSummary": {
+                        "acheivableArrivalLatenessInSeconds": 30,
+                        "actualArrivalEarlinessInSeconds": -20,
+                        "actualArrivalLatenessInSeconds": 10
+                    },
+                    "link": "A-B"
+                },
+                {
+                    "latenessSummary": {
+                        "acheivableArrivalLatenessInSeconds": 10,
+                        "actualArrivalEarlinessInSeconds": -40,
+                        "actualArrivalLatenessInSeconds": 30
+                    },
+                    "link": "B-C"
+                }
+            ]
+        },
+        {
+        	"headcode": "2N17",
+            "originTiploc": "NWCSTLE",
+            "destinationTiploc": "CARLILE",
+            "rollingStockID": "156",
+            "scheduledDepartureTimeAtOrigin": 1490865840000,
+            "serviceCode": "21793000",
+            "unitNumber": "156451",
+            "acheivableArrivalLatenessInSeconds": 130,
+            "actualArrivalEarlinessInSeconds": -490,
+            "actualArrivalLatenessInSeconds": 80,
+            "latenessSummaries": [
+                {
+                    "latenessSummary": {
+                        "acheivableArrivalLatenessInSeconds": 80,
+                        "actualArrivalEarlinessInSeconds": 0,
+                        "actualArrivalLatenessInSeconds": 50
+                    },
+                    "link": "A-B"
+                },
+                {
+                    "latenessSummary": {
+                        "acheivableArrivalLatenessInSeconds": 60,
+                        "actualArrivalEarlinessInSeconds": 0,
+                        "actualArrivalLatenessInSeconds": 70
+                    },
+                    "link": "B-C"
+                }
+            ]
+        }
+    ],
+    "speedDistanceReports": [
+        {
+            "headcode": "2N17",
+            "originTiploc": "NWCSTLE",
+            "destinationTiploc": "CARLILE",
+            "rollingStockID": "156",
+            "scheduledDepartureTimeAtOrigin": 1490865840000,
+            "serviceCode": "21793000",
+            "unitNumber": "156451",
+            "scaledElevationList": [
+                {
+                    "position": 0.0,
+                    "scaledElevation": 0.0
+                },
+                {
+                    "position": 193.5,
+                    "scaledElevation": 0.0
+                },
+                {
+                    "position": 619.4,
+                    "scaledElevation": -1.4
+                },
+                {
+                    "position": 941.2,
+                    "scaledElevation": -0.6
+                },
+                {
+                    "position": 965.4,
+                    "scaledElevation": -0.5
+                },
+                {
+                    "position": 1561.7,
+                    "scaledElevation": 1.4
+                },
+                {
+                    "position": 1609.0,
+                    "scaledElevation": 0.9
+                },
+                {
+                    "position": 1674.0,
+                    "scaledElevation": -0.1
+                },
+                {
+                    "position": 2214.0,
+                    "scaledElevation": -8.5
+                },
+                {
+                    "position": 2434.0,
+                    "scaledElevation": -10.2
+                },
+                {
+                    "position": 3344.0,
+                    "scaledElevation": -20.1
+                },
+                {
+                    "position": 3574.0,
+                    "scaledElevation": -21.2
+                },
+                {
+                    "position": 3774.0,
+                    "scaledElevation": -20.8
+                },
+                {
+                    "position": 4164.0,
+                    "scaledElevation": -23.2
+                },
+                {
+                    "position": 4574.0,
+                    "scaledElevation": -20.5
+                },
+                {
+                    "position": 5254.0,
+                    "scaledElevation": -24.8
+                },
+                {
+                    "position": 6034.0,
+                    "scaledElevation": -26.0
+                },
+                {
+                    "position": 6053.0,
+                    "scaledElevation": -26.0
+                }
+            ],
+            "speedDistanceProfiles": {
+                "actualSpeedAndPositionList": [
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 0.0,
+                        "speed": 0.0
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 0.0,
+                        "speed": 0.1
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 0.0,
+                        "speed": 0.2
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 0.7,
+                        "speed": 2.3
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 2.5,
+                        "speed": 4.5
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5.4,
+                        "speed": 6.7
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 9.5,
+                        "speed": 8.9
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 14.8,
+                        "speed": 11.0
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 21.2,
+                        "speed": 13.2
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 28.7,
+                        "speed": 15.4
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 32.3,
+                        "speed": 16.3
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 32.7,
+                        "speed": 16.3
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 56.8,
+                        "speed": 18.4
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 83.7,
+                        "speed": 20.4
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 113.5,
+                        "speed": 22.5
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 146.2,
+                        "speed": 24.5
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 167.1,
+                        "speed": 25.7
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 167.8,
+                        "speed": 25.8
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 168.6,
+                        "speed": 25.8
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 240.2,
+                        "speed": 26.8
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 240.9,
+                        "speed": 26.8
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 312.7,
+                        "speed": 25.9
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 313.4,
+                        "speed": 26.0
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 353.1,
+                        "speed": 28.0
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 391.7,
+                        "speed": 29.8
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 392.5,
+                        "speed": 29.8
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 554.2,
+                        "speed": 30.2
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 555.1,
+                        "speed": 30.2
+                    },
+                    {
+                        "mode": "COAST",
+                        "position": 634.5,
+                        "speed": 29.4
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 635.3,
+                        "speed": 29.4
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 636.2,
+                        "speed": 29.4
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 877.6,
+                        "speed": 29.3
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 878.4,
+                        "speed": 29.3
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 910.4,
+                        "speed": 31.4
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 944.7,
+                        "speed": 33.5
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 955.9,
+                        "speed": 34.1
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 956.9,
+                        "speed": 34.2
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1010.6,
+                        "speed": 36.2
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1067.5,
+                        "speed": 38.3
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1069.7,
+                        "speed": 38.3
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1070.7,
+                        "speed": 38.3
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1282.4,
+                        "speed": 39.4
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1283.5,
+                        "speed": 39.4
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1393.9,
+                        "speed": 39.2
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1395.0,
+                        "speed": 39.2
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1501.7,
+                        "speed": 40.0
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1502.8,
+                        "speed": 40.0
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1577.0,
+                        "speed": 42.1
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1602.9,
+                        "speed": 42.8
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1604.1,
+                        "speed": 42.9
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1640.7,
+                        "speed": 45.0
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1679.1,
+                        "speed": 47.1
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1719.2,
+                        "speed": 49.2
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1745.5,
+                        "speed": 50.6
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1747.0,
+                        "speed": 50.7
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1778.6,
+                        "speed": 52.8
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1811.5,
+                        "speed": 54.9
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1845.7,
+                        "speed": 57.0
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1881.2,
+                        "speed": 59.1
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1907.8,
+                        "speed": 60.6
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1909.5,
+                        "speed": 60.5
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 2000.4,
+                        "speed": 58.5
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 2078.8,
+                        "speed": 56.7
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 2080.3,
+                        "speed": 56.7
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 2163.8,
+                        "speed": 58.8
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 2250.2,
+                        "speed": 60.9
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 2339.6,
+                        "speed": 62.9
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 2397.9,
+                        "speed": 64.2
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 2399.7,
+                        "speed": 64.2
+                    },
+                    {
+                        "mode": "COAST",
+                        "position": 2484.0,
+                        "speed": 65.0
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 2543.8,
+                        "speed": 65.5
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 2545.7,
+                        "speed": 65.5
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 2747.4,
+                        "speed": 65.3
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 2749.2,
+                        "speed": 65.3
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 2909.5,
+                        "speed": 64.4
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 2911.3,
+                        "speed": 64.4
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3104.2,
+                        "speed": 64.2
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3106.0,
+                        "speed": 64.0
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3135.7,
+                        "speed": 61.8
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3164.3,
+                        "speed": 59.6
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3191.9,
+                        "speed": 57.3
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3218.5,
+                        "speed": 55.1
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3244.0,
+                        "speed": 52.9
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3255.6,
+                        "speed": 51.8
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3257.1,
+                        "speed": 51.7
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3281.0,
+                        "speed": 49.5
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3303.8,
+                        "speed": 47.4
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3325.7,
+                        "speed": 45.2
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3346.5,
+                        "speed": 43.0
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3362.9,
+                        "speed": 41.3
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3364.1,
+                        "speed": 41.3
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3478.6,
+                        "speed": 40.3
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3479.7,
+                        "speed": 40.3
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3485.3,
+                        "speed": 40.3
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3486.5,
+                        "speed": 40.3
+                    },
+                    {
+                        "mode": "COAST",
+                        "position": 3587.8,
+                        "speed": 39.8
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3595.5,
+                        "speed": 39.8
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3596.6,
+                        "speed": 39.8
+                    },
+                    {
+                        "mode": "COAST",
+                        "position": 3614.2,
+                        "speed": 39.5
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3621.9,
+                        "speed": 39.4
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3701.5,
+                        "speed": 38.1
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3702.6,
+                        "speed": 38.1
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3810.0,
+                        "speed": 39.2
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3811.1,
+                        "speed": 39.3
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3909.6,
+                        "speed": 41.3
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3910.7,
+                        "speed": 41.4
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3935.5,
+                        "speed": 43.6
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3961.6,
+                        "speed": 45.8
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3988.9,
+                        "speed": 47.9
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 4017.5,
+                        "speed": 50.1
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 4047.3,
+                        "speed": 52.2
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 4059.0,
+                        "speed": 53.0
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 4060.5,
+                        "speed": 53.1
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 4111.7,
+                        "speed": 55.2
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 4164.8,
+                        "speed": 57.3
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 4220.0,
+                        "speed": 59.5
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 4277.1,
+                        "speed": 61.6
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 4336.3,
+                        "speed": 63.7
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 4373.9,
+                        "speed": 65.0
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 4375.7,
+                        "speed": 65.0
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 4377.5,
+                        "speed": 65.1
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 4471.1,
+                        "speed": 67.1
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 4567.6,
+                        "speed": 69.2
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 4581.1,
+                        "speed": 69.4
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 4583.0,
+                        "speed": 69.4
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 4943.1,
+                        "speed": 70.7
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 4945.0,
+                        "speed": 70.7
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 4947.0,
+                        "speed": 70.7
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 4949.0,
+                        "speed": 70.6
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5034.0,
+                        "speed": 68.5
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5116.5,
+                        "speed": 66.5
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5155.0,
+                        "speed": 65.5
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5156.8,
+                        "speed": 65.5
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5319.4,
+                        "speed": 66.0
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5321.2,
+                        "speed": 66.0
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5433.1,
+                        "speed": 63.9
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5541.5,
+                        "speed": 61.9
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5646.3,
+                        "speed": 59.8
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5677.7,
+                        "speed": 59.1
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5679.3,
+                        "speed": 59.0
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5705.0,
+                        "speed": 56.7
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5729.8,
+                        "speed": 54.5
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5753.5,
+                        "speed": 52.2
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5776.2,
+                        "speed": 50.0
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5797.9,
+                        "speed": 47.7
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5818.6,
+                        "speed": 45.4
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5838.3,
+                        "speed": 43.2
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5856.9,
+                        "speed": 40.9
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5874.6,
+                        "speed": 38.7
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5891.3,
+                        "speed": 36.4
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5907.0,
+                        "speed": 34.1
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5921.7,
+                        "speed": 31.9
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5928.6,
+                        "speed": 30.7
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5929.5,
+                        "speed": 30.6
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5940.9,
+                        "speed": 28.3
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5951.5,
+                        "speed": 26.1
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5961.2,
+                        "speed": 23.8
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5970.0,
+                        "speed": 21.6
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5978.0,
+                        "speed": 19.3
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5985.0,
+                        "speed": 17.0
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5986.4,
+                        "speed": 16.1
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5986.8,
+                        "speed": 14.9
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5987.9,
+                        "speed": 11.4
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5988.8,
+                        "speed": 8.0
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5989.3,
+                        "speed": 4.5
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5989.5,
+                        "speed": 2.7
+                    },
+                    {
+                        "mode": "SIMULATION_STOP",
+                        "position": 5989.3,
+                        "speed": 0.0
+                    }
+                ],
+                "flatoutSpeedAndPositionList": [
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 0.0,
+                        "speed": 0.0
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 0.0,
+                        "speed": 0.0
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 0.0,
+                        "speed": 0.5
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 0.1,
+                        "speed": 0.7
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 0.8,
+                        "speed": 2.8
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 2.4,
+                        "speed": 5.0
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 4.9,
+                        "speed": 7.1
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 8.4,
+                        "speed": 9.3
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 12.7,
+                        "speed": 11.5
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 17.9,
+                        "speed": 13.6
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 24.0,
+                        "speed": 15.8
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 31.1,
+                        "speed": 17.9
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 39.0,
+                        "speed": 20.1
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 47.8,
+                        "speed": 22.3
+                    },
+                    {
+                        "mode": "ACCELERATION_DECREMENT",
+                        "position": 54.9,
+                        "speed": 23.8
+                    },
+                    {
+                        "mode": "ACCELERATION_DECREMENT",
+                        "position": 58.9,
+                        "speed": 24.2
+                    },
+                    {
+                        "mode": "MOTOR",
+                        "position": 59.6,
+                        "speed": 24.2
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 346.4,
+                        "speed": 24.2
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 350.5,
+                        "speed": 24.7
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 351.2,
+                        "speed": 24.9
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 362.0,
+                        "speed": 27.0
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 373.7,
+                        "speed": 29.2
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 386.3,
+                        "speed": 31.3
+                    },
+                    {
+                        "mode": "ACCELERATION_DECREMENT",
+                        "position": 389.8,
+                        "speed": 31.9
+                    },
+                    {
+                        "mode": "ACCELERATION_DECREMENT",
+                        "position": 395.2,
+                        "speed": 32.2
+                    },
+                    {
+                        "mode": "MOTOR",
+                        "position": 396.1,
+                        "speed": 32.2
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 998.9,
+                        "speed": 32.3
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 1004.4,
+                        "speed": 32.8
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 1021.3,
+                        "speed": 35.0
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 1039.3,
+                        "speed": 37.1
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 1059.5,
+                        "speed": 39.3
+                    },
+                    {
+                        "mode": "ACCELERATION_DECREMENT",
+                        "position": 1066.1,
+                        "speed": 39.9
+                    },
+                    {
+                        "mode": "MOTOR",
+                        "position": 1071.7,
+                        "speed": 40.1
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 1680.4,
+                        "speed": 40.1
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 1687.2,
+                        "speed": 40.6
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 1688.3,
+                        "speed": 40.7
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 1705.7,
+                        "speed": 42.9
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 1724.0,
+                        "speed": 45.1
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 1743.3,
+                        "speed": 47.2
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 1763.4,
+                        "speed": 49.4
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 1785.8,
+                        "speed": 51.6
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 1809.2,
+                        "speed": 53.8
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 1835.2,
+                        "speed": 56.0
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 1862.1,
+                        "speed": 58.2
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 1891.8,
+                        "speed": 60.4
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 1922.5,
+                        "speed": 62.5
+                    },
+                    {
+                        "mode": "ACCELERATION_DECREMENT",
+                        "position": 1945.4,
+                        "speed": 64.0
+                    },
+                    {
+                        "mode": "ACCELERATION_DECREMENT",
+                        "position": 1954.3,
+                        "speed": 64.2
+                    },
+                    {
+                        "mode": "MOTOR",
+                        "position": 1956.1,
+                        "speed": 64.2
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 3309.9,
+                        "speed": 64.2
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 3331.1,
+                        "speed": 62.7
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 3349.9,
+                        "speed": 60.3
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 3368.0,
+                        "speed": 58.0
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 3385.4,
+                        "speed": 55.6
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 3402.0,
+                        "speed": 53.2
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 3417.9,
+                        "speed": 50.8
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 3433.0,
+                        "speed": 48.4
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 3447.5,
+                        "speed": 46.1
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 3461.2,
+                        "speed": 43.7
+                    },
+                    {
+                        "mode": "DECELERATION_DECREMENT",
+                        "position": 3473.0,
+                        "speed": 41.5
+                    },
+                    {
+                        "mode": "MOTOR",
+                        "position": 3486.6,
+                        "speed": 40.5
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 3940.6,
+                        "speed": 40.5
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 3947.4,
+                        "speed": 41.0
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 3948.5,
+                        "speed": 41.1
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 3968.5,
+                        "speed": 43.3
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 3989.4,
+                        "speed": 45.5
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 4012.7,
+                        "speed": 47.6
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 4038.4,
+                        "speed": 49.7
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 4066.6,
+                        "speed": 51.9
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 4097.6,
+                        "speed": 54.1
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 4131.3,
+                        "speed": 56.3
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 4166.3,
+                        "speed": 58.4
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 4216.0,
+                        "speed": 60.4
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 4296.2,
+                        "speed": 62.5
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 4388.1,
+                        "speed": 64.6
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 4490.1,
+                        "speed": 66.6
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 4599.1,
+                        "speed": 68.7
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 4659.1,
+                        "speed": 70.8
+                    },
+                    {
+                        "mode": "ACCELERATION_DECREMENT",
+                        "position": 4692.8,
+                        "speed": 72.0
+                    },
+                    {
+                        "mode": "ACCELERATION_DECREMENT",
+                        "position": 4698.9,
+                        "speed": 72.1
+                    },
+                    {
+                        "mode": "MOTOR",
+                        "position": 4700.9,
+                        "speed": 72.1
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 5709.8,
+                        "speed": 72.1
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 5733.6,
+                        "speed": 70.6
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 5754.8,
+                        "speed": 68.2
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 5775.3,
+                        "speed": 65.8
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 5795.0,
+                        "speed": 63.4
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 5814.0,
+                        "speed": 61.0
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 5832.3,
+                        "speed": 58.7
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 5849.9,
+                        "speed": 56.3
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 5866.7,
+                        "speed": 53.9
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 5882.8,
+                        "speed": 51.5
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 5898.2,
+                        "speed": 49.2
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 5912.9,
+                        "speed": 46.8
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 5926.8,
+                        "speed": 44.4
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 5940.0,
+                        "speed": 42.0
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 5952.5,
+                        "speed": 39.7
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 5964.3,
+                        "speed": 37.3
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 5975.3,
+                        "speed": 34.9
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 5985.6,
+                        "speed": 32.5
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 5995.2,
+                        "speed": 30.2
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 6004.0,
+                        "speed": 27.8
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 6012.2,
+                        "speed": 25.4
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 6019.6,
+                        "speed": 23.0
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 6026.2,
+                        "speed": 20.7
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 6032.2,
+                        "speed": 18.3
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 6037.4,
+                        "speed": 15.9
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 6041.9,
+                        "speed": 13.5
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 6045.7,
+                        "speed": 11.2
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 6048.7,
+                        "speed": 8.8
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 6051.0,
+                        "speed": 6.4
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 6052.6,
+                        "speed": 4.0
+                    },
+                    {
+                        "mode": "DECELERATION_DECREMENT",
+                        "position": 6053.5,
+                        "speed": 1.7
+                    },
+                    {
+                        "mode": "SIMULATION_STOP",
+                        "position": 6053.0,
+                        "speed": 0.0
+                    }
+                ],
+                "optimalSpeedAndPositionList": null
+            },
+            "speedRestrictionList": [
+                {
+                    "beginPoint": 0.0,
+                    "createBy": null,
+                    "createDateTime": null,
+                    "endPoint": 298.0,
+                    "id": "57ff688b6a7130ea0bd6fff7",
+                    "modifyBy": null,
+                    "modifyDateTime": null,
+                    "sectionID": "2",
+                    "speedRestrictionValue": 24.1395
+                },
+                {
+                    "beginPoint": 298.0,
+                    "createBy": null,
+                    "createDateTime": null,
+                    "endPoint": 950.0,
+                    "id": "57ff688b6a7130ea0bd6fff9",
+                    "modifyBy": null,
+                    "modifyDateTime": null,
+                    "sectionID": "2",
+                    "speedRestrictionValue": 32.186
+                },
+                {
+                    "beginPoint": 950.0,
+                    "createBy": null,
+                    "createDateTime": null,
+                    "endPoint": 1632.0,
+                    "id": "57ff688b6a7130ea0bd6fffa",
+                    "modifyBy": null,
+                    "modifyDateTime": null,
+                    "sectionID": "2",
+                    "speedRestrictionValue": 40.2325
+                },
+                {
+                    "beginPoint": 1632.0,
+                    "createBy": null,
+                    "createDateTime": null,
+                    "endPoint": 3486.0,
+                    "id": "57ff688b6a7130ea0bd6fffb",
+                    "modifyBy": null,
+                    "modifyDateTime": null,
+                    "sectionID": "2",
+                    "speedRestrictionValue": 64.372
+                },
+                {
+                    "beginPoint": 3486.0,
+                    "createBy": null,
+                    "createDateTime": null,
+                    "endPoint": 3892.0,
+                    "id": "57ff688b6a7130ea0bd6fffc",
+                    "modifyBy": null,
+                    "modifyDateTime": null,
+                    "sectionID": "2",
+                    "speedRestrictionValue": 40.2325
+                },
+                {
+                    "beginPoint": 3892.0,
+                    "createBy": null,
+                    "createDateTime": null,
+                    "endPoint": 6030.0,
+                    "id": "57ff688b6a7130ea0bd6fffd",
+                    "modifyBy": null,
+                    "modifyDateTime": null,
+                    "sectionID": "2",
+                    "speedRestrictionValue": 72.4185
+                },
+                {
+                    "beginPoint": 6030.0,
+                    "createBy": null,
+                    "createDateTime": null,
+                    "endPoint": 6053.0,
+                    "id": "57ff688b6a7130ea0bd6fffe",
+                    "modifyBy": null,
+                    "modifyDateTime": null,
+                    "sectionID": "2",
+                    "speedRestrictionValue": 64.372
+                }
+            ],
+            "unitNumber": null
+        },
+        {
+            "destinationTiploc": null,
+            "headcode": null,
+            "link": null,
+            "originTiploc": null,
+            "rollingStockID": null,
+            "scaledElevationList": [
+                {
+                    "position": 0.0,
+                    "scaledElevation": 0.0
+                },
+                {
+                    "position": 193.5,
+                    "scaledElevation": 0.0
+                },
+                {
+                    "position": 619.4,
+                    "scaledElevation": -1.4
+                },
+                {
+                    "position": 941.2,
+                    "scaledElevation": -0.6
+                },
+                {
+                    "position": 965.4,
+                    "scaledElevation": -0.5
+                },
+                {
+                    "position": 1561.7,
+                    "scaledElevation": 1.4
+                },
+                {
+                    "position": 1609.0,
+                    "scaledElevation": 0.9
+                },
+                {
+                    "position": 1674.0,
+                    "scaledElevation": -0.1
+                },
+                {
+                    "position": 2214.0,
+                    "scaledElevation": -8.5
+                },
+                {
+                    "position": 2434.0,
+                    "scaledElevation": -10.2
+                },
+                {
+                    "position": 3344.0,
+                    "scaledElevation": -20.1
+                },
+                {
+                    "position": 3574.0,
+                    "scaledElevation": -21.2
+                },
+                {
+                    "position": 3774.0,
+                    "scaledElevation": -20.8
+                },
+                {
+                    "position": 4164.0,
+                    "scaledElevation": -23.2
+                },
+                {
+                    "position": 4574.0,
+                    "scaledElevation": -20.5
+                },
+                {
+                    "position": 5254.0,
+                    "scaledElevation": -24.8
+                },
+                {
+                    "position": 6034.0,
+                    "scaledElevation": -26.0
+                },
+                {
+                    "position": 6053.0,
+                    "scaledElevation": -26.0
+                }
+            ],
+            "scheduledDepartureTimeAtOrigin": null,
+            "serviceCode": null,
+            "speedDistanceProfiles": {
+                "actualSpeedAndPositionList": [
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 0.0,
+                        "speed": 0.0
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 0.0,
+                        "speed": 0.1
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 0.0,
+                        "speed": 0.2
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 0.7,
+                        "speed": 2.3
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 2.5,
+                        "speed": 4.5
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5.4,
+                        "speed": 6.7
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 9.5,
+                        "speed": 8.9
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 14.8,
+                        "speed": 11.0
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 21.2,
+                        "speed": 13.2
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 28.7,
+                        "speed": 15.4
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 32.3,
+                        "speed": 16.3
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 32.7,
+                        "speed": 16.3
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 56.8,
+                        "speed": 18.4
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 83.7,
+                        "speed": 20.4
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 113.5,
+                        "speed": 22.5
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 146.2,
+                        "speed": 24.5
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 167.1,
+                        "speed": 25.7
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 167.8,
+                        "speed": 25.8
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 168.6,
+                        "speed": 25.8
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 240.2,
+                        "speed": 26.8
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 240.9,
+                        "speed": 26.8
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 312.7,
+                        "speed": 25.9
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 313.4,
+                        "speed": 26.0
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 353.1,
+                        "speed": 28.0
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 391.7,
+                        "speed": 29.8
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 392.5,
+                        "speed": 29.8
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 554.2,
+                        "speed": 30.2
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 555.1,
+                        "speed": 30.2
+                    },
+                    {
+                        "mode": "COAST",
+                        "position": 634.5,
+                        "speed": 29.4
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 635.3,
+                        "speed": 29.4
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 636.2,
+                        "speed": 29.4
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 877.6,
+                        "speed": 29.3
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 878.4,
+                        "speed": 29.3
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 910.4,
+                        "speed": 31.4
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 944.7,
+                        "speed": 33.5
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 955.9,
+                        "speed": 34.1
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 956.9,
+                        "speed": 34.2
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1010.6,
+                        "speed": 36.2
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1067.5,
+                        "speed": 38.3
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1069.7,
+                        "speed": 38.3
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1070.7,
+                        "speed": 38.3
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1282.4,
+                        "speed": 39.4
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1283.5,
+                        "speed": 39.4
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1393.9,
+                        "speed": 39.2
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1395.0,
+                        "speed": 39.2
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1501.7,
+                        "speed": 40.0
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1502.8,
+                        "speed": 40.0
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1577.0,
+                        "speed": 42.1
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1602.9,
+                        "speed": 42.8
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1604.1,
+                        "speed": 42.9
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1640.7,
+                        "speed": 45.0
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1679.1,
+                        "speed": 47.1
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1719.2,
+                        "speed": 49.2
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1745.5,
+                        "speed": 50.6
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1747.0,
+                        "speed": 50.7
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1778.6,
+                        "speed": 52.8
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1811.5,
+                        "speed": 54.9
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1845.7,
+                        "speed": 57.0
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1881.2,
+                        "speed": 59.1
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1907.8,
+                        "speed": 60.6
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 1909.5,
+                        "speed": 60.5
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 2000.4,
+                        "speed": 58.5
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 2078.8,
+                        "speed": 56.7
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 2080.3,
+                        "speed": 56.7
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 2163.8,
+                        "speed": 58.8
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 2250.2,
+                        "speed": 60.9
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 2339.6,
+                        "speed": 62.9
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 2397.9,
+                        "speed": 64.2
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 2399.7,
+                        "speed": 64.2
+                    },
+                    {
+                        "mode": "COAST",
+                        "position": 2484.0,
+                        "speed": 65.0
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 2543.8,
+                        "speed": 65.5
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 2545.7,
+                        "speed": 65.5
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 2747.4,
+                        "speed": 65.3
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 2749.2,
+                        "speed": 65.3
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 2909.5,
+                        "speed": 64.4
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 2911.3,
+                        "speed": 64.4
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3104.2,
+                        "speed": 64.2
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3106.0,
+                        "speed": 64.0
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3135.7,
+                        "speed": 61.8
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3164.3,
+                        "speed": 59.6
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3191.9,
+                        "speed": 57.3
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3218.5,
+                        "speed": 55.1
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3244.0,
+                        "speed": 52.9
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3255.6,
+                        "speed": 51.8
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3257.1,
+                        "speed": 51.7
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3281.0,
+                        "speed": 49.5
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3303.8,
+                        "speed": 47.4
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3325.7,
+                        "speed": 45.2
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3346.5,
+                        "speed": 43.0
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3362.9,
+                        "speed": 41.3
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3364.1,
+                        "speed": 41.3
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3478.6,
+                        "speed": 40.3
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3479.7,
+                        "speed": 40.3
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3485.3,
+                        "speed": 40.3
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3486.5,
+                        "speed": 40.3
+                    },
+                    {
+                        "mode": "COAST",
+                        "position": 3587.8,
+                        "speed": 39.8
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3595.5,
+                        "speed": 39.8
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3596.6,
+                        "speed": 39.8
+                    },
+                    {
+                        "mode": "COAST",
+                        "position": 3614.2,
+                        "speed": 39.5
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3621.9,
+                        "speed": 39.4
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3701.5,
+                        "speed": 38.1
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3702.6,
+                        "speed": 38.1
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3810.0,
+                        "speed": 39.2
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3811.1,
+                        "speed": 39.3
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3909.6,
+                        "speed": 41.3
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3910.7,
+                        "speed": 41.4
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3935.5,
+                        "speed": 43.6
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3961.6,
+                        "speed": 45.8
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 3988.9,
+                        "speed": 47.9
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 4017.5,
+                        "speed": 50.1
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 4047.3,
+                        "speed": 52.2
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 4059.0,
+                        "speed": 53.0
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 4060.5,
+                        "speed": 53.1
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 4111.7,
+                        "speed": 55.2
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 4164.8,
+                        "speed": 57.3
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 4220.0,
+                        "speed": 59.5
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 4277.1,
+                        "speed": 61.6
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 4336.3,
+                        "speed": 63.7
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 4373.9,
+                        "speed": 65.0
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 4375.7,
+                        "speed": 65.0
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 4377.5,
+                        "speed": 65.1
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 4471.1,
+                        "speed": 67.1
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 4567.6,
+                        "speed": 69.2
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 4581.1,
+                        "speed": 69.4
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 4583.0,
+                        "speed": 69.4
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 4943.1,
+                        "speed": 70.7
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 4945.0,
+                        "speed": 70.7
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 4947.0,
+                        "speed": 70.7
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 4949.0,
+                        "speed": 70.6
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5034.0,
+                        "speed": 68.5
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5116.5,
+                        "speed": 66.5
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5155.0,
+                        "speed": 65.5
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5156.8,
+                        "speed": 65.5
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5319.4,
+                        "speed": 66.0
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5321.2,
+                        "speed": 66.0
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5433.1,
+                        "speed": 63.9
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5541.5,
+                        "speed": 61.9
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5646.3,
+                        "speed": 59.8
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5677.7,
+                        "speed": 59.1
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5679.3,
+                        "speed": 59.0
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5705.0,
+                        "speed": 56.7
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5729.8,
+                        "speed": 54.5
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5753.5,
+                        "speed": 52.2
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5776.2,
+                        "speed": 50.0
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5797.9,
+                        "speed": 47.7
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5818.6,
+                        "speed": 45.4
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5838.3,
+                        "speed": 43.2
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5856.9,
+                        "speed": 40.9
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5874.6,
+                        "speed": 38.7
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5891.3,
+                        "speed": 36.4
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5907.0,
+                        "speed": 34.1
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5921.7,
+                        "speed": 31.9
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5928.6,
+                        "speed": 30.7
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5929.5,
+                        "speed": 30.6
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5940.9,
+                        "speed": 28.3
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5951.5,
+                        "speed": 26.1
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5961.2,
+                        "speed": 23.8
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5970.0,
+                        "speed": 21.6
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5978.0,
+                        "speed": 19.3
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5985.0,
+                        "speed": 17.0
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5986.4,
+                        "speed": 16.1
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5986.8,
+                        "speed": 14.9
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5987.9,
+                        "speed": 11.4
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5988.8,
+                        "speed": 8.0
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5989.3,
+                        "speed": 4.5
+                    },
+                    {
+                        "mode": "ACTUAL_SIMULATION",
+                        "position": 5989.5,
+                        "speed": 2.7
+                    },
+                    {
+                        "mode": "SIMULATION_STOP",
+                        "position": 5989.3,
+                        "speed": 0.0
+                    }
+                ],
+                "flatoutSpeedAndPositionList": [
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 0.0,
+                        "speed": 0.0
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 0.0,
+                        "speed": 0.0
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 0.0,
+                        "speed": 0.5
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 0.1,
+                        "speed": 0.7
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 0.8,
+                        "speed": 2.8
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 2.4,
+                        "speed": 5.0
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 4.9,
+                        "speed": 7.1
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 8.4,
+                        "speed": 9.3
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 12.7,
+                        "speed": 11.5
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 17.9,
+                        "speed": 13.6
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 24.0,
+                        "speed": 15.8
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 31.1,
+                        "speed": 17.9
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 39.0,
+                        "speed": 20.1
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 47.8,
+                        "speed": 22.3
+                    },
+                    {
+                        "mode": "ACCELERATION_DECREMENT",
+                        "position": 54.9,
+                        "speed": 23.8
+                    },
+                    {
+                        "mode": "ACCELERATION_DECREMENT",
+                        "position": 58.9,
+                        "speed": 24.2
+                    },
+                    {
+                        "mode": "MOTOR",
+                        "position": 59.6,
+                        "speed": 24.2
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 346.4,
+                        "speed": 24.2
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 350.5,
+                        "speed": 24.7
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 351.2,
+                        "speed": 24.9
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 362.0,
+                        "speed": 27.0
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 373.7,
+                        "speed": 29.2
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 386.3,
+                        "speed": 31.3
+                    },
+                    {
+                        "mode": "ACCELERATION_DECREMENT",
+                        "position": 389.8,
+                        "speed": 31.9
+                    },
+                    {
+                        "mode": "ACCELERATION_DECREMENT",
+                        "position": 395.2,
+                        "speed": 32.2
+                    },
+                    {
+                        "mode": "MOTOR",
+                        "position": 396.1,
+                        "speed": 32.2
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 998.9,
+                        "speed": 32.3
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 1004.4,
+                        "speed": 32.8
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 1021.3,
+                        "speed": 35.0
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 1039.3,
+                        "speed": 37.1
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 1059.5,
+                        "speed": 39.3
+                    },
+                    {
+                        "mode": "ACCELERATION_DECREMENT",
+                        "position": 1066.1,
+                        "speed": 39.9
+                    },
+                    {
+                        "mode": "MOTOR",
+                        "position": 1071.7,
+                        "speed": 40.1
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 1680.4,
+                        "speed": 40.1
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 1687.2,
+                        "speed": 40.6
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 1688.3,
+                        "speed": 40.7
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 1705.7,
+                        "speed": 42.9
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 1724.0,
+                        "speed": 45.1
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 1743.3,
+                        "speed": 47.2
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 1763.4,
+                        "speed": 49.4
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 1785.8,
+                        "speed": 51.6
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 1809.2,
+                        "speed": 53.8
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 1835.2,
+                        "speed": 56.0
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 1862.1,
+                        "speed": 58.2
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 1891.8,
+                        "speed": 60.4
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 1922.5,
+                        "speed": 62.5
+                    },
+                    {
+                        "mode": "ACCELERATION_DECREMENT",
+                        "position": 1945.4,
+                        "speed": 64.0
+                    },
+                    {
+                        "mode": "ACCELERATION_DECREMENT",
+                        "position": 1954.3,
+                        "speed": 64.2
+                    },
+                    {
+                        "mode": "MOTOR",
+                        "position": 1956.1,
+                        "speed": 64.2
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 3309.9,
+                        "speed": 64.2
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 3331.1,
+                        "speed": 62.7
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 3349.9,
+                        "speed": 60.3
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 3368.0,
+                        "speed": 58.0
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 3385.4,
+                        "speed": 55.6
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 3402.0,
+                        "speed": 53.2
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 3417.9,
+                        "speed": 50.8
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 3433.0,
+                        "speed": 48.4
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 3447.5,
+                        "speed": 46.1
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 3461.2,
+                        "speed": 43.7
+                    },
+                    {
+                        "mode": "DECELERATION_DECREMENT",
+                        "position": 3473.0,
+                        "speed": 41.5
+                    },
+                    {
+                        "mode": "MOTOR",
+                        "position": 3486.6,
+                        "speed": 40.5
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 3940.6,
+                        "speed": 40.5
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 3947.4,
+                        "speed": 41.0
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 3948.5,
+                        "speed": 41.1
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 3968.5,
+                        "speed": 43.3
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 3989.4,
+                        "speed": 45.5
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 4012.7,
+                        "speed": 47.6
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 4038.4,
+                        "speed": 49.7
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 4066.6,
+                        "speed": 51.9
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 4097.6,
+                        "speed": 54.1
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 4131.3,
+                        "speed": 56.3
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 4166.3,
+                        "speed": 58.4
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 4216.0,
+                        "speed": 60.4
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 4296.2,
+                        "speed": 62.5
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 4388.1,
+                        "speed": 64.6
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 4490.1,
+                        "speed": 66.6
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 4599.1,
+                        "speed": 68.7
+                    },
+                    {
+                        "mode": "ACCELERATION_INCREMENT",
+                        "position": 4659.1,
+                        "speed": 70.8
+                    },
+                    {
+                        "mode": "ACCELERATION_DECREMENT",
+                        "position": 4692.8,
+                        "speed": 72.0
+                    },
+                    {
+                        "mode": "ACCELERATION_DECREMENT",
+                        "position": 4698.9,
+                        "speed": 72.1
+                    },
+                    {
+                        "mode": "MOTOR",
+                        "position": 4700.9,
+                        "speed": 72.1
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 5709.8,
+                        "speed": 72.1
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 5733.6,
+                        "speed": 70.6
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 5754.8,
+                        "speed": 68.2
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 5775.3,
+                        "speed": 65.8
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 5795.0,
+                        "speed": 63.4
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 5814.0,
+                        "speed": 61.0
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 5832.3,
+                        "speed": 58.7
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 5849.9,
+                        "speed": 56.3
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 5866.7,
+                        "speed": 53.9
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 5882.8,
+                        "speed": 51.5
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 5898.2,
+                        "speed": 49.2
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 5912.9,
+                        "speed": 46.8
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 5926.8,
+                        "speed": 44.4
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 5940.0,
+                        "speed": 42.0
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 5952.5,
+                        "speed": 39.7
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 5964.3,
+                        "speed": 37.3
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 5975.3,
+                        "speed": 34.9
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 5985.6,
+                        "speed": 32.5
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 5995.2,
+                        "speed": 30.2
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 6004.0,
+                        "speed": 27.8
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 6012.2,
+                        "speed": 25.4
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 6019.6,
+                        "speed": 23.0
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 6026.2,
+                        "speed": 20.7
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 6032.2,
+                        "speed": 18.3
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 6037.4,
+                        "speed": 15.9
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 6041.9,
+                        "speed": 13.5
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 6045.7,
+                        "speed": 11.2
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 6048.7,
+                        "speed": 8.8
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 6051.0,
+                        "speed": 6.4
+                    },
+                    {
+                        "mode": "DECELERATION_INCREMENT",
+                        "position": 6052.6,
+                        "speed": 4.0
+                    },
+                    {
+                        "mode": "DECELERATION_DECREMENT",
+                        "position": 6053.5,
+                        "speed": 1.7
+                    },
+                    {
+                        "mode": "SIMULATION_STOP",
+                        "position": 6053.0,
+                        "speed": 0.0
+                    }
+                ],
+                "optimalSpeedAndPositionList": null
+            },
+            "speedRestrictionList": [
+                {
+                    "beginPoint": 0.0,
+                    "createBy": null,
+                    "createDateTime": null,
+                    "endPoint": 298.0,
+                    "id": "57ff688b6a7130ea0bd6fff7",
+                    "modifyBy": null,
+                    "modifyDateTime": null,
+                    "sectionID": "2",
+                    "speedRestrictionValue": 24.1395
+                },
+                {
+                    "beginPoint": 298.0,
+                    "createBy": null,
+                    "createDateTime": null,
+                    "endPoint": 950.0,
+                    "id": "57ff688b6a7130ea0bd6fff9",
+                    "modifyBy": null,
+                    "modifyDateTime": null,
+                    "sectionID": "2",
+                    "speedRestrictionValue": 32.186
+                },
+                {
+                    "beginPoint": 950.0,
+                    "createBy": null,
+                    "createDateTime": null,
+                    "endPoint": 1632.0,
+                    "id": "57ff688b6a7130ea0bd6fffa",
+                    "modifyBy": null,
+                    "modifyDateTime": null,
+                    "sectionID": "2",
+                    "speedRestrictionValue": 40.2325
+                },
+                {
+                    "beginPoint": 1632.0,
+                    "createBy": null,
+                    "createDateTime": null,
+                    "endPoint": 3486.0,
+                    "id": "57ff688b6a7130ea0bd6fffb",
+                    "modifyBy": null,
+                    "modifyDateTime": null,
+                    "sectionID": "2",
+                    "speedRestrictionValue": 64.372
+                },
+                {
+                    "beginPoint": 3486.0,
+                    "createBy": null,
+                    "createDateTime": null,
+                    "endPoint": 3892.0,
+                    "id": "57ff688b6a7130ea0bd6fffc",
+                    "modifyBy": null,
+                    "modifyDateTime": null,
+                    "sectionID": "2",
+                    "speedRestrictionValue": 40.2325
+                },
+                {
+                    "beginPoint": 3892.0,
+                    "createBy": null,
+                    "createDateTime": null,
+                    "endPoint": 6030.0,
+                    "id": "57ff688b6a7130ea0bd6fffd",
+                    "modifyBy": null,
+                    "modifyDateTime": null,
+                    "sectionID": "2",
+                    "speedRestrictionValue": 72.4185
+                },
+                {
+                    "beginPoint": 6030.0,
+                    "createBy": null,
+                    "createDateTime": null,
+                    "endPoint": 6053.0,
+                    "id": "57ff688b6a7130ea0bd6fffe",
+                    "modifyBy": null,
+                    "modifyDateTime": null,
+                    "sectionID": "2",
+                    "speedRestrictionValue": 64.372
+                }
+            ],
+            "unitNumber": null
+        }
+    ]
+}

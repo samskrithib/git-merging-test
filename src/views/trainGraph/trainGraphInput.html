@@ -1,0 +1,25 @@
+<div class="wrapper">
+    <div>
+        <acme-navbar></acme-navbar>
+    </div>
+
+    <!-- Page Content -->
+    <div id="page-wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3 class="page-header">Train Graph <small> (Timetable Adherence)</small></h3>
+                </div>
+            </div>
+            <!-- /.col-lg-12 -->
+            <div class="form-group">
+                <div class="btn-group btn-group-justified" id="RadioButtonModel">
+                    <label class="btn btn-default active" ng-model="vm.RadioButtonModel" uib-btn-radio="vm.templates[0].name">Percentile Distribution</label>
+                    <label class="btn btn-default" ng-model="vm.RadioButtonModel" uib-btn-radio="vm.templates[1].name">Track Trains</label>
+                </div>
+            </div>
+            <!--<pre>{{vm.template.name}}</pre>-->
+            <div ng-include="vm.template.url"></div>
+        </div>
+    </div>
+</div>

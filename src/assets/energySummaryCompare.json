@@ -1,0 +1,204 @@
+{
+	"energySummaryLink1": [
+		{
+			"link": "Newcastle - Metrocentre",
+			"energySummary": {
+				"actualEnergyConsumption": 1.82,
+				"optimalEnergyConsumption": 1.82,
+				"onTimeOptimalEnergyConsumption": 1.82,
+				"targetEnergyConsumption": 1.68
+			}
+		},
+		{
+			"link": "Metrocentre - Wylam",
+			"energySummary": {
+				"actualEnergyConsumption": 6.5,
+				"optimalEnergyConsumption": 6.5,
+				"onTimeOptimalEnergyConsumption": 6.5,
+				"targetEnergyConsumption": 7.19
+			}
+		},
+		{
+			"link": "Wylam - Prudhoe",
+			"energySummary": {
+				"actualEnergyConsumption": 2.48,
+				"optimalEnergyConsumption": 2.48,
+				"onTimeOptimalEnergyConsumption": 2.48,
+				"targetEnergyConsumption": 1.65
+			}
+		},
+		{
+			"link": "Prudhoe - Stocksfield",
+			"energySummary": {
+				"actualEnergyConsumption": 3.13,
+				"optimalEnergyConsumption": 3.13,
+				"onTimeOptimalEnergyConsumption": 2.44,
+				"targetEnergyConsumption": 2.72
+			}
+		},
+		{
+			"link": "Stocksfield - Hexham",
+			"energySummary": {
+				"actualEnergyConsumption": 7.68,
+				"optimalEnergyConsumption": 7.68,
+				"onTimeOptimalEnergyConsumption": 7.68,
+				"targetEnergyConsumption": 6.82
+			}
+		},
+		{
+			"link": "Hexham - Haydon Bridge",
+			"energySummary": {
+				"actualEnergyConsumption": 8.47,
+				"optimalEnergyConsumption": 8.47,
+				"onTimeOptimalEnergyConsumption": 8.47,
+				"targetEnergyConsumption": 7.74
+			}
+		},
+		{
+			"link": "Haydon Bridge - Bardon Mill",
+			"energySummary": {
+				"actualEnergyConsumption": 5.39,
+				"optimalEnergyConsumption": 5.39,
+				"onTimeOptimalEnergyConsumption": 5.39,
+				"targetEnergyConsumption": 4.25
+			}
+		},
+		{
+			"link": "Bardon Mill - Haltwhistle",
+			"energySummary": {
+				"actualEnergyConsumption": 5.99,
+				"optimalEnergyConsumption": 5.99,
+				"onTimeOptimalEnergyConsumption": 5.99,
+				"targetEnergyConsumption": 4.92
+			}
+		},
+		{
+			"link": "Haltwhistle - Brampton",
+			"energySummary": {
+				"actualEnergyConsumption": 12.03,
+				"optimalEnergyConsumption": 12.03,
+				"onTimeOptimalEnergyConsumption": 12.03,
+				"targetEnergyConsumption": 11.02
+			}
+		},
+		{
+			"link": "Brampton - Wetheral",
+			"energySummary": {
+				"actualEnergyConsumption": 3.46,
+				"optimalEnergyConsumption": 3.46,
+				"onTimeOptimalEnergyConsumption": 1.67,
+				"targetEnergyConsumption": 1.98
+			}
+		},
+		{
+			"link": "Wetheral - Carlisle",
+			"energySummary": {
+				"actualEnergyConsumption": 2.98,
+				"optimalEnergyConsumption": 3,
+				"onTimeOptimalEnergyConsumption": 2.25,
+				"targetEnergyConsumption": 2.47
+			}
+		}
+	],
+    "energySummaryLink2": [
+		{
+			"link": "Newcastle - Metrocentre",
+			"energySummary": {
+				"actualEnergyConsumption": 1.82,
+				"optimalEnergyConsumption": 1.82,
+				"onTimeOptimalEnergyConsumption": 1.82,
+				"targetEnergyConsumption": 1.68
+			}
+		},
+		{
+			"link": "Metrocentre - Wylam",
+			"energySummary": {
+				"actualEnergyConsumption": 6.5,
+				"optimalEnergyConsumption": 6.5,
+				"onTimeOptimalEnergyConsumption": 6.5,
+				"targetEnergyConsumption": 7.19
+			}
+		},
+		{
+			"link": "Wylam - Prudhoe",
+			"energySummary": {
+				"actualEnergyConsumption": 2.48,
+				"optimalEnergyConsumption": 2.48,
+				"onTimeOptimalEnergyConsumption": 2.48,
+				"targetEnergyConsumption": 1.65
+			}
+		},
+		{
+			"link": "Prudhoe - Stocksfield",
+			"energySummary": {
+				"actualEnergyConsumption": 3.13,
+				"optimalEnergyConsumption": 3.13,
+				"onTimeOptimalEnergyConsumption": 2.44,
+				"targetEnergyConsumption": 2.72
+			}
+		},
+		{
+			"link": "Stocksfield - Hexham",
+			"energySummary": {
+				"actualEnergyConsumption": 7.68,
+				"optimalEnergyConsumption": 7.68,
+				"onTimeOptimalEnergyConsumption": 7.68,
+				"targetEnergyConsumption": 6.82
+			}
+		},
+		{
+			"link": "Hexham - Haydon Bridge",
+			"energySummary": {
+				"actualEnergyConsumption": 8.47,
+				"optimalEnergyConsumption": 8.47,
+				"onTimeOptimalEnergyConsumption": 8.47,
+				"targetEnergyConsumption": 7.74
+			}
+		},
+		{
+			"link": "Haydon Bridge - Bardon Mill",
+			"energySummary": {
+				"actualEnergyConsumption": 5.39,
+				"optimalEnergyConsumption": 5.39,
+				"onTimeOptimalEnergyConsumption": 5.39,
+				"targetEnergyConsumption": 4.25
+			}
+		},
+		{
+			"link": "Bardon Mill - Haltwhistle",
+			"energySummary": {
+				"actualEnergyConsumption": 5.99,
+				"optimalEnergyConsumption": 5.99,
+				"onTimeOptimalEnergyConsumption": 5.99,
+				"targetEnergyConsumption": 4.92
+			}
+		},
+		{
+			"link": "Haltwhistle - Brampton",
+			"energySummary": {
+				"actualEnergyConsumption": 12.03,
+				"optimalEnergyConsumption": 12.03,
+				"onTimeOptimalEnergyConsumption": 12.03,
+				"targetEnergyConsumption": 11.02
+			}
+		},
+		{
+			"link": "Brampton - Wetheral",
+			"energySummary": {
+				"actualEnergyConsumption": 3.46,
+				"optimalEnergyConsumption": 3.46,
+				"onTimeOptimalEnergyConsumption": 1.67,
+				"targetEnergyConsumption": 1.98
+			}
+		},
+		{
+			"link": "Wetheral - Carlisle",
+			"energySummary": {
+				"actualEnergyConsumption": 2.98,
+				"optimalEnergyConsumption": 3,
+				"onTimeOptimalEnergyConsumption": 2.25,
+				"targetEnergyConsumption": 2.47
+			}
+		}
+	]
+}

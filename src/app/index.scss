@@ -1,0 +1,165 @@
+// @import "bower_components/bootswatch/lumen/_variables.scss";
+
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// @import "bower_components/bootswatch/lumen/_bootswatch.scss";
+@import "bower_components/font-awesome/scss/font-awesome.scss";
+$icon-font-path: "../../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+@import "sass/variables.scss";
+
+
+.GOOD {
+  color: $c3-green !important;
+   
+  // color: white;
+  // background-color: $c3-green;
+}
+.AVERAGE {
+   color: $c3-orange;
+  //  color: white;
+  //  background-color: $c3-orange;
+}
+.POOR{
+   color: $c3-red;
+  //  color: white;
+  // background-color: $c3-red;
+}
+
+
+#page-wrapper{
+  // background-color: $brand-primary !important;
+  .row{
+    margin-left: 0px;
+
+    ul.list-group:after {
+    clear: both;
+    display: block;
+    content: "";
+    }
+
+    .list-group-item {
+      float: left;
+      border: 0 none;
+      font-size: 0.8em;
+      padding: 5px 5px;
+      }
+  }
+  
+}
+.btn-default.btn-on-1.active{background-color: $brand-primary;color: white;}
+.btn-default.btn-off-1.active{background-color: $brand-success;color: white;}
+.help-block{
+  font-size: 0.8em;
+  color: darkred;
+}
+
+.capitalize {
+   text-transform: capitalize;
+}
+#RadioButtonModel {
+  .btn-default.active{
+    background-color: $brand-primary;
+    color: white
+  }
+  
+}
+
+
+#separator{
+  @media screen and (min-width: 991px) {
+    border-right: dashed 1px;
+  }
+
+  @media screen and (max-width: 990px) {
+    border-right: none;
+    border-bottom: dashed 1px;
+  }
+}
+
+.typeahead-demo .custom-popup-wrapper {
+  .message {
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    color: #868686;
+  }
+  .dropdown-menu {
+    position: static;
+    float: none;
+    display: block;
+    min-width: 160px;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    max-height: 150px;
+    overflow: auto
+  }
+
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  background-color: #f9f9f9;
+  
+  }
+
+
+#from .dropdown-menu {
+  max-height: 250px;
+  overflow: auto;
+}
+
+.mandatory {
+  /* Note that we require this empty class to include content after */
+}
+.mandatory:after {
+  content: "*";
+  color: darkred;
+  font-size: 18px;
+}
+
+.tabscss {
+  
+ 
+ li.active a.ng-binding {
+    color: white !important;
+    background-color: $brand-primary !important;
+    border-color: $brand-primary !important;
+    text-decoration: none;
+  }
+  .row{
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .subtitle{
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    color: white !important;
+    background-color: $brand-primary !important;
+    clear: both;
+  }
+  li a.ng-binding {
+   color: #777777;
+   border-color: gainsboro;
+   text-decoration: none;
+ }
+  li a.ng-binding:hover{
+    color: $brand-primary;
+  }
+  .tab-container {
+    border-style: solid;
+    border-color: $brand-primary;
+    border-width: 1px 1px 1px 1px;
+    /*background-color: #8CBEB2;*/
+   /* padding: 15px;*/
+  }
+
+  
+}
+
+/**
+ *  Do not remove the comments below. It's the markers used by gulp-inject to inject
+ *  all your sass files automatically
+ */
+// injector
+// endinjector

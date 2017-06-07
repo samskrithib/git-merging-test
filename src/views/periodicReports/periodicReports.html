@@ -1,0 +1,60 @@
+<div>
+  <acme-navbar></acme-navbar>
+</div>
+<div class="wrapper">
+  <!-- Page Content -->
+  <div id="page-wrapper">
+    <div>
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 class="page-header">Periodic Report</h1>
+        </div>
+      </div>
+      <!-- /.col-lg-12 -->
+      <div class="tabscss col-xl-8">
+        <uib-tabset justified="true" active="active">
+          <uib-tab index="0" heading="Energy Summary">
+            <div class="tab-container">
+            <div class="subtitle row">
+              <div class="col-md-8">{{vm.energySummaryAdvice}}</div>
+              <div class="col-md-4">
+                <div style="text-align: right; font-size: 0.8em" ng-bind-html="vm.subTitle"></div>
+              </div>
+            </div>
+              <div cg-busy="{promise:vm.promise, message:'Loading your chart', minDuration:1000}">
+                <div id="chart0"></div>
+                <div ng-show="!vm.periodicEnergySummaryError">
+                  <button class="btn btn-default active" ng-show="!vm.opened" ng-click="vm.open()">Switch to Average Energy Summary Chart</button>
+                  <button class="btn btn-default active" ng-show="vm.opened" ng-click="vm.close()">Switch to Total Energy Summary Chart</button>
+                </div>
+                <div ng-show="vm.periodicEnergySummaryError" ng-bind-html="vm.periodicEnergySummaryErrorMessage"></div>
+                <br>
+              </div>
+            </div>
+          </uib-tab>
+          <uib-tab index="2" heading="On-Time Running">
+            <div class="tab-container">
+            <div class="subtitle row">
+              <div class="col-md-8"></div>
+              <div class="col-md-4">
+                <div style="text-align: right; font-size: 0.8em" ng-bind-html="vm.subTitle"></div>
+              </div>
+            </div>
+            <div cg-busy="{promise:vm.promise, message:'Loading your chart', minDuration:1000}">
+                <div ng-show="!vm.periodicOnTimeError">
+                  <div id="chart1"></div>
+                </div>
+                <div ng-show="vm.periodicOnTimeError" ng-bind-html="vm.PeriodicOnTimeErrorMessage"></div>
+              </div>
+            </div>
+            <!--<div class="row"></div>-->
+          </uib-tab>
+        </uib-tabset>
+        <!-- /.col-lg-12 -->
+        <div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

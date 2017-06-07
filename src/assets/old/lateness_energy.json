@@ -1,0 +1,37 @@
+[{
+    "category": "lateness summary",
+    "total": {
+      "acheivableArrivalLatenessInSeconds": 100,
+      "actualArrivalEarlinessInSeconds": -50,
+      "actualArrivalLatenessInSeconds": 60
+    },
+    "links": [
+      {
+        "link1": {
+          "acheivableArrivalLatenessInSeconds": 10,
+          "actualArrivalEarlinessInSeconds": 4,
+          "actualArrivalLatenessInSeconds": 8
+        },
+        "link2": {
+            "acheivableArrivalLatenessInSeconds": 9,
+            "actualArrivalEarlinessInSeconds": 5,
+            "actualArrivalLatenessInSeconds": 3
+          },
+          "link3": {
+            "acheivableArrivalLatenessInSeconds": 10,
+            "actualArrivalEarlinessInSeconds": 8,
+            "actualArrivalLatenessInSeconds": 6
+          }
+      }
+    ]
+  },
+  {
+    "category": "energy summary",
+    "total": {
+      "actualEnergyConsumption": 10,
+      "onTimeOptimalEnergyConsumption": 6,
+      "optimalEnergyConsumption": 7,
+      "targetEnergyConsumption": 9
+    }
+  }
+]

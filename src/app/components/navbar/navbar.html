@@ -1,0 +1,59 @@
+<nav class="navbar navbar-default navbar-static-top" role="navigation" >
+      <div class="navbar-header">
+      <button type="button" ng-click="vm.isCollapsed = !vm.isCollapsed" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> 
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+
+      </button>
+      <a class="navbar-brand" ui-sref="view"><img class="img-responsive" src="assets/images/Cogitare.jpg" height="200" width="770"/></a>
+    </div>
+    <!-- /.navbar-header -->
+
+    <!-- <div uib-collapse="isCollapsed" class="collapse navbar-collapse" id="bs-example-navbar-collapse-6"> -->
+       <ul class="nav navbar-nav navbar-collapse"  uib-collapse="vm.isCollapsed">
+           <li><a>DRIVE - Driver Login  </a> </li>  
+           <li><a> Driver Name:  Mark W, Last Logged in : {{vm.loginDate}}</a></li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right acme-navbar-text" style="margin-right: 0px">
+        <li uib-dropdown>
+          <a uib-dropdown-toggle>
+            <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
+          </a>
+          <ul uib-dropdown-menu>
+            <li><a ><i class="fa fa-user fa-fw"></i> User Profile</a></li>
+            <li><a ><i class="fa fa-gear fa-fw"></i> Settings</a></li>
+            <li class="divider"></li>
+            <li><a ui-sref ="login"><i class="fa fa-sign-out fa-fw"></i> Logout</a></li>
+          </ul>
+        </li>
+
+      </ul>
+    <!-- </div> -->
+
+    <div class="navbar-default sidebar" role="navigation">
+                <div class="sidebar-nav navbar-collapse" uib-collapse="vm.isCollapsed" >
+                    <ul class="nav" id="side-menu">
+                         <li>
+                            <a ui-sref="view"><!--<i class="fa fa-dashboard fa-fw"></i> --> View Runs</a>
+                        </li>
+                        <li>
+                          <a ui-sref="periodicInput">Periodic Reports</a>
+                        </li>
+                        <li>
+                          <a ui-sref="timetableAdherenceInput">Train Graph</a>
+                        </li>
+                        <li>
+                          <a ui-sref="dwellTimesInput">Dwell Times</a>
+                        </li>
+                        
+                        
+                    </ul>
+                </div>
+                <!-- /.sidebar-collapse -->
+            </div>
+    <!-- /.navbar-static-side -->
+
+</nav>

@@ -1,0 +1,116 @@
+
+  <acme-navbar></acme-navbar>
+  <div id="page-wrapper">
+    <!--<div class="container-fluid">-->
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="page-header col-lg-8">
+          <div class="input-group">
+            <div class="input-group-addon">Choose Station to Station Stop(s):</div>
+            <select class="form-control" ng-model="vm.stationToStationLinks.selected" ng-change="vm.linkOnselect(vm.stationToStationLinks.selected)">
+              <option value="">All</option> 
+              <option data-ng-repeat="link in vm.unitPerformanceScores.trainUnitPerformancePerLink"
+              data-ng-class="vm.getLinkClass(link)">{{link.link.stations}}</option>
+            </select>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Nav tabs -->
+      <div class="tabscss col-lg-12">
+        <uib-tabset justified="true" active="active">
+          <uib-tab index="0" heading="Unit Performance">
+            <div class="tab-container">
+              <div class="subtitle row">
+                <div class="col-md-8">
+                  <div ng-show="vm.stationToStationLinks.selected" ng-bind-html="vm.stationToStationLinks.selected + ' : ' + vm.performanceMessage"></div>
+                  <div ng-show="!vm.stationToStationLinks.selected">{{vm.trainUnitPerformancePerJourneyMessage}}</div>
+                </div>
+                <div class="col-md-4">
+                  <div style="text-align: right; font-size: 0.8em" ng-bind-html="vm.chartSubtitle"></div>
+                </div>
+              </div>
+              <div cg-busy="{promise:vm.promise, message:'Loading your chart', minDuration:1000}">
+                <div id="chart0"></div>
+              </div>
+            </div>
+          </uib-tab>
+          <uib-tab index="1" heading="Energy and Lateness Summary">
+            <div class="tab-container">
+              <div class="subtitle row">
+                <div class="col-md-8">
+                  <div ng-show="vm.stationToStationLinks.selected" ng-bind-html="vm.stationToStationLinks.selected"></div>
+                  <div ng-show="!vm.stationToStationLinks.selected">{{vm.trainUnitPerformancePerJourneyMessage}}</div>
+                </div>
+                <div class="col-md-4">
+                  <div style="text-align: right; font-size: 0.8em" ng-bind-html="vm.chartSubtitle"></div>
+                </div>
+              </div>
+              <div cg-busy="{promise:vm.promise, message:'Loading your chart', minDuration:1000}">
+                <div id="chart1"></div>
+                <hr>
+                <div id="latenessSummaryChart"></div>
+              </div>
+            </div>
+            <!--<div class="row"></div>-->
+          </uib-tab>
+
+          <uib-tab index="2" heading="Speed Distance">
+            <div class="tab-container">
+              <div class="subtitle row">
+                <div class="col-md-8">
+                  <div ng-show="vm.stationToStationLinks.selected" class="driverAdvice">
+                    <div style="color:  #DCDCDC ;">{{vm.runtimeDescription}}</div>
+                    <div ng-if="vm.earlyDepartureAdvice">{{vm.earlyDepartureAdvice}}</div>
+                    <div ng-if="vm.earlyArrivalAdvice">{{vm.earlyArrivalAdvice}}</div>
+                    <div ng-if="vm.timeSavedAdvice">{{vm.timeSavedAdvice}}</div><span ng-if="vm.timeSavingAdvice">{{vm.timeSavingAdvice}}</span>
+                    <div ng-if="vm.energyAdvice">{{vm.energyAdvice}}</div>
+                    <div ng-if="vm.goodDrivingAdvice">{{vm.goodDrivingAdvice}}</div>
+                    <div ng-if="vm.spareTimeAdvice">{{vm.spareTimeAdvice}}</div>
+                    <div ng-if="vm.speedingAdvice"><span style="background-color: orangered"> {{vm.speedingAdvice}}</span> </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div style="text-align: right; font-size: 0.8em" ng-bind-html="vm.chartSubtitle"></div>
+                </div>
+              </div>
+              <div cg-busy="{promise:vm.promise, message:'Loading your chart', minDuration:1000}">
+                <div ng-show="!vm.stationToStationLinks.selected">
+                  <h3> Please select any Station to Station stop to view speed distance chart </h3>
+                </div>
+                <div ng-show="vm.stationToStationLinks.selected">
+                  <div id="chart2"></div>
+                  <hr>
+                  <div class="form-group row">
+                    <div style="padding-right: 15px; margin: 16px 0; float: right">
+                      <div class="btn-group" id="status" data-toggle="buttons">
+                        <label class="btn btn-default btn-on-1 btn-sm active" ng-model="vm.radioModel" uib-btn-radio="'Kph'" value='Kph'>Kph</label>
+                        <label class="btn btn-default btn-off-1 btn-sm " ng-model="vm.radioModel" uib-btn-radio="'Mph'" value='Mph'>Mph</label>
+                      </div>
+                      <!--<div id="speedLabel">Speed in: </div>-->
+
+                    </div>
+                    <div class="col-lg-2">
+                      <div style="padding-right: 15px; margin: 16px 0; ">
+                        Gridlines:
+                        <toggle ng-model="vm.gridOnOff" size="btn-sm" ng-change="vm.gridbtnOnChange(vm.gridOnOff)"></toggle>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <!--<div class="row"></div>-->
+          </uib-tab>
+        </uib-tabset>
+        <!-- /.col-lg-12 -->
+
+
+
+      </div>
+
+    </div>
+  </div>
+  <!--</div>-->
